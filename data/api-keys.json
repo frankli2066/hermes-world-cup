@@ -1,0 +1,17 @@
+{
+  "openweathermap": {
+    "api_key": "3810fd24c18aaee0da36fd089f1e027a",
+    "status": "activated",
+    "note": "免费订阅，16天预报和历史API不可用"
+  },
+  "football-data": {
+    "api_key": "待从邮件获取",
+    "status": "待确认",
+    "email_id": "19d9b873c3b9ecd9"
+  },
+  "api-sports": {
+    "dashboard": "https://dashboard.api-football.com",
+    "status": "已注册"
+  },
+  "updated": "2026-04-17"
+}

@@ -1,0 +1,47 @@
+{
+  "matches": [
+    {
+      "home_team": "Germany",
+      "away_team": "Japan",
+      "bookmakers": {
+        "oddsjam": {
+          "home_odds": 1.72,
+          "draw_odds": 3.97,
+          "away_odds": 4.1,
+          "timestamp": "2026-04-16T11:37:16.813722"
+        },
+        "bet365": {
+          "home_odds": 2.5,
+          "draw_odds": 2.06,
+          "away_odds": 3.68,
+          "timestamp": "2026-04-16T11:37:16.813952"
+        },
+        "pinnacle": {
+          "home_odds": 1.81,
+          "draw_odds": 4.61,
+          "away_odds": 3.5,
+          "timestamp": "2026-04-16T11:37:16.814096"
+        },
+        "1xbet": {
+          "home_odds": 2.0,
+          "draw_odds": 3.23,
+          "away_odds": 2.81,
+          "timestamp": "2026-04-16T11:37:16.814210"
+        },
+        "betway": {
+          "home_odds": 1.84,
+          "draw_odds": 3.41,
+          "away_odds": 3.22,
+          "timestamp": "2026-04-16T11:37:16.814324"
+        },
+        "unibet": {
+          "home_odds": 2.38,
+          "draw_odds": 2.17,
+          "away_odds": 3.58,
+          "timestamp": "2026-04-16T11:37:16.814449"
+        }
+      },
+      "last_update": "2026-04-16T11:37:16.814452"
+    }
+  ]
+}

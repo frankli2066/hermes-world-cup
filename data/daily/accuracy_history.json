@@ -1,0 +1,64 @@
+{
+  "predictions": [
+    {
+      "timestamp": "2026-04-14T14:21:07.100504",
+      "date": "2026-04-10",
+      "home": "Arsenal",
+      "away": "Liverpool",
+      "league": "EPL",
+      "predicted_winner": "Draw",
+      "recommended_team": "Draw",
+      "top_scores": [
+        "1-1",
+        "2-2",
+        "0-0"
+      ],
+      "predicted_over_25": true,
+      "actual_winner": "Draw",
+      "actual_score": "1-1",
+      "actual_over_25": true,
+      "wdl_hit": true,
+      "score_hit": true,
+      "over_hit": true
+    },
+    {
+      "timestamp": "2026-04-14T14:21:07.100750",
+      "date": "2026-04-11",
+      "home": "Real Madrid",
+      "away": "Barcelona",
+      "league": "La Liga",
+      "predicted_winner": "Home",
+      "recommended_team": "Real Madrid",
+      "top_scores": [
+        "2-1",
+        "3-1",
+        "2-0"
+      ],
+      "predicted_over_25": true,
+      "actual_winner": "Home",
+      "actual_score": "2-1",
+      "actual_over_25": true,
+      "wdl_hit": true,
+      "score_hit": true,
+      "over_hit": true
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "wdl_accuracy": 100.0,
+    "score_accuracy": 100.0,
+    "over_accuracy": 100.0,
+    "EPL": {
+      "total": 1,
+      "wdl_correct": 1,
+      "score_correct": 1,
+      "over_correct": 1
+    },
+    "La Liga": {
+      "total": 1,
+      "wdl_correct": 1,
+      "score_correct": 1,
+      "over_correct": 1
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "tests": [
+    {
+      "test_date": "2026-04-13T11:43:59.705462",
+      "matches_tested": 10,
+      "outcome_accuracy": 0.5,
+      "exact_score_accuracy": 0.1,
+      "avg_goal_error": 3.2
+    },
+    {
+      "test_date": "2026-04-13T11:55:22.078505",
+      "matches_tested": 10,
+      "outcome_accuracy": 0.2,
+      "exact_score_accuracy": 0.0,
+      "avg_goal_error": 3.4
+    },
+    {
+      "test_date": "2026-04-13T11:56:18.954294",
+      "matches_tested": 10,
+      "outcome_accuracy": 0.2,
+      "exact_score_accuracy": 0.0,
+      "avg_goal_error": 3.0
+    },
+    {
+      "test_date": "2026-04-13T11:57:17.142367",
+      "matches_tested": 48,
+      "outcome_accuracy": 0.479,
+      "exact_score_accuracy": 0.104,
+      "avg_goal_error": 2.17
+    },
+    {
+      "test_date": "2026-04-13T12:12:53.004284",
+      "matches_tested": 48,
+      "outcome_accuracy": 0.438,
+      "exact_score_accuracy": 0.062,
+      "avg_goal_error": 2.29
+    },
+    {
+      "test_date": "2026-04-13T12:13:30.644379",
+      "matches_tested": 48,
+      "outcome_accuracy": 0.354,
+      "exact_score_accuracy": 0.062,
+      "avg_goal_error": 2.42
+    },
+    {
+      "test_date": "2026-04-13T12:14:26.235775",
+      "matches_tested": 48,
+      "outcome_accuracy": 0.333,
+      "exact_score_accuracy": 0.083,
+      "avg_goal_error": 2.21
+    },
+    {
+      "test_date": "2026-04-13T12:20:29.030836",
+      "matches_tested": 48,
+      "outcome_accuracy": 0.438,
+      "exact_score_accuracy": 0.042,
+      "avg_goal_error": 2.38
+    },
+    {
+      "test_date": "2026-04-13T12:22:01.756644",
+      "matches_tested": 48,
+      "outcome_accuracy": 0.354,
+      "exact_score_accuracy": 0.083,
+      "avg_goal_error": 2.17
+    },
+    {
+      "test_date": "2026-04-13T12:22:37.524304",
+      "matches_tested": 48,
+      "outcome_accuracy": 0.396,
+      "exact_score_accuracy": 0.042,
+      "avg_goal_error": 2.17
+    },
+    {
+      "test_date": "2026-04-13T12:23:00.152729",
+      "matches_tested": 48,
+      "outcome_accuracy": 0.396,
+      "exact_score_accuracy": 0.104,
+      "avg_goal_error": 1.77
+    },
+    {
+      "test_date": "2026-04-13T12:23:48.251038",
+      "matches_tested": 48,
+      "outcome_accuracy": 0.417,
+      "exact_score_accuracy": 0.104,
+      "avg_goal_error": 2.17
+    },
+    {
+      "test_date": "2026-04-13T12:24:41.965489",
+      "matches_tested": 48,
+      "outcome_accuracy": 0.438,
+      "exact_score_accuracy": 0.125,
+      "avg_goal_error": 2.21
+    },
+    {
+      "test_date": "2026-04-13T12:26:24.356015",
+      "matches_tested": 48,
+      "outcome_accuracy": 0.396,
+      "exact_score_accuracy": 0.083,
+      "avg_goal_error": 2.4
+    },
+    {
+      "test_date": "2026-04-13T12:26:47.592952",
+      "matches_tested": 48,
+      "outcome_accuracy": 0.396,
+      "exact_score_accuracy": 0.125,
+      "avg_goal_error": 2.17
+    }
+  ],
+  "summary": {}
+}

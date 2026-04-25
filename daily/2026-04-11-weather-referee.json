@@ -1,0 +1,195 @@
+{
+  "date": "2026-04-11",
+  "report_type": "Weather & Referee Analysis",
+  "weather_analysis": {
+    "extreme_heat_risk": {
+      "high_risk_venues": 10,
+      "total_venues": 16,
+      "risk_percentage": "62.5%",
+      "key_findings": [
+        "10 of 16 North America 2026 World Cup venues are at 'very high risk' of experiencing extreme heat stress conditions",
+        "Southern U.S. and Mexican venues face high heat/humidity",
+        "Northern cities may face severe thunderstorms",
+        "Extreme heat could disrupt matches and lead to cancellations"
+      ]
+    },
+    "venue_weather_details": {
+      "Mexico_venues": {
+        "Mexico_City": {
+          "altitude": "2,240m (high altitude)",
+          "temperature": "20-25°C typical",
+          "humidity": "Low",
+          "risk_level": "Medium - altitude concerns"
+        },
+        "Guadalajara": {
+          "temperature": "25-30°C typical",
+          "humidity": "Medium-High",
+          "risk_level": "High heat stress"
+        },
+        "Monterrey": {
+          "temperature": "30-35°C typical",
+          "humidity": "High",
+          "risk_level": "Very High heat stress"
+        },
+        "Queretaro": {
+          "temperature": "25-30°C typical",
+          "humidity": "Medium",
+          "risk_level": "Medium-High heat stress"
+        }
+      },
+      "USA_venues": {
+        "New_York_MetLife": {
+          "temperature": "20-28°C typical",
+          "humidity": "Medium-High",
+          "risk_level": "Medium heat stress"
+        },
+        "Los_Angeles": {
+          "temperature": "25-30°C typical",
+          "humidity": "Low-Medium",
+          "risk_level": "Medium heat stress"
+        },
+        "Dallas": {
+          "temperature": "32-38°C typical",
+          "humidity": "High",
+          "risk_level": "Very High heat stress"
+        },
+        "Houston": {
+          "temperature": "33-38°C typical",
+          "humidity": "Very High",
+          "risk_level": "Very High heat stress"
+        },
+        "Kansas_City": {
+          "temperature": "30-35°C typical",
+          "humidity": "High",
+          "risk_level": "Very High heat stress"
+        },
+        "Philadelphia": {
+          "temperature": "26-32°C typical",
+          "humidity": "Medium-High",
+          "risk_level": "High heat stress"
+        },
+        "San_Francisco": {
+          "temperature": "18-24°C typical",
+          "humidity": "Low-Medium",
+          "risk_level": "Low heat stress"
+        },
+        "Seattle": {
+          "temperature": "18-22°C typical",
+          "humidity": "Medium",
+          "risk_level": "Low heat stress"
+        },
+        "Miami": {
+          "temperature": "30-35°C typical",
+          "humidity": "Very High",
+          "risk_level": "Very High heat stress"
+        },
+        "Atlanta": {
+          "temperature": "30-35°C typical",
+          "humidity": "High",
+          "risk_level": "Very High heat stress"
+        },
+        "Boston": {
+          "temperature": "22-28°C typical",
+          "humidity": "Medium",
+          "risk_level": "Medium heat stress"
+        },
+        "Denver": {
+          "altitude": "1,609m (high altitude)",
+          "temperature": "20-28°C typical",
+          "humidity": "Low",
+          "risk_level": "Medium - altitude concerns"
+        }
+      },
+      "Canada_venues": {
+        "Toronto": {
+          "temperature": "20-26°C typical",
+          "humidity": "Medium",
+          "risk_level": "Medium heat stress"
+        },
+        "Vancouver": {
+          "temperature": "18-24°C typical",
+          "humidity": "Medium-High",
+          "risk_level": "Low heat stress"
+        }
+      }
+    },
+    "weather_impact_factors": {
+      "temperature_extremes": {
+        "description": "High temperatures (30°C+) cause体能下降",
+        "impact_on_play": "Reduced stamina in second half, more substitutions",
+        "affected_teams": "Teams from cooler climates (Northern Europe)"
+      },
+      "humidity": {
+        "description": "High humidity affects耐力",
+        "impact_on_play": "Faster fatigue, increased cramping",
+        "affected_venues": "Miami, Houston, Dallas, Monterrey"
+      },
+      "rain_storms": {
+        "description": "Heavy rain and storms causing delays",
+        "impact_on_play": "Match delays, pitch conditions, visibility issues",
+        "affected_venues": "Orlando, New Jersey, Cincinnati during summer storms"
+      },
+      "altitude": {
+        "description": "High altitude affects呼吸和体能",
+        "impact_on_play": "Ball speed, breathing difficulties",
+        "affected_venues": "Mexico City (2,240m), Denver (1,609m)"
+      },
+      "wildfire_smoke": {
+        "description": "Poor air quality in some regions",
+        "impact_on_play": "Respiratory issues, reduced performance",
+        "affected_regions": "California, Pacific Northwest"
+      }
+    }
+  },
+  "referee_analysis": {
+    "total_officials": 170,
+    "referees": 52,
+    "assistant_referees": 88,
+    "var_officials": 30,
+    "confederation_breakdown": {
+      "UEFA": {"referees": 18, "notes": "Most from any confederation"},
+      "AFC": {"referees": 11, "notes": "Second most"},
+      "CONMEBOL": {"referees": 8, "notes": "South American representatives"},
+      "CONCACAF": {"referees": 6, "notes": "Host region representation"},
+      "CAF": {"referees": 6, "notes": "African representatives"},
+      "OFC": {"referees": 3, "notes": "Oceania representatives"}
+    },
+    "key_referees": [
+      {"name": "Pierluigi Collina", "role": "Chief Refereeing Officer", "notes": " FIFA's Chief Refereeing Officer and chairman of the FIFA Referees Committee"},
+      {"name": "Alireza Faghani", "country": "Australia", "confederation": "AFC", "notes": "Experienced, wore RefCam at Club World Cup 2025"},
+      {"name": "Michael Oliver", "country": "England", "confederation": "UEFA", "notes": "Selected for World Cup duty"},
+      {"name": "Anthony Taylor", "country": "England", "confederation": "UEFA", "notes": "Selected for World Cup duty"}
+    ],
+    "notable_selections": [
+      "6 women match officials selected (continuing trend from Qatar 2022)",
+      "First World Cup to feature expanded VAR checking second yellow cards and corners",
+      "41 more match officials than at Qatar 2022"
+    ],
+    "var_expansion_2026": {
+      "new_features": [
+        "Second yellow card checks",
+        "Corner kick checks", 
+        "Expanded VAR coverage",
+        "First time fans can see referee's on-field perspective (RefCam)"
+      ],
+      "focus_areas": [
+        "Tackling time-wasting",
+        "Goal-line technology",
+        "Advanced semi-automated offside technology",
+        "Connected ball technology"
+      ]
+    },
+    "historical_concerns": [
+      "Legal liability for weather-related event disruptions could cost millions per match",
+      "Match delays at 2025 Club World Cup due to rain in Orlando, New Jersey, Cincinnati"
+    ]
+  },
+  "generated_at": "2026-04-11T18:00:00",
+  "sources": [
+    "BBC Worklife - How extreme heat could disrupt the 2026 World Cup",
+    "ABC News - Extreme heat a rising threat to 2026 World Cup venues",
+    "FIFA Official - Match officials appointed for World Cup 2026",
+    "WorldCupLocalTime.com - 2026 World Cup Referees Full List",
+    "Reuters - Extreme heat rising threat to 2026 World Cup venues"
+  ]
+}

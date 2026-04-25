@@ -1,0 +1,369 @@
+{
+  "timestamp": "2026-04-15-06",
+  "total_volume": 644970567.0411848,
+  "total_liquidity": 143856918.24639,
+  "volume_24h": 15326290.827878999,
+  "volume_1w": 115630425.27642703,
+  "teams": [
+    {
+      "team": "Spain",
+      "prob": 17.15,
+      "volume": 13308636.822949113,
+      "volume_24h": 396258.8696249997
+    },
+    {
+      "team": "France",
+      "prob": 16.55,
+      "volume": 12992026.019669887,
+      "volume_24h": 763759.0326179997
+    },
+    {
+      "team": "England",
+      "prob": 11.05,
+      "volume": 11332849.736055851,
+      "volume_24h": 186647.107277
+    },
+    {
+      "team": "Argentina",
+      "prob": 8.85,
+      "volume": 11851448.141157059,
+      "volume_24h": 442607.9632489997
+    },
+    {
+      "team": "Brazil",
+      "prob": 8.45,
+      "volume": 11348311.234754045,
+      "volume_24h": 332355.09372799966
+    },
+    {
+      "team": "Portugal",
+      "prob": 6.85,
+      "volume": 12360003.043750638,
+      "volume_24h": 363273.89893499995
+    },
+    {
+      "team": "Germany",
+      "prob": 5.15,
+      "volume": 10252534.212812552,
+      "volume_24h": 203148.22121900003
+    },
+    {
+      "team": "Netherlands",
+      "prob": 3.25,
+      "volume": 13446483.835181892,
+      "volume_24h": 212355.7096300001
+    },
+    {
+      "team": "Norway",
+      "prob": 2.15,
+      "volume": 11707075.73830819,
+      "volume_24h": 422899.5345630001
+    },
+    {
+      "team": "Japan",
+      "prob": 1.75,
+      "volume": 14192864.331837991,
+      "volume_24h": 193355.695134
+    },
+    {
+      "team": "Belgium",
+      "prob": 1.75,
+      "volume": 11332428.634989185,
+      "volume_24h": 399437.96191599994
+    },
+    {
+      "team": "Colombia",
+      "prob": 1.65,
+      "volume": 10712012.654611813,
+      "volume_24h": 147014.51655999993
+    },
+    {
+      "team": "Morocco",
+      "prob": 1.55,
+      "volume": 12792627.611606121,
+      "volume_24h": 325063.77408600005
+    },
+    {
+      "team": "USA",
+      "prob": 1.35,
+      "volume": 10397759.950813878,
+      "volume_24h": 658013.9857009994
+    },
+    {
+      "team": "Mexico",
+      "prob": 1.05,
+      "volume": 12014842.339506203,
+      "volume_24h": 332367.4989049999
+    },
+    {
+      "team": "Switzerland",
+      "prob": 0.95,
+      "volume": 12215798.89262134,
+      "volume_24h": 182274.97215199997
+    },
+    {
+      "team": "Uruguay",
+      "prob": 0.95,
+      "volume": 11644159.259333003,
+      "volume_24h": 175407.63984899994
+    },
+    {
+      "team": "Croatia",
+      "prob": 0.95,
+      "volume": 10707479.921654971,
+      "volume_24h": 200366.47259999992
+    },
+    {
+      "team": "Turkiye",
+      "prob": 0.75,
+      "volume": 4368866.743312996,
+      "volume_24h": 228125.3185109999
+    },
+    {
+      "team": "Ecuador",
+      "prob": 0.75,
+      "volume": 13733130.101507783,
+      "volume_24h": 193128.5646469999
+    },
+    {
+      "team": "Senegal",
+      "prob": 0.65,
+      "volume": 11984972.773781445,
+      "volume_24h": 244693.28916400007
+    },
+    {
+      "team": "Canada",
+      "prob": 0.55,
+      "volume": 14443640.78947495,
+      "volume_24h": 314603.58366299974
+    },
+    {
+      "team": "Austria",
+      "prob": 0.55,
+      "volume": 13195553.766748289,
+      "volume_24h": 275827.0797180002
+    },
+    {
+      "team": "Sweden",
+      "prob": 0.55,
+      "volume": 4002961.1724869967,
+      "volume_24h": 212357.3285320001
+    },
+    {
+      "team": "South Korea",
+      "prob": 0.45,
+      "volume": 17592111.54847906,
+      "volume_24h": 312928.21275
+    },
+    {
+      "team": "Paraguay",
+      "prob": 0.45,
+      "volume": 14822646.704444354,
+      "volume_24h": 308663.97849999985
+    },
+    {
+      "team": "Ivory Coast",
+      "prob": 0.45,
+      "volume": 12176742.524064764,
+      "volume_24h": 334675.2005000001
+    },
+    {
+      "team": "Bosnia-Herzegovina",
+      "prob": 0.35,
+      "volume": 3892636.0609449833,
+      "volume_24h": 206894.21961200004
+    },
+    {
+      "team": "Scotland",
+      "prob": 0.35,
+      "volume": 15026060.669374075,
+      "volume_24h": 197066.7199290001
+    },
+    {
+      "team": "Cezchia",
+      "prob": 0.35,
+      "volume": 2563305.436639999,
+      "volume_24h": 221910.60661300004
+    },
+    {
+      "team": "Egypt",
+      "prob": 0.35,
+      "volume": 14809018.004920285,
+      "volume_24h": 259940.11126100007
+    },
+    {
+      "team": "Cura\u00e7ao",
+      "prob": 0.25,
+      "volume": 28740884.292093232,
+      "volume_24h": 1740406.187499
+    },
+    {
+      "team": "Iran",
+      "prob": 0.25,
+      "volume": 14046362.43130196,
+      "volume_24h": 221459.18799900007
+    },
+    {
+      "team": "Ghana",
+      "prob": 0.25,
+      "volume": 13503316.50869239,
+      "volume_24h": 202498.17716599983
+    },
+    {
+      "team": "Algeria",
+      "prob": 0.25,
+      "volume": 14512144.2134898,
+      "volume_24h": 254483.96233299997
+    },
+    {
+      "team": "Tunisia",
+      "prob": 0.25,
+      "volume": 14123034.01518919,
+      "volume_24h": 235042.55199900005
+    },
+    {
+      "team": "Panama",
+      "prob": 0.25,
+      "volume": 3777437.6071050074,
+      "volume_24h": 174407.98383300003
+    },
+    {
+      "team": "South Africa",
+      "prob": 0.25,
+      "volume": 22477714.69608291,
+      "volume_24h": 234333.98216599997
+    },
+    {
+      "team": "Congo DR",
+      "prob": 0.25,
+      "volume": 9490045.266310051,
+      "volume_24h": 181401.694666
+    },
+    {
+      "team": "Australia",
+      "prob": 0.25,
+      "volume": 12392804.040237986,
+      "volume_24h": 176355.300165
+    },
+    {
+      "team": "Saudi Arabia",
+      "prob": 0.25,
+      "volume": 20891943.618245527,
+      "volume_24h": 208963.0923320001
+    },
+    {
+      "team": "New Zealand",
+      "prob": 0.15,
+      "volume": 22353139.009504285,
+      "volume_24h": 365245.4100000001
+    },
+    {
+      "team": "Haiti",
+      "prob": 0.15,
+      "volume": 15191802.498820059,
+      "volume_24h": 197417.11400000003
+    },
+    {
+      "team": "Jordan",
+      "prob": 0.15,
+      "volume": 19164223.409081757,
+      "volume_24h": 191120.87600000002
+    },
+    {
+      "team": "Uzbekistan",
+      "prob": 0.15,
+      "volume": 31914912.0597002,
+      "volume_24h": 169392.70500000007
+    },
+    {
+      "team": "Iraq",
+      "prob": 0.15,
+      "volume": 4175105.403996967,
+      "volume_24h": 151984.101
+    },
+    {
+      "team": "Cape Verde",
+      "prob": 0.15,
+      "volume": 15664649.861300005,
+      "volume_24h": 1142743.5941660006
+    },
+    {
+      "team": "Qatar",
+      "prob": 0.15,
+      "volume": 16545100.662688853,
+      "volume_24h": 234460.5139999999
+    },
+    {
+      "team": "Team AM",
+      "prob": 0,
+      "volume": 0.0,
+      "volume_24h": 0.0
+    },
+    {
+      "team": "Italy",
+      "prob": 0.0,
+      "volume": 8666273.297316846,
+      "volume_24h": 0.0
+    },
+    {
+      "team": "Team AI",
+      "prob": 0,
+      "volume": 0.0,
+      "volume_24h": 0.0
+    },
+    {
+      "team": "Peru",
+      "prob": 0.0,
+      "volume": 264589.508269,
+      "volume_24h": 0.0
+    },
+    {
+      "team": "Any Other Team",
+      "prob": 0,
+      "volume": 0.0,
+      "volume_24h": 0.0
+    },
+    {
+      "team": "Team AG",
+      "prob": 0,
+      "volume": 0.0,
+      "volume_24h": 0.0
+    },
+    {
+      "team": "Team AH",
+      "prob": 0,
+      "volume": 0.0,
+      "volume_24h": 0.0
+    },
+    {
+      "team": "Team AL",
+      "prob": 0,
+      "volume": 0.0,
+      "volume_24h": 0.0
+    },
+    {
+      "team": "Team AN",
+      "prob": 0,
+      "volume": 0.0,
+      "volume_24h": 0.0
+    },
+    {
+      "team": "Team AJ",
+      "prob": 0,
+      "volume": 0.0,
+      "volume_24h": 0.0
+    },
+    {
+      "team": "Team AK",
+      "prob": 0,
+      "volume": 0.0,
+      "volume_24h": 0.0
+    },
+    {
+      "team": "Team AO",
+      "prob": 0,
+      "volume": 0.0,
+      "volume_24h": 0.0
+    }
+  ]
+}

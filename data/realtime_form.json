@@ -1,0 +1,954 @@
+{
+  "Argentina": {
+    "team": "Argentina",
+    "last_5_results": [
+      "W",
+      "W",
+      "D",
+      "W",
+      "W"
+    ],
+    "goals_scored": [
+      2,
+      3,
+      1,
+      2,
+      3
+    ],
+    "goals_conceded": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "clean_sheets": 3,
+    "avg_goals_scored": 2.2,
+    "avg_goals_conceded": 0.4,
+    "form_score": 8.67
+  },
+  "Brazil": {
+    "team": "Brazil",
+    "last_5_results": [
+      "W",
+      "W",
+      "W",
+      "D",
+      "W"
+    ],
+    "goals_scored": [
+      3,
+      2,
+      4,
+      1,
+      2
+    ],
+    "goals_conceded": [
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "clean_sheets": 2,
+    "avg_goals_scored": 2.4,
+    "avg_goals_conceded": 0.6,
+    "form_score": 8.67
+  },
+  "France": {
+    "team": "France",
+    "last_5_results": [
+      "W",
+      "W",
+      "L",
+      "W",
+      "D"
+    ],
+    "goals_scored": [
+      2,
+      3,
+      0,
+      2,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "clean_sheets": 1,
+    "avg_goals_scored": 1.6,
+    "avg_goals_conceded": 0.8,
+    "form_score": 6.67
+  },
+  "England": {
+    "team": "England",
+    "last_5_results": [
+      "W",
+      "D",
+      "W",
+      "W",
+      "L"
+    ],
+    "goals_scored": [
+      2,
+      1,
+      3,
+      2,
+      0
+    ],
+    "goals_conceded": [
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "clean_sheets": 2,
+    "avg_goals_scored": 1.6,
+    "avg_goals_conceded": 0.6,
+    "form_score": 6.67
+  },
+  "Germany": {
+    "team": "Germany",
+    "last_5_results": [
+      "W",
+      "L",
+      "W",
+      "D",
+      "W"
+    ],
+    "goals_scored": [
+      3,
+      0,
+      2,
+      1,
+      2
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      0,
+      1,
+      0
+    ],
+    "clean_sheets": 2,
+    "avg_goals_scored": 1.6,
+    "avg_goals_conceded": 0.8,
+    "form_score": 6.67
+  },
+  "Spain": {
+    "team": "Spain",
+    "last_5_results": [
+      "W",
+      "W",
+      "W",
+      "D",
+      "W"
+    ],
+    "goals_scored": [
+      4,
+      3,
+      2,
+      1,
+      3
+    ],
+    "goals_conceded": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "clean_sheets": 3,
+    "avg_goals_scored": 2.6,
+    "avg_goals_conceded": 0.4,
+    "form_score": 8.67
+  },
+  "Netherlands": {
+    "team": "Netherlands",
+    "last_5_results": [
+      "W",
+      "D",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      2,
+      1,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      0,
+      1,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 1,
+    "avg_goals_scored": 1.2,
+    "avg_goals_conceded": 1.0,
+    "form_score": 5.33
+  },
+  "Portugal": {
+    "team": "Portugal",
+    "last_5_results": [
+      "W",
+      "W",
+      "L",
+      "W",
+      "D"
+    ],
+    "goals_scored": [
+      3,
+      2,
+      0,
+      2,
+      1
+    ],
+    "goals_conceded": [
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "clean_sheets": 2,
+    "avg_goals_scored": 1.6,
+    "avg_goals_conceded": 0.6,
+    "form_score": 6.67
+  },
+  "Belgium": {
+    "team": "Belgium",
+    "last_5_results": [
+      "W",
+      "L",
+      "D",
+      "W",
+      "L"
+    ],
+    "goals_scored": [
+      2,
+      0,
+      1,
+      3,
+      0
+    ],
+    "goals_conceded": [
+      0,
+      2,
+      1,
+      1,
+      2
+    ],
+    "clean_sheets": 1,
+    "avg_goals_scored": 1.2,
+    "avg_goals_conceded": 1.2,
+    "form_score": 4.67
+  },
+  "Croatia": {
+    "team": "Croatia",
+    "last_5_results": [
+      "D",
+      "W",
+      "L",
+      "W",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      2,
+      0,
+      2,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "clean_sheets": 1,
+    "avg_goals_scored": 1.2,
+    "avg_goals_conceded": 0.8,
+    "form_score": 5.33
+  },
+  "Uruguay": {
+    "team": "Uruguay",
+    "last_5_results": [
+      "W",
+      "W",
+      "D",
+      "L",
+      "W"
+    ],
+    "goals_scored": [
+      2,
+      2,
+      1,
+      0,
+      2
+    ],
+    "goals_conceded": [
+      0,
+      1,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 1,
+    "avg_goals_scored": 1.4,
+    "avg_goals_conceded": 1.0,
+    "form_score": 6.67
+  },
+  "Mexico": {
+    "team": "Mexico",
+    "last_5_results": [
+      "W",
+      "D",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      2,
+      1,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      1,
+      0,
+      2,
+      1
+    ],
+    "clean_sheets": 1,
+    "avg_goals_scored": 1.2,
+    "avg_goals_conceded": 1.0,
+    "form_score": 5.33
+  },
+  "USA": {
+    "team": "USA",
+    "last_5_results": [
+      "W",
+      "W",
+      "D",
+      "L",
+      "W"
+    ],
+    "goals_scored": [
+      2,
+      2,
+      1,
+      0,
+      2
+    ],
+    "goals_conceded": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "clean_sheets": 1,
+    "avg_goals_scored": 1.4,
+    "avg_goals_conceded": 0.8,
+    "form_score": 6.67
+  },
+  "Qatar": {
+    "team": "Qatar",
+    "last_5_results": [
+      "L",
+      "D",
+      "L",
+      "W",
+      "L"
+    ],
+    "goals_scored": [
+      0,
+      1,
+      0,
+      2,
+      0
+    ],
+    "goals_conceded": [
+      2,
+      1,
+      2,
+      1,
+      3
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.6,
+    "avg_goals_conceded": 1.8,
+    "form_score": 2.67
+  },
+  "Saudi Arabia": {
+    "team": "Saudi Arabia",
+    "last_5_results": [
+      "L",
+      "W",
+      "L",
+      "D",
+      "L"
+    ],
+    "goals_scored": [
+      0,
+      2,
+      0,
+      1,
+      0
+    ],
+    "goals_conceded": [
+      3,
+      1,
+      2,
+      1,
+      2
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.6,
+    "avg_goals_conceded": 1.8,
+    "form_score": 2.67
+  },
+  "Ecuador": {
+    "team": "Ecuador",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Senegal": {
+    "team": "Senegal",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Iran": {
+    "team": "Iran",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Wales": {
+    "team": "Wales",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Poland": {
+    "team": "Poland",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Australia": {
+    "team": "Australia",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Denmark": {
+    "team": "Denmark",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Tunisia": {
+    "team": "Tunisia",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Costa Rica": {
+    "team": "Costa Rica",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Japan": {
+    "team": "Japan",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Canada": {
+    "team": "Canada",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Morocco": {
+    "team": "Morocco",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Switzerland": {
+    "team": "Switzerland",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Cameroon": {
+    "team": "Cameroon",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Ghana": {
+    "team": "Ghana",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "South Korea": {
+    "team": "South Korea",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Serbia": {
+    "team": "Serbia",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Egypt": {
+    "team": "Egypt",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  },
+  "Ivory Coast": {
+    "team": "Ivory Coast",
+    "last_5_results": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "D"
+    ],
+    "goals_scored": [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "goals_conceded": [
+      1,
+      2,
+      1,
+      2,
+      1
+    ],
+    "clean_sheets": 0,
+    "avg_goals_scored": 0.8,
+    "avg_goals_conceded": 1.4,
+    "form_score": 3.33
+  }
+}

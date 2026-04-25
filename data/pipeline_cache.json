@@ -1,0 +1,579 @@
+{
+  "polymarket_champion": {
+    "data": {
+      "timestamp": "2026-04-14T00:01:51.121085",
+      "market": "2026 FIFA World Cup Winner",
+      "total_volume": 622902846.1532999,
+      "volume_24hr": 14817951.877904002,
+      "liquidity": 109357917.43749,
+      "comment_count": 578,
+      "teams": [
+        {
+          "team": "Spain",
+          "prob": 17.25,
+          "volume": 12761175.171705065,
+          "volume_24hr": 482269.36555499956,
+          "liquidity": 728667.60073,
+          "chg_1d": 0.1,
+          "chg_1w": 1.4000000000000001,
+          "chg_1m": 1.9
+        },
+        {
+          "team": "France",
+          "prob": 16.45,
+          "volume": 12089618.523761883,
+          "volume_24hr": 585206.5661699999,
+          "liquidity": 1033234.22044,
+          "chg_1d": 0.44999999999999996,
+          "chg_1w": 2.9000000000000004,
+          "chg_1m": 5.65
+        },
+        {
+          "team": "England",
+          "prob": 11.25,
+          "volume": 11040515.476719849,
+          "volume_24hr": 309508.08305300004,
+          "liquidity": 1112292.35226,
+          "chg_1d": 0.1,
+          "chg_1w": -0.1,
+          "chg_1m": -2.0
+        },
+        {
+          "team": "Argentina",
+          "prob": 8.7,
+          "volume": 11217431.72838008,
+          "volume_24hr": 364883.13546299975,
+          "liquidity": 888969.32864,
+          "chg_1d": -0.15,
+          "chg_1w": -0.44999999999999996,
+          "chg_1m": -2.8000000000000003
+        },
+        {
+          "team": "Brazil",
+          "prob": 8.55,
+          "volume": 10933271.829754055,
+          "volume_24hr": 282046.39751599997,
+          "liquidity": 768817.15451,
+          "chg_1d": 0.0,
+          "chg_1w": 0.0,
+          "chg_1m": -0.05
+        },
+        {
+          "team": "Portugal",
+          "prob": 6.85,
+          "volume": 11747802.019005643,
+          "volume_24hr": 420804.7214789996,
+          "liquidity": 374690.89659,
+          "chg_1d": 0.1,
+          "chg_1w": -0.2,
+          "chg_1m": -0.15
+        },
+        {
+          "team": "Germany",
+          "prob": 5.15,
+          "volume": 9891656.117985543,
+          "volume_24hr": 356542.62277500017,
+          "liquidity": 661931.41875,
+          "chg_1d": 0.0,
+          "chg_1w": -0.3,
+          "chg_1m": -0.25
+        },
+        {
+          "team": "Netherlands",
+          "prob": 3.15,
+          "volume": 12896160.451090895,
+          "volume_24hr": 272378.62852700014,
+          "liquidity": 581997.2307,
+          "chg_1d": -0.1,
+          "chg_1w": -0.2,
+          "chg_1m": -0.1
+        },
+        {
+          "team": "Norway",
+          "prob": 2.25,
+          "volume": 11210982.162961185,
+          "volume_24hr": 295489.7337569999,
+          "liquidity": 1097925.70435,
+          "chg_1d": 0.0,
+          "chg_1w": -0.5,
+          "chg_1m": -0.8999999999999999
+        },
+        {
+          "team": "Japan",
+          "prob": 1.95,
+          "volume": 13933010.335185979,
+          "volume_24hr": 296178.117173,
+          "liquidity": 934360.74117,
+          "chg_1d": -0.2,
+          "chg_1w": 0.0,
+          "chg_1m": 0.4
+        },
+        {
+          "team": "Belgium",
+          "prob": 1.85,
+          "volume": 10850382.73299308,
+          "volume_24hr": 141669.67835600008,
+          "liquidity": 864512.48324,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": 0.1
+        },
+        {
+          "team": "Colombia",
+          "prob": 1.65,
+          "volume": 10499853.320703812,
+          "volume_24hr": 318236.89007399965,
+          "liquidity": 1190044.95886,
+          "chg_1d": 0.0,
+          "chg_1w": 0.1,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Morocco",
+          "prob": 1.45,
+          "volume": 12191036.634353098,
+          "volume_24hr": 404424.61743300006,
+          "liquidity": 694393.73902,
+          "chg_1d": 0.0,
+          "chg_1w": -0.2,
+          "chg_1m": -0.1
+        },
+        {
+          "team": "USA",
+          "prob": 1.35,
+          "volume": 9368703.753037872,
+          "volume_24hr": 559094.2652379994,
+          "liquidity": 2046623.67919,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": -0.3
+        },
+        {
+          "team": "Mexico",
+          "prob": 1.05,
+          "volume": 10334038.482201207,
+          "volume_24hr": 644137.2703430002,
+          "liquidity": 789279.23008,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Switzerland",
+          "prob": 0.95,
+          "volume": 11999715.483487336,
+          "volume_24hr": 170050.90994200003,
+          "liquidity": 995910.39719,
+          "chg_1d": -0.1,
+          "chg_1w": -0.1,
+          "chg_1m": 0.2
+        },
+        {
+          "team": "Uruguay",
+          "prob": 0.95,
+          "volume": 11359087.76027501,
+          "volume_24hr": 196996.37015600002,
+          "liquidity": 2571688.66459,
+          "chg_1d": 0.0,
+          "chg_1w": -0.2,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Croatia",
+          "prob": 0.95,
+          "volume": 10325157.132627983,
+          "volume_24hr": 214721.4810460001,
+          "liquidity": 1139798.91875,
+          "chg_1d": 0.0,
+          "chg_1w": -0.2,
+          "chg_1m": -0.3
+        },
+        {
+          "team": "Turkiye",
+          "prob": 0.75,
+          "volume": 3601977.567813996,
+          "volume_24hr": 171801.02496000007,
+          "liquidity": 2219822.29169,
+          "chg_1d": 0.0,
+          "chg_1w": 0.0,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Ecuador",
+          "prob": 0.75,
+          "volume": 13403876.371018793,
+          "volume_24hr": 237981.9446419998,
+          "liquidity": 1344487.26769,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": -0.1
+        },
+        {
+          "team": "Senegal",
+          "prob": 0.65,
+          "volume": 11356944.187249457,
+          "volume_24hr": 223336.31874200006,
+          "liquidity": 1397834.91031,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": -0.1
+        },
+        {
+          "team": "Canada",
+          "prob": 0.55,
+          "volume": 14090803.583545951,
+          "volume_24hr": 270914.36292899994,
+          "liquidity": 2460039.75389,
+          "chg_1d": 0.0,
+          "chg_1w": 0.0,
+          "chg_1m": 0.1
+        },
+        {
+          "team": "Austria",
+          "prob": 0.55,
+          "volume": 12876545.450566288,
+          "volume_24hr": 256468.774259,
+          "liquidity": 2385760.02954,
+          "chg_1d": 0.0,
+          "chg_1w": 0.0,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Sweden",
+          "prob": 0.55,
+          "volume": 3748767.7259559943,
+          "volume_24hr": 1341103.6472550023,
+          "liquidity": 1964544.52469,
+          "chg_1d": 0.05,
+          "chg_1w": -0.1,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Paraguay",
+          "prob": 0.45,
+          "volume": 14471912.077694345,
+          "volume_24hr": 293065.23974999995,
+          "liquidity": 2807182.72461,
+          "chg_1d": 0.0,
+          "chg_1w": 0.0,
+          "chg_1m": 0.1
+        },
+        {
+          "team": "Ivory Coast",
+          "prob": 0.45,
+          "volume": 11798855.016314767,
+          "volume_24hr": 247408.40649999984,
+          "liquidity": 3309692.82666,
+          "chg_1d": 0.0,
+          "chg_1w": 0.0,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "South Korea",
+          "prob": 0.35,
+          "volume": 16778485.63615414,
+          "volume_24hr": 258863.49559000015,
+          "liquidity": 2614116.69041,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": -0.2
+        },
+        {
+          "team": "Bosnia-Herzegovina",
+          "prob": 0.35,
+          "volume": 3625540.3446839894,
+          "volume_24hr": 241988.67027099992,
+          "liquidity": 3980440.8978,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Scotland",
+          "prob": 0.35,
+          "volume": 14788758.73213105,
+          "volume_24hr": 228038.598259,
+          "liquidity": 2941019.74866,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": -0.1
+        },
+        {
+          "team": "Cezchia",
+          "prob": 0.35,
+          "volume": 2304415.7127079978,
+          "volume_24hr": 208701.83328000005,
+          "liquidity": 3873668.88284,
+          "chg_1d": 0.0,
+          "chg_1w": 0.0,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Egypt",
+          "prob": 0.35,
+          "volume": 14505740.922342286,
+          "volume_24hr": 218602.377591,
+          "liquidity": 2860640.31087,
+          "chg_1d": 0.0,
+          "chg_1w": 0.0,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Cura\u00e7ao",
+          "prob": 0.25,
+          "volume": 26959345.66259419,
+          "volume_24hr": 202879.57700000008,
+          "liquidity": 3479006.0407,
+          "chg_1d": 0.0,
+          "chg_1w": 0.0,
+          "chg_1m": 0.1
+        },
+        {
+          "team": "Iran",
+          "prob": 0.25,
+          "volume": 13782440.05880298,
+          "volume_24hr": 174728.36133199988,
+          "liquidity": 2856102.64218,
+          "chg_1d": 0.0,
+          "chg_1w": 0.0,
+          "chg_1m": 0.1
+        },
+        {
+          "team": "Ghana",
+          "prob": 0.25,
+          "volume": 13260826.047860516,
+          "volume_24hr": 155545.69600000005,
+          "liquidity": 3797733.79838,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Algeria",
+          "prob": 0.25,
+          "volume": 14218738.223990835,
+          "volume_24hr": 384882.2873329998,
+          "liquidity": 2914755.5689,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": 0.1
+        },
+        {
+          "team": "Tunisia",
+          "prob": 0.25,
+          "volume": 13839653.22635719,
+          "volume_24hr": 177750.98100000006,
+          "liquidity": 3587947.53732,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": 0.1
+        },
+        {
+          "team": "Panama",
+          "prob": 0.25,
+          "volume": 3516323.4397720047,
+          "volume_24hr": 146675.96133299998,
+          "liquidity": 4128379.15182,
+          "chg_1d": 0.0,
+          "chg_1w": 0.0,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "South Africa",
+          "prob": 0.25,
+          "volume": 22098235.24858392,
+          "volume_24hr": 157763.52300000002,
+          "liquidity": 3151010.99481,
+          "chg_1d": 0.0,
+          "chg_1w": 0.0,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Congo DR",
+          "prob": 0.25,
+          "volume": 9265290.399144068,
+          "volume_24hr": 145668.92849999992,
+          "liquidity": 1597073.74953,
+          "chg_1d": 0.0,
+          "chg_1w": 0.0,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Cape Verde",
+          "prob": 0.25,
+          "volume": 14474870.450634088,
+          "volume_24hr": 338215.1269999997,
+          "liquidity": 3577488.60147,
+          "chg_1d": 0.0,
+          "chg_1w": 0.0,
+          "chg_1m": 0.1
+        },
+        {
+          "team": "Australia",
+          "prob": 0.25,
+          "volume": 12138679.41607297,
+          "volume_24hr": 173302.8605000002,
+          "liquidity": 3621425.8547,
+          "chg_1d": 0.0,
+          "chg_1w": 0.0,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Saudi Arabia",
+          "prob": 0.25,
+          "volume": 20636867.339413524,
+          "volume_24hr": 145441.0320000001,
+          "liquidity": 3145596.70595,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": 0.1
+        },
+        {
+          "team": "New Zealand",
+          "prob": 0.15,
+          "volume": 21950538.122504283,
+          "volume_24hr": 660006.7470000003,
+          "liquidity": 3009219.61442,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Haiti",
+          "prob": 0.15,
+          "volume": 14943923.543820074,
+          "volume_24hr": 170080.52099999998,
+          "liquidity": 3983801.23536,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Jordan",
+          "prob": 0.15,
+          "volume": 18940640.38708172,
+          "volume_24hr": 181444.8809999999,
+          "liquidity": 3758090.42252,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Uzbekistan",
+          "prob": 0.15,
+          "volume": 31714835.39470021,
+          "volume_24hr": 684620.9560000014,
+          "liquidity": 2988283.14349,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Iraq",
+          "prob": 0.15,
+          "volume": 3990202.169996971,
+          "volume_24hr": 136088.74099999998,
+          "liquidity": 3991760.20152,
+          "chg_1d": 0.0,
+          "chg_1w": -0.1,
+          "chg_1m": 0.0
+        },
+        {
+          "team": "Qatar",
+          "prob": 0.15,
+          "volume": 16278018.30468886,
+          "volume_24hr": 288228.55066599976,
+          "liquidity": 3055062.02963,
+          "chg_1d": -0.1,
+          "chg_1w": -0.1,
+          "chg_1m": -0.1
+        }
+      ]
+    },
+    "timestamp": 1776100581.754217
+  },
+  "injuries_Arsenal": {
+    "data": [],
+    "timestamp": 1776496407.3288279
+  },
+  "injuries_Liverpool": {
+    "data": [],
+    "timestamp": 1776496407.330304
+  },
+  "injuries_Manchester City": {
+    "data": [],
+    "timestamp": 1776496399.6616251
+  },
+  "injuries_Chelsea": {
+    "data": [],
+    "timestamp": 1776496399.662316
+  },
+  "injuries_Brentford": {
+    "data": [],
+    "timestamp": 1776497276.226395
+  },
+  "injuries_Fulham": {
+    "data": [],
+    "timestamp": 1776497276.227251
+  },
+  "injuries_Leeds": {
+    "data": [],
+    "timestamp": 1776497276.2400699
+  },
+  "injuries_Wolves": {
+    "data": [],
+    "timestamp": 1776497276.240968
+  },
+  "injuries_Newcastle": {
+    "data": [],
+    "timestamp": 1776497276.2537868
+  },
+  "injuries_Bournemouth": {
+    "data": [],
+    "timestamp": 1776497276.2543738
+  },
+  "injuries_France": {
+    "data": [
+      "Camavinga"
+    ],
+    "timestamp": 1776496429.501271
+  },
+  "injuries_Argentina": {
+    "data": [
+      "Di Maria"
+    ],
+    "timestamp": 1776496429.501982
+  },
+  "injuries_Brazil": {
+    "data": [
+      "Neymar"
+    ],
+    "timestamp": 1776496429.516083
+  },
+  "injuries_Germany": {
+    "data": [],
+    "timestamp": 1776497276.279658
+  },
+  "injuries_Spain": {
+    "data": [],
+    "timestamp": 1776497276.292505
+  },
+  "injuries_England": {
+    "data": [
+      "Kane"
+    ],
+    "timestamp": 1776496429.543908
+  },
+  "injuries_Portugal": {
+    "data": [
+      "Pepe"
+    ],
+    "timestamp": 1776496606.384206
+  },
+  "injuries_Netherlands": {
+    "data": [
+      "de Ligt"
+    ],
+    "timestamp": 1776496606.384777
+  }
+}

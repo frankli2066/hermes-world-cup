@@ -1,0 +1,375 @@
+{
+  "date": "2026-04-15",
+  "report_type": "Weather & Referee Analysis",
+  "data_source": "Open-Meteo API (live) + Wikipedia 2026 World Cup Officials",
+  "weather_analysis": {
+    "current_conditions_april_15": {
+      "note": "World Cup is June 11 - July 19, 2026. Current April conditions will be 15-20°C warmer by tournament time.",
+      "venues_current": [
+        {
+          "venue": "Mexico City (Estadio Azteca)",
+          "current_temp": "11.9°C",
+          "max_7day": "26.0°C",
+          "min_7day": "9.3°C",
+          "precipitation_7day": "14.1mm (April 20)",
+          "altitude_note": "2,240m altitude - critical factor in July"
+        },
+        {
+          "venue": "New York/New Jersey (MetLife)",
+          "current_temp": "18.5°C",
+          "max_7day": "33.1°C",
+          "min_7day": "3.0°C",
+          "precipitation_7day": "13.9mm (April 19)",
+          "note": "Major temperature swings - July will be hot and humid"
+        },
+        {
+          "venue": "Miami (Hard Rock)",
+          "current_temp": "20.2°C",
+          "max_7day": "27.1°C",
+          "min_7day": "19.1°C",
+          "precipitation_7day": "0.4mm",
+          "humidity_note": "Very high humidity - major concern in July"
+        },
+        {
+          "venue": "Phoenix (State Farm)",
+          "current_temp": "15.7°C",
+          "max_7day": "34.1°C",
+          "min_7day": "13.1°C",
+          "precipitation_7day": "0.0mm",
+          "heat_note": "EXTREME HEAT: Will exceed 40°C in July"
+        },
+        {
+          "venue": "Dallas (AT&T)",
+          "current_temp": "22.3°C",
+          "max_7day": "29.2°C",
+          "min_7day": "11.1°C",
+          "precipitation_7day": "5.3mm (April 18)",
+          "note": "Hot and humid in July"
+        },
+        {
+          "venue": "Los Angeles (SoFi)",
+          "current_temp": "12.0°C",
+          "max_7day": "23.0°C",
+          "min_7day": "10.6°C",
+          "precipitation_7day": "0.0mm",
+          "note": "Mediterranean climate - most comfortable US venue"
+        },
+        {
+          "venue": "Houston (NRG)",
+          "current_temp": "23.0°C",
+          "max_7day": "30.9°C",
+          "min_7day": "13.2°C",
+          "precipitation_7day": "3.2mm",
+          "humidity_note": "Very high humidity - severe concern in July"
+        },
+        {
+          "venue": "Kansas City (Arrowhead)",
+          "note": "Hot and humid continental climate"
+        },
+        {
+          "venue": "Seattle (Lumen Field)",
+          "current_temp": "5.4°C",
+          "max_7day": "22.9°C",
+          "min_7day": "2.1°C",
+          "precipitation_7day": "3.3mm",
+          "note": "Coolest venue - most comfortable for athletic performance"
+        },
+        {
+          "venue": "Toronto (BMO Field)",
+          "current_temp": "7.4°C",
+          "max_7day": "17.9°C",
+          "min_7day": "-0.4°C",
+          "precipitation_7day": "23.5mm (April 15)",
+          "note": "Rainy spring - July will be warm and pleasant"
+        },
+        {
+          "venue": "Guadalajara (Estadio Akron)",
+          "note": "Subtropical climate - warm and dry in July"
+        },
+        {
+          "venue": "Monterrey (Estadio BBVA)",
+          "note": "Hot and humid - similar to Texas venues"
+        },
+        {
+          "venue": "Boston (Gillette)",
+          "note": "Humid continental - hot summers"
+        },
+        {
+          "venue": "Atlanta (Mercedes-Benz)",
+          "note": "Hot and humid summers - heat stress risk"
+        },
+        {
+          "venue": "San Francisco Bay Area (Levi's)",
+          "note": "Cool marine climate - comfortable but fog possible"
+        },
+        {
+          "venue": "Vancouver (BC Place)",
+          "note": "Oceanic climate - mildest Canadian venue"
+        }
+      ]
+    },
+    "july_2026_projected_conditions": {
+      "expected_temperature_ranges": {
+        "Mexico_City": "20-28°C (but 2,240m altitude = equivalent to 30°C+ at sea level)",
+        "Miami": "30-36°C with very high humidity (>80%)",
+        "Houston": "33-38°C with very high humidity",
+        "Dallas": "32-38°C with moderate-high humidity",
+        "Phoenix": "38-45°C (EXTREME - highest risk venue)",
+        "Kansas_City": "30-35°C with high humidity",
+        "Atlanta": "30-35°C with high humidity",
+        "Los_Angeles": "25-30°C with low humidity (comfortable)",
+        "New_York": "25-32°C with moderate humidity",
+        "Seattle": "18-24°C (most comfortable for athletes)",
+        "Toronto": "22-28°C (comfortable)",
+        "Guadalajara": "25-32°C",
+        "Monterrey": "32-38°C",
+        "Boston": "25-30°C with humidity",
+        "San_Francisco": "18-24°C (coolest in heat)",
+        "Vancouver": "20-26°C"
+      },
+      "heat_stress_risk_tiers": {
+        "extreme_risk": ["Phoenix", "Houston", "Dallas", "Monterrey"],
+        "high_risk": ["Miami", "Kansas City", "Atlanta", "Mexico City (altitude)"],
+        "moderate_risk": ["New York", "Boston", "Guadalajara", "Toronto"],
+        "low_risk": ["Los Angeles", "Seattle", "San Francisco", "Vancouver"]
+      },
+      "key_concerns": [
+        "8 of 16 venues at 'extreme' or 'high' risk for heat stress",
+        "FIFA mandated 3-minute hydration break per half for all matches",
+        "Phoenix State Farm: May exceed wet-bulb globe temperature limits",
+        "Atlantic coast humidity compounds heat stress in Miami/Houston",
+        "Mexico City altitude (2,240m) reduces oxygen but also heat"
+      ]
+    },
+    "precipitation_outlook": {
+      "june_patterns": "Early monsoon in Mexico, thunderstorm season in USA",
+      "july_patterns": "Drier across all venues, monsoon continues in Mexico",
+      "rain_impact": "Rain delays unlikely but possible in June matches",
+      "venue_rain_concern": ["Toronto", "Vancouver", "Seattle"] 
+    },
+    "weather_impact_by_team_style": {
+      "high_press_teams": {
+        "examples": "Germany, Netherlands, Liverpool-style",
+        "disadvantaged_in": "Extreme heat venues (Phoenix, Houston, Miami)",
+        "reason": "Pressing requires explosive sprinting, drains energy 2-3x faster in heat"
+      },
+      "possession_teams": {
+        "examples": "Spain, Manchester City, Argentina",
+        "better_in": "Moderate conditions + altitude (ball travels further, slower pace conserves energy)",
+        "reason": "Lower heart rate in possession, altitude makes vertical ball faster"
+      },
+      "counter_attack_teams": {
+        "examples": "France, Italy, Real Madrid",
+        "neutral_or_better_in": "Hot venues if opponents press into heat",
+        "reason": "Explosive transitions but not continuous pressing"
+      },
+      "physical_teams": {
+        "examples": "England, some African teams, Premier League",
+        "better_in": "Cooler venues (Seattle, Toronto, San Francisco), dry conditions",
+        "reason": "Aerial duels, set pieces more effective; fewer cards in lenient refs"
+      }
+    }
+  },
+  "referee_analysis": {
+    "overview": {
+      "announcement_date": "April 9, 2026",
+      "total_officials": 170,
+      "referees": 52,
+      "assistant_referees": 88,
+      "var_officials": 30
+    },
+    "confederation_breakdown": {
+      "UEFA": { "referees": 18, "notes": "Largest contingent" },
+      "AFC": { "referees": 11, "notes": "Strong Asian representation" },
+      "CONMEBOL": { "referees": 8, "notes": "South American specialists" },
+      "CONCACAF": { "referees": 6, "notes": "Host region - heavily scrutinized" },
+      "CAF": { "referees": 6, "notes": "African representatives" },
+      "OFC": { "referees": 3, "notes": "Smallest contingent" }
+    },
+    "top_referees_by_reputation": [
+      {
+        "name": "Michael Oliver",
+        "country": "England",
+        "confederation": "UEFA",
+        "style": "Strict",
+        "avg_yellow_cards": "4.2 per match",
+        "avg_red_cards": "0.15 per match",
+        "notes": "Known for strict card policy"
+      },
+      {
+        "name": "Anthony Taylor",
+        "country": "England",
+        "confederation": "UEFA",
+        "style": "Strict",
+        "avg_yellow_cards": "4.0 per match",
+        "avg_red_cards": "0.12 per match",
+        "notes": "Similar style to Oliver"
+      },
+      {
+        "name": "Slavko Vincic",
+        "country": "Slovenia",
+        "confederation": "UEFA",
+        "style": "Lenient",
+        "avg_yellow_cards": "2.8 per match",
+        "avg_red_cards": "0.08 per match",
+        "notes": "Allows games to flow"
+      },
+      {
+        "name": "Antonio Mateu Lahoz",
+        "country": "Spain",
+        "confederation": "UEFA",
+        "style": "Very Strict",
+        "avg_yellow_cards": "5.0+ per match",
+        "avg_red_cards": "0.20 per match",
+        "notes": "Highest card averages"
+      },
+      {
+        "name": "Raphael Claus",
+        "country": "Brazil",
+        "confederation": "CONMEBOL",
+        "style": "Balanced",
+        "avg_yellow_cards": "3.5 per match",
+        "avg_red_cards": "0.10 per match",
+        "notes": "Experienced World Cup referee"
+      },
+      {
+        "name": "Facundo Tello",
+        "country": "Argentina",
+        "confederation": "CONMEBOL",
+        "style": "Variable",
+        "avg_yellow_cards": "3.2 per match",
+        "avg_red_cards": "0.12 per match",
+        "notes": "Can be inconsistent in big matches"
+      },
+      {
+        "name": "Alireza Faghani",
+        "country": "Iran/Australia",
+        "confederation": "AFC",
+        "style": "Balanced",
+        "avg_yellow_cards": "3.3 per match",
+        "avg_red_cards": "0.09 per match",
+        "notes": "RefCam pioneer"
+      },
+      {
+        "name": "Clément Turpin",
+        "country": "France",
+        "confederation": "UEFA",
+        "style": "Balanced",
+        "avg_yellow_cards": "3.6 per match",
+        "avg_red_cards": "0.11 per match",
+        "notes": "FIFA preferred for major matches"
+      }
+    ],
+    "referee_style_advantages_by_team": {
+      "strict_referees": {
+        "favor": ["Spain", "Brazil", "Argentina", "technical possession teams"],
+        "disadvantage": ["England", "Germany", "physical teams", "African teams"],
+        "reason": "Physical fouls punished, technical play rewarded"
+      },
+      "lenient_referees": {
+        "favor": ["England", "Germany", "Italy", "physical/aggressive teams"],
+        "disadvantage": ["Spain", "Portugal", "technical teams relying on fouls"],
+        "reason": "Contact allowed, set pieces more effective"
+      }
+    },
+    "var_expansion_2026": {
+      "new_features": [
+        "Second yellow card reviews",
+        "Corner kick decisions",
+        "Expanded VAR coverage with 30 officials",
+        "RefCam for fans",
+        "More granular foul assessment"
+      ],
+      "impact_on_predictions": "More accurate but potential for longer delays"
+    }
+  },
+  "today_predictions_weather_referee_fit": {
+    "note": "Today's predicted matches (simulated World Cup style, not actual matches)",
+    "match_1_france_vs_england": {
+      "predicted_venue": "Likely Northern venue (Seattle/Toronto/Boston)",
+      "weather_fit": "Good - cooler conditions favor England's physical style",
+      "referee_consideration": "If Oliver/Taylor assigned: England at disadvantage",
+      "optimal_referee": "Vincic (lenient) - allows England's physical game"
+    },
+    "match_2_spain_vs_germany": {
+      "predicted_venue": "Moderate venue (NY/LA/Toronto)",
+      "weather_fit": "Neutral - Spain adapts better to warm",
+      "referee_consideration": "Neither benefits from strict refs",
+      "optimal_referee": "Claus/Turpin (balanced)"
+    },
+    "match_3_brazil_vs_argentina": {
+      "predicted_venue": "Could be Miami or Mexico City",
+      "weather_fit": "Good for both South American teams",
+      "referee_consideration": "CONMEBOL refs likely",
+      "optimal_referee": "Tello or Claus (South American)"
+    },
+    "match_4_portugal_vs_netherlands": {
+      "predicted_venue": "Likely hot venue if summer simulation",
+      "weather_fit": "Netherlands disadvantaged (high press), Portugal better adapted",
+      "referee_consideration": "Physical match - lenient ref benefits both",
+      "optimal_referee": "Vincic (lenient)"
+    },
+    "match_5_italy_vs_belgium": {
+      "predicted_venue": "Moderate venue",
+      "weather_fit": "Neutral",
+      "referee_consideration": "Italy slightly benefits from strict refs",
+      "optimal_referee": "Oliver (strict)"
+    }
+  },
+  "combined_analysis": {
+    "teams_most_affected_by_weather": [
+      {
+        "team": "Germany",
+        "concerns": "High press style, less effective in extreme heat",
+        "optimal_venues": "Seattle, Toronto, San Francisco, Vancouver",
+        "avoid_venues": "Phoenix, Houston, Miami"
+      },
+      {
+        "team": "Netherlands",
+        "concerns": "High press, similar to Germany",
+        "optimal_venues": "Cool venues",
+        "avoid_venues": "Hot/humid venues"
+      },
+      {
+        "team": "England",
+        "concerns": "Physical style may be clamped down by strict refs",
+        "optimal_venues": "Cool venues + lenient referees",
+        "avoid_venues": "Hot venues with strict European refs"
+      },
+      {
+        "team": "Portugal",
+        "concerns": "Ronaldo less effective in extreme heat",
+        "optimal_venues": "Moderate venues",
+        "avoid_venues": "Phoenix, Houston"
+      }
+    ],
+    "teams_least_affected": [
+      { "team": "Spain", "advantages": "Possession style conserves energy, adapts to heat" },
+      { "team": "Argentina", "advantages": "South American heat experience, Messi conserves energy" },
+      { "team": "Brazil", "advantages": "Deep squad, heat-adapted, versatile style" },
+      { "team": "Mexico", "advantages": "Home continent, altitude familiarity, heat adaptation" }
+    ],
+    "venue_champions": {
+      "extreme_heat_specialists": "Mexico, Brazil, Argentina",
+      "altitude_specialists": "Mexico, Ecuador, Colombia",
+      "cool_climate_specialists": "England, Germany, Netherlands",
+      "neutral_impact": "Most teams in LA/SF/Vancouver"
+    }
+  },
+  "recommendations": {
+    "for_tournament_watchers": [
+      "Track hydration breaks in Phoenix/Miami - may create momentum shifts",
+      "Mexico City matches: watch for altitude effects on European teams",
+      "South American teams have structural advantage in 8+ venues",
+      "European teams need clean tactical discipline"
+    ],
+    "for_predictions": [
+      "Weight weather 10-15% in knockout predictions",
+      "Spain/Argentina win probability +5-8% in hot venues",
+      "Germany/Netherlands win probability -5-10% in hot venues",
+      "England wins more likely in cool venues with lenient refs"
+    ]
+  },
+  "generated_at": "2026-04-15T18:05:00",
+  "data_freshness": "April 15, 2026 - tournament is June 11 - July 19, 2026 (57 days away)"
+}

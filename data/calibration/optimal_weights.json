@@ -1,0 +1,33 @@
+{
+  "elo_weight": 0.30,
+  "fifa_weight": 0.15,
+  "form_weight": 0.25,
+  "experience_weight": 0.15,
+  "market_weight": 0.15,
+  "home_advantage": {
+    "default": 65,
+    "premier_league": 68,
+    "la_liga": 65,
+    "serie_a": 62,
+    "bundesliga": 60,
+    "ligue_1": 65,
+    "world_cup": 50,
+    "euro_cup": 55
+  },
+  "note": "优化后的权重配置 (2026-04-18)",
+  "optimizations": [
+    "提高form_weight: 0.20 -> 0.25 (近期状态更重要)",
+    "降低fifa_weight: 0.20 -> 0.15 (FIFA排名滞后)",
+    "Elo基础维持: 0.30",
+    "主场优势按联赛差异化配置",
+    "添加平局概率模型（v2.0修复）"
+  ],
+  "updated_at": "2026-04-18T08:15:00",
+  "draw_model": {
+    "base_rate": 0.27,
+    "low_elo_diff_bonus": 0.04,
+    "high_elo_diff_penalty": -0.06,
+    "form_streak_reduction": -0.015,
+    "h2h_draw_bonus": 0.025
+  }
+}

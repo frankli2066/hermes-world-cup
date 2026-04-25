@@ -1,0 +1,580 @@
+{
+  "date": "2026-04-11",
+  "report_type": "Lineup Confirmation & Tactical Analysis",
+  "generated_at": "2026-04-11T20:14:59.890163",
+  "days_until_wc": 61,
+  "wc_start_date": "2026-06-11",
+  "opening_match": {
+    "date": "2026-06-11",
+    "home": "Mexico",
+    "away": "South Africa",
+    "venue": "Estadio Azteca, Mexico City",
+    "time": "TBD"
+  },
+  "groups": {
+    "A": {
+      "teams": [
+        "Mexico",
+        "South Korea",
+        "Chile",
+        "South Africa"
+      ],
+      "analysis": "Host Mexico drawn in manageable group. South Korea's tactical discipline meets Mexico's attacking flair. Chile rebuilding after key retirements. South Africa dark horse."
+    },
+    "B": {
+      "teams": [
+        "Italy",
+        "Switzerland",
+        "Qatar",
+        "Bosnia"
+      ],
+      "analysis": "Italy-Switzerland rematch from Euro 2024. Qatar as host artificially strong. Bosnia missing key pieces from their 2014 peak."
+    },
+    "C": {
+      "teams": [
+        "Brazil",
+        "Morocco",
+        "Nigeria",
+        "Scotland"
+      ],
+      "analysis": "Brazil favored but Morocco's 2022 heroics linger. Nigeria's physicality vs Scotland's organization. Scotland likely third."
+    },
+    "D": {
+      "teams": [
+        "USA",
+        "Australia",
+        "Ukraine",
+        "Paraguay"
+      ],
+      "analysis": "USA faces pressure as co-host. Ukraine war-time team carries emotional weight. Paraguay most dangerous potential spoiler."
+    },
+    "E": {
+      "teams": [
+        "Germany",
+        "Ecuador",
+        "Poland",
+        "Ivory Coast"
+      ],
+      "analysis": "Germany rebuilding under new coach. Ecuador strong at altitude. Poland relies heavily on Lewandowski's aging legs. Ivory Coast dangerous."
+    },
+    "F": {
+      "teams": [
+        "Netherlands",
+        "Japan",
+        "Sweden",
+        "Tunisia"
+      ],
+      "analysis": "Netherlands favored. Japan's technical quality underrated. Sweden physical but limited. Tunisia North African gatekeepers."
+    },
+    "G": {
+      "teams": [
+        "Belgium",
+        "Serbia",
+        "Egypt",
+        "Iran",
+        "New Zealand"
+      ],
+      "analysis": "Belgium's golden generation's last stand. Serbia physical powerhouse. Egyptdepends on Salah fitness. Iran geopolitical drama. NZ weakest link."
+    },
+    "H": {
+      "teams": [
+        "Spain",
+        "Uruguay",
+        "Cameroon",
+        "Saudi Arabia"
+      ],
+      "analysis": "Spain top seeds with youngest squad. Uruguay野兽派 brute force. Cameroon inconsistent. Saudi petrodollars buying progress."
+    },
+    "I": {
+      "teams": [
+        "France",
+        "Senegal",
+        "Norway",
+        "Iraq"
+      ],
+      "analysis": "France overwhelming favorite. Senegal without Mane slightly diminished. Norway lacks Haaland support. Iraq minimum expectation."
+    },
+    "J": {
+      "teams": [
+        "Argentina",
+        "Austria",
+        "Algeria",
+        "Jordan"
+      ],
+      "analysis": "Argentina defending champions. Austria dark horse from Europe. Algeria explosive on their day. Jordan token participant."
+    },
+    "K": {
+      "teams": [
+        "Portugal",
+        "Colombia",
+        "Uzbekistan"
+      ],
+      "analysis": "Portugal post-Ronaldo rebuild. Colombia underrated South American force. Uzbekistan debutants learning curve."
+    },
+    "L": {
+      "teams": [
+        "England",
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ],
+      "analysis": "England favored. Croatia aging but experienced. Ghana rebuilding. Panama historic qualification reward."
+    }
+  },
+  "top_matchups": {
+    "opening_day": [
+      {
+        "match": "Mexico vs South Africa",
+        "date": "2026-06-12",
+        "prediction": "Mexico 2-1 South Africa",
+        "key_battle": "Mexico's creative midfield vs South Africa's defensive organization"
+      },
+      {
+        "match": "France vs Senegal",
+        "date": "2026-06-17",
+        "prediction": "France 3-1 Senegal",
+        "key_battle": "Mbappé vs Koulibaly - pace vs experience"
+      },
+      {
+        "match": "Argentina vs Algeria",
+        "date": "2026-06-17",
+        "prediction": "Argentina 2-0 Algeria",
+        "key_battle": "Messi vs Mahrez - GOAT vs new generation"
+      },
+      {
+        "match": "Spain vs Uruguay",
+        "date": "2026-06-16",
+        "prediction": "Spain 2-1 Uruguay",
+        "key_battle": "Lamine Yamal vs Darwin Núñez - youth explosion"
+      },
+      {
+        "match": "Brazil vs Morocco",
+        "date": "2026-06-14",
+        "prediction": "Brazil 1-1 Morocco (Brazil pens)",
+        "key_battle": "Vinicius Jr vs Hakimi - Real Madrid derby"
+      }
+    ]
+  },
+  "polymarket_snapshot": {
+    "top_5": [
+      {
+        "team": "Spain",
+        "prob": 15.35,
+        "volume_usd_m": 11.0
+      },
+      {
+        "team": "France",
+        "prob": 14.65,
+        "volume_usd_m": 9.9
+      },
+      {
+        "team": "England",
+        "prob": 11.35,
+        "volume_usd_m": 9.7
+      },
+      {
+        "team": "Argentina",
+        "prob": 8.9,
+        "volume_usd_m": 9.8
+      },
+      {
+        "team": "Brazil",
+        "prob": 8.55,
+        "volume_usd_m": 9.9
+      }
+    ]
+  },
+  "lineup_predictions": {
+    "Spain": {
+      "formation": "4-3-3",
+      "manager": "Luis de la Fuente",
+      "expected_xi": [
+        "GK: Unai Simón",
+        "RB: Pedro Porro",
+        "CB: Robin Le Normand",
+        "CB: Aymeric Laporte",
+        "LB: Alejandro Grimaldo",
+        "CM: Pedri",
+        "CM: Martín Zubimendi",
+        "CM: Fabian Ruiz",
+        "RW: Lamine Yamal",
+        "ST: Alvaro Morata",
+        "LW: Nico Williams"
+      ],
+      "bench": [
+        "Mikel Oyarzabal",
+        "Dani Olmo",
+        "Rodrigo Riki",
+        "Mikel Merino"
+      ],
+      "injuries": [
+        "Gavi (long-term)"
+      ],
+      "tactical_notes": "Youth-heavy squad with Pedri as metronome. Williams-Yamal wings provide devastating pace. Morata focal point."
+    },
+    "France": {
+      "formation": "4-2-3-1",
+      "manager": "Didier Deschamps",
+      "expected_xi": [
+        "GK: Mike Maignan",
+        "RB: Jules Koundé",
+        "CB: William Saliba",
+        "CB: Dayot Upamecano",
+        "LB: Théo Hernandez",
+        "DM: Aurélien Tchouaméni",
+        "DM: Eduardo Camavinga",
+        "RW: Ousmane Dembélé",
+        "AM: Antoine Griezmann",
+        "LW: Kylian Mbappé",
+        "ST: Randal Kolo Muani"
+      ],
+      "bench": [
+        "Bradley Barcola",
+        "Ibrahima Konaté",
+        "Benjamin Pavard",
+        "Kingsley Coman"
+      ],
+      "injuries": [
+        "N'Golo Kanté (retired from intl)",
+        "Karim Benzema (retired)"
+      ],
+      "tactical_notes": "Mbappé central striker role. Tchouaméni-Camavinga midfield balance. Saliba-Upamecano emerging CB pairing."
+    },
+    "Argentina": {
+      "formation": "4-4-2",
+      "manager": "Lionel Scaloni",
+      "expected_xi": [
+        "GK: Emiliano Martinez",
+        "RB: Nahuel Molina",
+        "CB: Cristian Romero",
+        "CB: Nicolas Otamendi",
+        "LB: Marcos Acuna",
+        "RM: Angel Di Maria",
+        "CM: Enzo Fernandez",
+        "CM: Alexis Mac Allister",
+        "LM: Giovani Lo Celso",
+        "ST: Julian Alvarez",
+        "ST: Lionel Messi"
+      ],
+      "bench": [
+        "Lautaro Martinez",
+        "Gonzalo Montiel",
+        "Leandro Paredes",
+        "Exequiel Palacios"
+      ],
+      "injuries": [
+        "Paulo Dybala (doubtful)",
+        "Angel Curbelo (injured)"
+      ],
+      "tactical_notes": "Messi false 9 in 4-4-2 diamond. Di Maria on right flank. Mac Allister pressing forward. Alvarez workhorse striker."
+    },
+    "Brazil": {
+      "formation": "4-2-3-1",
+      "manager": "Dorival Jr",
+      "expected_xi": [
+        "GK: Alisson Becker",
+        "RB: Danilo",
+        "CB: Marquinhos",
+        "CB: Gabriel Magalhaes",
+        "LB: Guilherme Arana",
+        "DM: Bruno Guimaraes",
+        "DM: André",
+        "RW: Rodrygo",
+        "AM: Neymar",
+        "LW: Vinicius Jr",
+        "ST: Richarlison"
+      ],
+      "bench": [
+        "Raphinha",
+        "Gabriel Jesus",
+        "Casemiro",
+        "Eder Militao"
+      ],
+      "injuries": [
+        " Neymar (doubtful - ACL recovery timeline)"
+      ],
+      "tactical_notes": "Vinicius primary weapon on left. Neymar withdrawn striker role. Richarlison target man. Defensive questions remain."
+    },
+    "Germany": {
+      "formation": "4-2-3-1",
+      "manager": "Julian Nagelsmann",
+      "expected_xi": [
+        "GK: Manuel Neuer",
+        "RB: Joshua Kimmich",
+        "CB: Jonathan Tah",
+        "CB: Antonio Rüdiger",
+        "LB: David Raum",
+        "DM: Ilkay Gündogan",
+        "DM: Aleksandar Pavlovic",
+        "RW: Jamal Musiala",
+        "AM: Florian Wirtz",
+        "LW: Leroy Sané",
+        "ST: Kai Havertz"
+      ],
+      "bench": [
+        "Chris Führich",
+        "Niclas Füllkrug",
+        "Robin Gosens",
+        "Pascal Gross"
+      ],
+      "injuries": [
+        "Serge Gnabry (long-term)",
+        "Thomas Müller (doubtful)"
+      ],
+      "tactical_notes": "Kimmich right-back limits midfield creativity. Musiala-Wirtz No.10 competition. Havertz false 9 works in this system."
+    },
+    "England": {
+      "formation": "4-3-3",
+      "manager": "Thomas Tuchel",
+      "expected_xi": [
+        "GK: Jordan Pickford",
+        "RB: Kyle Walker",
+        "CB: John Stones",
+        "CB: Marc Guéhi",
+        "LB: Luke Shaw",
+        "CM: Declan Rice",
+        "CM: Jude Bellingham",
+        "CM: Phil Foden",
+        "RW: Bukayo Saka",
+        "ST: Harry Kane",
+        "LW: Cole Palmer"
+      ],
+      "bench": [
+        "Anthony Gordon",
+        "Ivan Toney",
+        "Conor Gallagher",
+        "Trent Alexander-Arnold"
+      ],
+      "injuries": [
+        "Marcus Rashford (doubtful)",
+        "Kalvin Phillips (injured)"
+      ],
+      "tactical_notes": "Tuchel's first tournament. Rice as 6. Bellingham box-to-box. Kane as complete striker. Saka-Palmer width devastating."
+    },
+    "Portugal": {
+      "formation": "4-3-3",
+      "manager": "Roberto Martinez",
+      "expected_xi": [
+        "GK: Diogo Costa",
+        "RB: Nelson Semedo",
+        "CB: Rúben Dias",
+        "CB: António Silva",
+        "LB: Nuno Mendes",
+        "CM: Bernardo Silva",
+        "CM: Bruno Fernandes",
+        "CM: João Palhinha",
+        "RW: Rafael Leão",
+        "ST: Pedro Neto",
+        "LW: Francisco Trincão"
+      ],
+      "bench": [
+        "Rúben Neves",
+        "Gonçalo Ramos",
+        "Nuno Santos",
+        "Danilo Pereira"
+      ],
+      "injuries": [
+        "Cristiano Ronaldo (retired from NT)",
+        "Pepe (retired)"
+      ],
+      "tactical_notes": "Post-Ronaldo rebuild begins. Neto leads line. Bernardo-Bruno creative duality. Palhinha defensive shield."
+    },
+    "Netherlands": {
+      "formation": "4-3-3",
+      "manager": "Ronald Koeman",
+      "expected_xi": [
+        "GK: Bart Verbruggen",
+        "RB: Denzel Dumfries",
+        "CB: Virgil van Dijk",
+        "CB: Matthijs de Ligt",
+        "LB: Jorrell Hato",
+        "CM: Tijjani Reijnders",
+        "CM: Ryan Gravenberch",
+        "CM: Xavi Simons",
+        "RW: Cody Gakpo",
+        "ST: Wout Weghorst",
+        "LW: Memphis Depay"
+      ],
+      "bench": [
+        "Donny van de Beek",
+        "Teun Koopmeiners",
+        "Ian Maatsen",
+        "Luuk de Jong"
+      ],
+      "injuries": [
+        "Frenkie de Jong (injured)"
+      ],
+      "tactical_notes": "Koeman returns for second spell. Van Dijk as captain. Simons as Xavi regen. Weghorst aerial threat."
+    },
+    "Morocco": {
+      "formation": "4-1-4-1",
+      "manager": "Walid Regragui",
+      "expected_xi": [
+        "GK: Yassine Bounou",
+        "RB: Achraf Hakimi",
+        "CB: Nayef Aguerd",
+        "CB: Romain Saïss",
+        "LB: Youssef En-Nesyri",
+        "DM: Azzedine Ounahi",
+        "RM: Hakim Ziyech",
+        "CM: Sofyan Amrabat",
+        "CM: Ibrahim Salah",
+        "LM: Bilal El Khannous",
+        "ST: Youssef En-Nesyri"
+      ],
+      "bench": [
+        "Evan Ferguson",
+        "Achraf Dari",
+        "Youssef En-Nesyri",
+        "Selim Amalla"
+      ],
+      "injuries": [
+        "Munir (injured)"
+      ],
+      "tactical_notes": "Hakimi-Oppositional. En-Nesyri primary scorer. Amrabat defensive shield. Zouhair Feddal missed."
+    },
+    "Japan": {
+      "formation": "4-2-3-1",
+      "manager": "Hajime Moriyasu",
+      "expected_xi": [
+        "GK: Eiji Kawashima",
+        "RB: Takehiro Tomiyasu",
+        "CB: Ko Itakura",
+        "CB: Maya Yoshida",
+        "LB: Hiroki Sakai",
+        "DM: Wataru Endo",
+        "DM: Takehiro Minami",
+        "RW: Takefusa Kubo",
+        "AM: Daizen Maeda",
+        "LW: Junya Ito",
+        "ST: Koki Saito"
+      ],
+      "bench": [
+        "Ritsu Doan",
+        "Kyogo Furuhashi",
+        "Kaoru Mitoma",
+        "Junya Ito"
+      ],
+      "injuries": [
+        "Daichi Kamada (injured)"
+      ],
+      "tactical_notes": "Compact defensive shape. Endo as anchor. Kubo as creative fulcrum. Mitoma left-back option."
+    },
+    "USA": {
+      "formation": "4-3-3",
+      "manager": "Mauricio Pochettino",
+      "expected_xi": [
+        "GK: Matt Turner",
+        "RB: Sergiño Dest",
+        "CB: Tim Ream",
+        "CB: Chris Richards",
+        "LB: Antonee Robinson",
+        "CM: Weston McKennie",
+        "CM: Yunus Musah",
+        "CM: Giovanni Reyna",
+        "RW: Christian Pulisic",
+        "ST: Folarin Balogun",
+        "LW: Tim Weah"
+      ],
+      "bench": [
+        "Brendan Aaronson",
+        "Josh Sargent",
+        "Joe Scally",
+        "Luca de la Torre"
+      ],
+      "injuries": [
+        "Tyler Adams (injured)",
+        "Gio Reyna (doubtful)"
+      ],
+      "tactical_notes": "Pochettino's attacking mandate. Balogun as No.9. Robinson overlapping. Reyna as 10 behind striker."
+    },
+    "Mexico": {
+      "formation": "4-2-3-1",
+      "manager": "Javier Aguirre",
+      "expected_xi": [
+        "GK: Guillermo Ochoa",
+        "RB: Jorge Sánchez",
+        "CB: Johan Vásquez",
+        "CB: César Montes",
+        "LB: Jesús Gallardo",
+        "DM: Edson Álvarez",
+        "DM: Chofis López",
+        "RW: Uriel Antuna",
+        "AM: Hirving Lozano",
+        "LW: Alexis Vega",
+        "ST: Santiago Muñoz"
+      ],
+      "bench": [
+        "Raúl Jiménez",
+        "Hector Herrera",
+        "Andrés Guardado",
+        "Luis Chávez"
+      ],
+      "injuries": [
+        "Javier 'Chicharito' Hernández (retired)"
+      ],
+      "tactical_notes": "Host pressure enormous. Ochoa experience. Lozano creative spark. Jiménez from bench as plan B."
+    }
+  },
+  "key_missing_players": {
+    "Gavi": {
+      "team": "Spain",
+      "position": "MF",
+      "impact": "High - creative midfielder lost to ACL"
+    },
+    "N'Golo Kanté": {
+      "team": "France",
+      "position": "DM",
+      "impact": "Medium - retired from internationals"
+    },
+    "Karim Benzema": {
+      "team": "France",
+      "position": "ST",
+      "impact": "Medium - retired, Kolo Muani replacement"
+    },
+    "Cristiano Ronaldo": {
+      "team": "Portugal",
+      "position": "ST",
+      "impact": "High - all-time top scorer retired"
+    },
+    "Tyler Adams": {
+      "team": "USA",
+      "position": "DM",
+      "impact": "High - captain, defensive lynchpin"
+    },
+    "Neymar": {
+      "team": "Brazil",
+      "position": "AM",
+      "impact": "Medium - ACL recovery uncertain"
+    }
+  },
+  "special_rules": {
+    "hydration_breaks": "FIFA confirmed mandatory hydration breaks in matches where WBGT exceeds 26°C - expect breaks in Houston, Dallas, Miami venues",
+    "hydration_impact": "More substitutions allowed. Slower tempo in heat. Favorable to European teams used to climate-controlled stadiums."
+  },
+  "tactical_trends_2026": [
+    "High defensive lines diminishing due to athletic forwards",
+    "3-atb formations gaining traction (Italy, England)",
+    "False 9 usage down - proper target strikers preferred",
+    "Counter-press intensity increasing",
+    "Wing-backs less common due to physical demands of 7-match tournament"
+  ],
+  "sleepers": [
+    {
+      "team": "Morocco",
+      "reason": "2022 semifinalist spirit, Hakimi-Hakimi combo devastating"
+    },
+    {
+      "team": "Japan",
+      "reason": "Technically superior to everyone in Group F, potential last-16 surprise"
+    },
+    {
+      "team": "Colombia",
+      "reason": "Richarlison alternative, James replacement emerging talent"
+    },
+    {
+      "team": "Austria",
+      "reason": "Undefeated in Euro 2024 qualifiers, Arnautovic + new generation"
+    }
+  ]
+}

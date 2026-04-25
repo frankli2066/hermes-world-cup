@@ -1,0 +1,683 @@
+{
+  "timestamp": "2026-04-13T15:19:54.305805",
+  "simulation_params": {
+    "monte_carlo_groups": 5000,
+    "monte_carlo_knockout": 10000,
+    "version": "3.0_optimized"
+  },
+  "group_results": {
+    "A": {
+      "group": "A",
+      "teams": [
+        "Mexico",
+        "South Korea",
+        "Chile",
+        "South Africa"
+      ],
+      "runs": 5000,
+      "advancement": {
+        "Mexico": {
+          "qualify_prob": 59.3,
+          "winner_prob": 33.8,
+          "avg_points": 4.6,
+          "avg_gd": 0.7
+        },
+        "South Korea": {
+          "qualify_prob": 51.9,
+          "winner_prob": 24.9,
+          "avg_points": 4.1,
+          "avg_gd": 0.1
+        },
+        "Chile": {
+          "qualify_prob": 51.7,
+          "winner_prob": 25.8,
+          "avg_points": 4.2,
+          "avg_gd": 0.1
+        },
+        "South Africa": {
+          "qualify_prob": 37.1,
+          "winner_prob": 15.4,
+          "avg_points": 3.4,
+          "avg_gd": -0.9
+        }
+      }
+    },
+    "B": {
+      "group": "B",
+      "teams": [
+        "Italy",
+        "Switzerland",
+        "Qatar",
+        "Bosnia"
+      ],
+      "runs": 5000,
+      "advancement": {
+        "Italy": {
+          "qualify_prob": 57.7,
+          "winner_prob": 32.2,
+          "avg_points": 4.4,
+          "avg_gd": 0.5
+        },
+        "Switzerland": {
+          "qualify_prob": 51.3,
+          "winner_prob": 24.9,
+          "avg_points": 4.1,
+          "avg_gd": 0.1
+        },
+        "Qatar": {
+          "qualify_prob": 50.2,
+          "winner_prob": 24.4,
+          "avg_points": 4.1,
+          "avg_gd": 0.0
+        },
+        "Bosnia": {
+          "qualify_prob": 40.9,
+          "winner_prob": 18.6,
+          "avg_points": 3.6,
+          "avg_gd": -0.6
+        }
+      }
+    },
+    "C": {
+      "group": "C",
+      "teams": [
+        "Brazil",
+        "Morocco",
+        "Nigeria",
+        "Scotland"
+      ],
+      "runs": 5000,
+      "advancement": {
+        "Brazil": {
+          "qualify_prob": 61.7,
+          "winner_prob": 36.2,
+          "avg_points": 4.7,
+          "avg_gd": 0.9
+        },
+        "Morocco": {
+          "qualify_prob": 46.5,
+          "winner_prob": 21.3,
+          "avg_points": 3.9,
+          "avg_gd": -0.4
+        },
+        "Nigeria": {
+          "qualify_prob": 52.1,
+          "winner_prob": 25.4,
+          "avg_points": 4.2,
+          "avg_gd": 0.1
+        },
+        "Scotland": {
+          "qualify_prob": 39.6,
+          "winner_prob": 17.1,
+          "avg_points": 3.6,
+          "avg_gd": -0.7
+        }
+      }
+    },
+    "D": {
+      "group": "D",
+      "teams": [
+        "USA",
+        "Australia",
+        "Ukraine",
+        "Paraguay"
+      ],
+      "runs": 5000,
+      "advancement": {
+        "USA": {
+          "qualify_prob": 55.5,
+          "winner_prob": 29.7,
+          "avg_points": 4.3,
+          "avg_gd": 0.4
+        },
+        "Australia": {
+          "qualify_prob": 50.3,
+          "winner_prob": 25.2,
+          "avg_points": 4.1,
+          "avg_gd": -0.0
+        },
+        "Ukraine": {
+          "qualify_prob": 46.8,
+          "winner_prob": 22.3,
+          "avg_points": 3.9,
+          "avg_gd": -0.2
+        },
+        "Paraguay": {
+          "qualify_prob": 47.5,
+          "winner_prob": 22.8,
+          "avg_points": 3.9,
+          "avg_gd": -0.2
+        }
+      }
+    },
+    "E": {
+      "group": "E",
+      "teams": [
+        "Germany",
+        "Ecuador",
+        "Poland",
+        "Ivory Coast"
+      ],
+      "runs": 5000,
+      "advancement": {
+        "Germany": {
+          "qualify_prob": 59.4,
+          "winner_prob": 32.4,
+          "avg_points": 4.5,
+          "avg_gd": 0.6
+        },
+        "Ecuador": {
+          "qualify_prob": 53.2,
+          "winner_prob": 27.2,
+          "avg_points": 4.3,
+          "avg_gd": 0.2
+        },
+        "Poland": {
+          "qualify_prob": 48.4,
+          "winner_prob": 22.6,
+          "avg_points": 4.0,
+          "avg_gd": -0.2
+        },
+        "Ivory Coast": {
+          "qualify_prob": 39.1,
+          "winner_prob": 17.7,
+          "avg_points": 3.5,
+          "avg_gd": -0.7
+        }
+      }
+    },
+    "F": {
+      "group": "F",
+      "teams": [
+        "Netherlands",
+        "Japan",
+        "Sweden",
+        "Tunisia"
+      ],
+      "runs": 5000,
+      "advancement": {
+        "Netherlands": {
+          "qualify_prob": 58.8,
+          "winner_prob": 33.2,
+          "avg_points": 4.5,
+          "avg_gd": 0.6
+        },
+        "Japan": {
+          "qualify_prob": 50.5,
+          "winner_prob": 25.1,
+          "avg_points": 4.1,
+          "avg_gd": -0.0
+        },
+        "Sweden": {
+          "qualify_prob": 48.7,
+          "winner_prob": 23.5,
+          "avg_points": 4.0,
+          "avg_gd": -0.1
+        },
+        "Tunisia": {
+          "qualify_prob": 42.0,
+          "winner_prob": 18.1,
+          "avg_points": 3.7,
+          "avg_gd": -0.5
+        }
+      }
+    },
+    "G": {
+      "group": "G",
+      "teams": [
+        "Belgium",
+        "Serbia",
+        "Egypt",
+        "Iran"
+      ],
+      "runs": 5000,
+      "advancement": {
+        "Belgium": {
+          "qualify_prob": 57.8,
+          "winner_prob": 31.3,
+          "avg_points": 4.4,
+          "avg_gd": 0.5
+        },
+        "Serbia": {
+          "qualify_prob": 52.3,
+          "winner_prob": 26.2,
+          "avg_points": 4.2,
+          "avg_gd": 0.1
+        },
+        "Egypt": {
+          "qualify_prob": 47.9,
+          "winner_prob": 23.5,
+          "avg_points": 4.0,
+          "avg_gd": -0.1
+        },
+        "Iran": {
+          "qualify_prob": 42.0,
+          "winner_prob": 19.0,
+          "avg_points": 3.7,
+          "avg_gd": -0.5
+        }
+      }
+    },
+    "H": {
+      "group": "H",
+      "teams": [
+        "Spain",
+        "Uruguay",
+        "Cameroon",
+        "Saudi Arabia"
+      ],
+      "runs": 5000,
+      "advancement": {
+        "Spain": {
+          "qualify_prob": 61.3,
+          "winner_prob": 35.1,
+          "avg_points": 4.7,
+          "avg_gd": 0.8
+        },
+        "Uruguay": {
+          "qualify_prob": 49.7,
+          "winner_prob": 25.1,
+          "avg_points": 4.1,
+          "avg_gd": 0.0
+        },
+        "Cameroon": {
+          "qualify_prob": 45.3,
+          "winner_prob": 20.9,
+          "avg_points": 3.9,
+          "avg_gd": -0.3
+        },
+        "Saudi Arabia": {
+          "qualify_prob": 43.7,
+          "winner_prob": 18.9,
+          "avg_points": 3.7,
+          "avg_gd": -0.5
+        }
+      }
+    },
+    "I": {
+      "group": "I",
+      "teams": [
+        "France",
+        "Senegal",
+        "Norway",
+        "Iraq"
+      ],
+      "runs": 5000,
+      "advancement": {
+        "France": {
+          "qualify_prob": 60.7,
+          "winner_prob": 35.4,
+          "avg_points": 4.6,
+          "avg_gd": 0.8
+        },
+        "Senegal": {
+          "qualify_prob": 56.7,
+          "winner_prob": 29.2,
+          "avg_points": 4.4,
+          "avg_gd": 0.4
+        },
+        "Norway": {
+          "qualify_prob": 43.5,
+          "winner_prob": 18.9,
+          "avg_points": 3.8,
+          "avg_gd": -0.4
+        },
+        "Iraq": {
+          "qualify_prob": 39.0,
+          "winner_prob": 16.4,
+          "avg_points": 3.5,
+          "avg_gd": -0.7
+        }
+      }
+    },
+    "J": {
+      "group": "J",
+      "teams": [
+        "Argentina",
+        "Austria",
+        "Algeria",
+        "Jordan"
+      ],
+      "runs": 5000,
+      "advancement": {
+        "Argentina": {
+          "qualify_prob": 61.9,
+          "winner_prob": 36.3,
+          "avg_points": 4.7,
+          "avg_gd": 0.8
+        },
+        "Austria": {
+          "qualify_prob": 50.2,
+          "winner_prob": 24.8,
+          "avg_points": 4.1,
+          "avg_gd": -0.0
+        },
+        "Algeria": {
+          "qualify_prob": 49.0,
+          "winner_prob": 21.9,
+          "avg_points": 4.0,
+          "avg_gd": -0.1
+        },
+        "Jordan": {
+          "qualify_prob": 38.9,
+          "winner_prob": 17.0,
+          "avg_points": 3.5,
+          "avg_gd": -0.7
+        }
+      }
+    },
+    "K": {
+      "group": "K",
+      "teams": [
+        "Portugal",
+        "Colombia",
+        "Uzbekistan",
+        "New Zealand"
+      ],
+      "runs": 5000,
+      "advancement": {
+        "Portugal": {
+          "qualify_prob": 60.8,
+          "winner_prob": 33.0,
+          "avg_points": 4.6,
+          "avg_gd": 0.7
+        },
+        "Colombia": {
+          "qualify_prob": 60.0,
+          "winner_prob": 33.2,
+          "avg_points": 4.6,
+          "avg_gd": 0.7
+        },
+        "Uzbekistan": {
+          "qualify_prob": 41.4,
+          "winner_prob": 17.6,
+          "avg_points": 3.6,
+          "avg_gd": -0.6
+        },
+        "New Zealand": {
+          "qualify_prob": 37.8,
+          "winner_prob": 16.2,
+          "avg_points": 3.5,
+          "avg_gd": -0.8
+        }
+      }
+    },
+    "L": {
+      "group": "L",
+      "teams": [
+        "England",
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ],
+      "runs": 5000,
+      "advancement": {
+        "England": {
+          "qualify_prob": 60.5,
+          "winner_prob": 34.3,
+          "avg_points": 4.6,
+          "avg_gd": 0.8
+        },
+        "Croatia": {
+          "qualify_prob": 52.7,
+          "winner_prob": 26.5,
+          "avg_points": 4.2,
+          "avg_gd": 0.1
+        },
+        "Ghana": {
+          "qualify_prob": 45.1,
+          "winner_prob": 20.7,
+          "avg_points": 3.8,
+          "avg_gd": -0.3
+        },
+        "Panama": {
+          "qualify_prob": 41.6,
+          "winner_prob": 18.6,
+          "avg_points": 3.7,
+          "avg_gd": -0.5
+        }
+      }
+    }
+  },
+  "knockout_results": {
+    "monte_carlo": 10000,
+    "champion_probs": {
+      "Mexico": 5.25,
+      "Brazil": 4.59,
+      "Chile": 4.47,
+      "Germany": 4.44,
+      "South Korea": 4.16,
+      "Ecuador": 3.82,
+      "USA": 3.71,
+      "Nigeria": 3.65,
+      "Italy": 3.55,
+      "Qatar": 3.55
+    },
+    "stage_counts": {
+      "South Africa": {
+        "round_of_16": 1727,
+        "quarter": 919,
+        "semi": 502,
+        "final": 502,
+        "champion": 250
+      },
+      "Bosnia": {
+        "round_of_16": 1980,
+        "quarter": 862,
+        "semi": 430,
+        "final": 430,
+        "champion": 207
+      },
+      "Nigeria": {
+        "round_of_16": 2629,
+        "quarter": 1405,
+        "semi": 681,
+        "final": 681,
+        "champion": 365
+      },
+      "Paraguay": {
+        "round_of_16": 2418,
+        "quarter": 1168,
+        "semi": 542,
+        "final": 542,
+        "champion": 327
+      },
+      "Germany": {
+        "round_of_16": 3038,
+        "quarter": 1669,
+        "semi": 901,
+        "final": 901,
+        "champion": 444
+      },
+      "Netherlands": {
+        "round_of_16": 2958,
+        "quarter": 1414,
+        "semi": 774,
+        "final": 774,
+        "champion": 342
+      },
+      "Egypt": {
+        "round_of_16": 2373,
+        "quarter": 1252,
+        "semi": 609,
+        "final": 609,
+        "champion": 271
+      },
+      "Spain": {
+        "round_of_16": 3142,
+        "quarter": 1579,
+        "semi": 746,
+        "final": 746,
+        "champion": 353
+      },
+      "South Korea": {
+        "round_of_16": 2553,
+        "quarter": 1399,
+        "semi": 758,
+        "final": 758,
+        "champion": 416
+      },
+      "Ukraine": {
+        "round_of_16": 2253,
+        "quarter": 1114,
+        "semi": 534,
+        "final": 534,
+        "champion": 268
+      },
+      "Sweden": {
+        "round_of_16": 2444,
+        "quarter": 1158,
+        "semi": 642,
+        "final": 642,
+        "champion": 311
+      },
+      "Belgium": {
+        "round_of_16": 2904,
+        "quarter": 1515,
+        "semi": 718,
+        "final": 718,
+        "champion": 322
+      },
+      "Saudi Arabia": {
+        "round_of_16": 2196,
+        "quarter": 1008,
+        "semi": 481,
+        "final": 481,
+        "champion": 240
+      },
+      "Mexico": {
+        "round_of_16": 3064,
+        "quarter": 1739,
+        "semi": 920,
+        "final": 920,
+        "champion": 525
+      },
+      "Italy": {
+        "round_of_16": 2916,
+        "quarter": 1299,
+        "semi": 669,
+        "final": 669,
+        "champion": 355
+      },
+      "Ecuador": {
+        "round_of_16": 2720,
+        "quarter": 1453,
+        "semi": 775,
+        "final": 775,
+        "champion": 382
+      },
+      "Japan": {
+        "round_of_16": 2594,
+        "quarter": 1189,
+        "semi": 609,
+        "final": 609,
+        "champion": 287
+      },
+      "Serbia": {
+        "round_of_16": 2573,
+        "quarter": 1328,
+        "semi": 602,
+        "final": 602,
+        "champion": 302
+      },
+      "Uruguay": {
+        "round_of_16": 2425,
+        "quarter": 1111,
+        "semi": 521,
+        "final": 521,
+        "champion": 253
+      },
+      "Qatar": {
+        "round_of_16": 2574,
+        "quarter": 1171,
+        "semi": 631,
+        "final": 631,
+        "champion": 355
+      },
+      "Morocco": {
+        "round_of_16": 2175,
+        "quarter": 1049,
+        "semi": 450,
+        "final": 450,
+        "champion": 219
+      },
+      "Poland": {
+        "round_of_16": 2388,
+        "quarter": 1260,
+        "semi": 648,
+        "final": 648,
+        "champion": 268
+      },
+      "Iran": {
+        "round_of_16": 2150,
+        "quarter": 1147,
+        "semi": 507,
+        "final": 507,
+        "champion": 212
+      },
+      "Chile": {
+        "round_of_16": 2656,
+        "quarter": 1487,
+        "semi": 831,
+        "final": 831,
+        "champion": 447
+      },
+      "Scotland": {
+        "round_of_16": 1886,
+        "quarter": 897,
+        "semi": 386,
+        "final": 386,
+        "champion": 189
+      },
+      "Australia": {
+        "round_of_16": 2473,
+        "quarter": 1168,
+        "semi": 576,
+        "final": 576,
+        "champion": 335
+      },
+      "Tunisia": {
+        "round_of_16": 2004,
+        "quarter": 918,
+        "semi": 475,
+        "final": 475,
+        "champion": 230
+      },
+      "Cameroon": {
+        "round_of_16": 2237,
+        "quarter": 1060,
+        "semi": 507,
+        "final": 507,
+        "champion": 207
+      },
+      "Brazil": {
+        "round_of_16": 3310,
+        "quarter": 1803,
+        "semi": 857,
+        "final": 857,
+        "champion": 459
+      },
+      "USA": {
+        "round_of_16": 2856,
+        "quarter": 1396,
+        "semi": 670,
+        "final": 670,
+        "champion": 371
+      },
+      "Ivory Coast": {
+        "round_of_16": 1854,
+        "quarter": 939,
+        "semi": 485,
+        "final": 485,
+        "champion": 206
+      },
+      "Switzerland": {
+        "round_of_16": 2530,
+        "quarter": 1124,
+        "semi": 563,
+        "final": 563,
+        "champion": 282
+      }
+    }
+  }
+}

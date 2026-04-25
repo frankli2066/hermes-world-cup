@@ -1,0 +1,96 @@
+{
+  "date": "2026-04-12",
+  "market": {
+    "title": "2026 FIFA World Cup Winner",
+    "volume": 581771182.5371262,
+    "liquidity": 94835638.74169,
+    "openInterest": 6980828.320262,
+    "volume24hr": 17582683.596869
+  },
+  "momentum_ranking": [
+    {
+      "team": "France",
+      "momentum_score": 0.077
+    },
+    {
+      "team": "Japan",
+      "momentum_score": 0.008
+    },
+    {
+      "team": "Colombia",
+      "momentum_score": 0.005
+    },
+    {
+      "team": "Switzerland",
+      "momentum_score": 0.003
+    },
+    {
+      "team": "Tunisia",
+      "momentum_score": 0.002
+    },
+    {
+      "team": "Congo DR",
+      "momentum_score": 0.002
+    },
+    {
+      "team": "Saudi Arabia",
+      "momentum_score": 0.002
+    },
+    {
+      "team": "Netherlands",
+      "momentum_score": 0.0015
+    },
+    {
+      "team": "Spain",
+      "momentum_score": 0.001
+    },
+    {
+      "team": "Morocco",
+      "momentum_score": 0.001
+    }
+  ],
+  "top_gainers": [
+    {
+      "team": "France",
+      "change": 0.077
+    },
+    {
+      "team": "Japan",
+      "change": 0.008
+    },
+    {
+      "team": "Colombia",
+      "change": 0.005
+    },
+    {
+      "team": "Switzerland",
+      "change": 0.003
+    },
+    {
+      "team": "Tunisia",
+      "change": 0.002
+    }
+  ],
+  "top_losers": [
+    {
+      "team": "Argentina",
+      "change": -0.0275
+    },
+    {
+      "team": "England",
+      "change": -0.02
+    },
+    {
+      "team": "Norway",
+      "change": -0.019
+    },
+    {
+      "team": "Portugal",
+      "change": -0.0075
+    },
+    {
+      "team": "Croatia",
+      "change": -0.004
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-04-15T00:00:00Z",
+  "event": "2026 FIFA World Cup Winner",
+  "market_stats": {
+    "total_volume": 642057422.20,
+    "volume_24hr": 19155136.11,
+    "volume_1mo": 340883128.45,
+    "liquidity": 143444667.43,
+    "open_interest": 9129034.75
+  },
+  "top_10_teams": [
+    {"rank": 1, "team": "Spain", "probability": 0.1715, "day_change": 0.001, "week_change": 0.012, "month_change": 0.017, "volume_24hr": 432419.78},
+    {"rank": 2, "team": "France", "probability": 0.1465, "day_change": 0.0, "week_change": null, "month_change": null, "volume_24hr": null},
+    {"rank": 3, "team": "Brazil", "probability": 0.1265, "day_change": 0.035, "week_change": null, "month_change": null, "volume_24hr": null},
+    {"rank": 4, "team": "England", "probability": 0.1105, "day_change": -0.003, "week_change": -0.003, "month_change": -0.022, "volume_24hr": 281786.46},
+    {"rank": 5, "team": "Germany", "probability": 0.0925, "day_change": 0.008, "week_change": null, "month_change": null, "volume_24hr": null},
+    {"rank": 6, "team": "Argentina", "probability": 0.0850, "day_change": -0.012, "week_change": null, "month_change": null, "volume_24hr": null},
+    {"rank": 7, "team": "Portugal", "probability": 0.0650, "day_change": 0.005, "week_change": null, "month_change": null, "volume_24hr": null},
+    {"rank": 8, "team": "Netherlands", "probability": 0.0550, "day_change": 0.003, "week_change": null, "month_change": null, "volume_24hr": null},
+    {"rank": 9, "team": "Italy", "probability": 0.0450, "day_change": 0.002, "week_change": null, "month_change": null, "volume_24hr": null},
+    {"rank": 10, "team": "Belgium", "probability": 0.0380, "day_change": 0.001, "week_change": null, "month_change": null, "volume_24hr": null}
+  ],
+  "key_events": {
+    "biggest_gain": {"team": "Brazil", "change": "+3.5%"},
+    "biggest_drop": {"team": "Argentina", "change": "-1.2%"},
+    "most_active": {"team": "England", "volume_24hr": 281786.46}
+  }
+}

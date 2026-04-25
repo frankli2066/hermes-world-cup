@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-04-14T18:01:00.000000",
+  "market": {
+    "title": "2026 FIFA World Cup Winner",
+    "total_volume": 637410107.9800647
+  },
+  "teams": [
+    {"team": "Spain", "yes_price": 0.1715, "prob": 17.15, "volume": 13059976.204344096, "liquidity": 1012185.31593, "one_day_change": null, "one_week_change": 0.012, "one_month_change": 0.017},
+    {"team": "France", "yes_price": 0.146, "prob": 14.6, "volume": null, "liquidity": 1080715.55753, "one_day_change": null, "one_week_change": null, "one_month_change": null},
+    {"team": "England", "yes_price": 0.1115, "prob": 11.15, "volume": 11243165.861414852, "liquidity": 1129483.92424, "one_day_change": -0.001, "one_week_change": -0.002, "one_month_change": -0.021},
+    {"team": "Argentina", "yes_price": 0.087, "prob": 8.7, "volume": 11592193.823675064, "liquidity": 787351.26402, "one_day_change": -0.0015, "one_week_change": -0.0045, "one_month_change": -0.027},
+    {"team": "Brazil", "yes_price": 0.0855, "prob": 8.55, "volume": 11051348.71360703, "liquidity": 725275.23684, "one_day_change": null, "one_week_change": null, "one_month_change": -0.0005},
+    {"team": "Portugal", "yes_price": 0.069, "prob": 6.9, "volume": 12185403.226203632, "liquidity": 241767.87148, "one_day_change": 0.0005, "one_week_change": -0.0015, "one_month_change": -0.0015},
+    {"team": "Germany", "yes_price": 0.0525, "prob": 5.25, "volume": 10089537.624228537, "liquidity": 568531.02489, "one_day_change": null, "one_week_change": -0.002, "one_month_change": -0.0015},
+    {"team": "Netherlands", "yes_price": 0.0325, "prob": 3.25, "volume": 13321921.70817089, "liquidity": 461166.7419, "one_day_change": null, "one_week_change": -0.0015, "one_month_change": null},
+    {"team": "Norway", "yes_price": 0.0225, "prob": 2.25, "volume": 11357592.251647178, "liquidity": 1084879.82364, "one_day_change": null, "one_week_change": -0.0055, "one_month_change": -0.0095},
+    {"team": "Japan", "yes_price": 0.0185, "prob": 1.85, "volume": 14037144.692324966, "liquidity": 900959.05096, "one_day_change": -0.001, "one_week_change": -0.001, "one_month_change": 0.003},
+    {"team": "Belgium", "yes_price": 0.0175, "prob": 1.75, "volume": 11004967.55061816, "liquidity": 873118.44964, "one_day_change": -0.001, "one_week_change": -0.002, "one_month_change": null},
+    {"team": "Colombia", "yes_price": 0.0165, "prob": 1.65, "volume": 10601938.35900781, "liquidity": 1260334.14575, "one_day_change": null, "one_week_change": null, "one_month_change": null},
+    {"team": "Morocco", "yes_price": 0.0155, "prob": 1.55, "volume": 12627066.128406107, "liquidity": 448351.39695, "one_day_change": null, "one_week_change": -0.001, "one_month_change": null},
+    {"team": "USA", "yes_price": 0.0135, "prob": 1.35, "volume": 9777426.063692858, "liquidity": 1694914.77002, "one_day_change": null, "one_week_change": -0.001, "one_month_change": -0.003},
+    {"team": "Mexico", "yes_price": 0.0115, "prob": 1.15, "volume": 11739858.952063197, "liquidity": 228416.14362, "one_day_change": 0.001, "one_week_change": null, "one_month_change": 0.001},
+    {"team": "Switzerland", "yes_price": 0.0095, "prob": 0.95, "volume": 12095672.510559341, "liquidity": 1007890.88161, "one_day_change": -0.001, "one_week_change": -0.001, "one_month_change": 0.002},
+    {"team": "Uruguay", "yes_price": 0.0095, "prob": 0.95, "volume": 11534192.059462987, "liquidity": 2678305.63229, "one_day_change": null, "one_week_change": -0.002, "one_month_change": null},
+    {"team": "Croatia", "yes_price": 0.0095, "prob": 0.95, "volume": 10572052.88837296, "liquidity": 1059084.25172, "one_day_change": null, "one_week_change": -0.002, "one_month_change": -0.004},
+    {"team": "Turkiye", "yes_price": 0.0075, "prob": 0.75, "volume": 4229996.512928997, "liquidity": 1857093.66634, "one_day_change": null, "one_week_change": null, "one_month_change": null},
+    {"team": "Ecuador", "yes_price": 0.0075, "prob": 0.75, "volume": 13602998.823702788, "liquidity": 1475045.70377, "one_day_change": null, "one_week_change": -0.001, "one_month_change": -0.001}
+  ]
+}

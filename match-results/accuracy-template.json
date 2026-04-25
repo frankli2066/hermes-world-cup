@@ -1,0 +1,30 @@
+{
+  "month": "2026-06",
+  "total_matches": 0,
+  "win_accuracy": {
+    "correct": 0,
+    "total": 0,
+    "rate": 0
+  },
+  "score_accuracy": {
+    "exact": 0,
+    "within_1": 0,
+    "within_2": 0,
+    "total": 0,
+    "rate": 0
+  },
+  "goals_accuracy": {
+    "correct": 0,
+    "total": 0,
+    "rate": 0
+  },
+  "lineup_accuracy": {
+    "correct_players": 0,
+    "total_players": 0,
+    "rate": 0
+  },
+  "overall_accuracy": 0,
+  "grade": "⚠️ 待开始",
+  "matches": [],
+  "updated_at": "2026-04-11"
+}

@@ -1,0 +1,42 @@
+#!/bin/bash
+# 世界杯快速预测CLI
+# 用法: wc predict "Brazil" "France"
+#       wc groups
+#       wc report
+
+SCRIPT_DIR="/Users/lifeng/hermes-world-cup/scripts"
+
+case "$1" in
+    predict)
+        if [ -z "$2" ] || [ -z "$3" ]; then
+            echo "用法: wc predict <主队> <客队>"
+            exit 1
+        fi
+        cd "$SCRIPT_DIR" && python3 pre-match-analysis.py "$2" "$3"
+        ;;
+    groups)
+        cd "$SCRIPT_DIR" && python3 quick-group-simulator.py
+        ;;
+    analyze)
+        cd "$SCRIPT_DIR" && python3 polymarket-analyzer.py
+        ;;
+    report)
+        cd "$SCRIPT_DIR" && python3 worldcup-report.py
+        ;;
+    *)
+        echo "🏆 世界杯快速预测CLI"
+        echo ""
+        echo "用法: wc <命令> [参数]"
+        echo ""
+        echo "命令:"
+        echo "  predict <主队> <客队>   预测单场比赛"
+        echo "  groups                   小组赛模拟"
+        echo "  analyze                  市场赔率分析"
+        echo "  report                   完整报告"
+        echo ""
+        echo "示例:"
+        echo "  wc predict Brazil France"
+        echo "  wc predict Spain Germany --stage final"
+        echo "  wc groups"
+        ;;
+esac

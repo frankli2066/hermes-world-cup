@@ -1,0 +1,284 @@
+{
+  "date": "2026-04-13",
+  "report_type": "Lineup Confirmation & Tactical Analysis",
+  "generated_at": "2026-04-13T20:01:00",
+  "days_until_wc": 59,
+  "wc_start_date": "2026-06-11",
+  "status_note": "世界杯尚未开始（开幕日6月11日）。本报告基于球队档案和Polymarket市场数据的前瞻性阵容分析。",
+  "polymarket_data": {
+    "source": "Polymarket 2026 FIFA World Cup Winner",
+    "fetched_at": "2026-04-13T19:00",
+    "top_8_teams": [
+      {"team": "Spain", "prob": 17.35, "change_1d": "+1.1%"},
+      {"team": "France", "prob": 16.05, "change_1d": "-0.3%"},
+      {"team": "England", "prob": 11.25, "change_1d": "+0.5%"},
+      {"team": "Argentina", "prob": 8.75, "change_1d": "-0.2%"},
+      {"team": "Brazil", "prob": 8.55, "change_1d": "+0.8%"},
+      {"team": "Portugal", "prob": 6.80, "change_1d": "+0.2%"},
+      {"team": "Germany", "prob": 5.25, "change_1d": "-0.5%"},
+      {"team": "Netherlands", "prob": 3.20, "change_1d": "+0.1%"}
+    ]
+  },
+  "lineup_analysis": {
+    "Spain": {
+      "coach": "Luis Enrique",
+      "formation": "4-3-3",
+      "predicted_starting_xi": [
+        {"name": "Unai Simón", "position": "GK", "club": "Athletic Bilbao", "age": 27, "status": "CONFIRMED"},
+        {"name": "Dani Carvajal", "position": "RB", "club": "Real Madrid", "age": 32, "status": "CONFIRMED"},
+        {"name": "Rodri", "position": "CB", "club": "Manchester City", "age": 28, "status": "CONFIRMED"},
+        {"name": "Aymeric Laporte", "position": "CB", "club": "Al-Nassr", "age": 31, "status": "CONFIRMED"},
+        {"name": "Jordi Alba", "position": "LB", "club": "Inter Miami", "age": 35, "status": "LIKELY"},
+        {"name": "Pedri", "position": "CM", "club": "Barcelona", "age": 22, "status": "CONFIRMED"},
+        {"name": "Gavi", "position": "CM", "club": "Barcelona", "age": 20, "status": "INJURED"},
+        {"name": "Lamine Yamal", "position": "RW", "club": "Barcelona", "age": 18, "status": "CONFIRMED"},
+        {"name": "Rodrigo", "position": "CAM", "club": "Manchester City", "age": 24, "status": "CONFIRMED"},
+        {"name": "Nico Williams", "position": "LW", "club": "Athletic Bilbao", "age": 22, "status": "CONFIRMED"},
+        {"name": "Álvaro Morata", "position": "ST", "club": "Atlético Madrid", "age": 32, "status": "LIKELY"}
+      ],
+      "key_bench": [
+        {"name": "Mikel Oyarzabal", "position": "FW", "club": "Real Sociedad"},
+        {"name": "Fermín López", "position": "CM", "club": "Barcelona"},
+        {"name": "Raphinha", "position": "RW", "club": "Barcelona"},
+        {"name": "David Raya", "position": "GK", "club": "Arsenal"}
+      ],
+      "injuries_suspensions": [
+        {"player": "Gavi", "issue": "ACL撕裂", "status": "恢复中，可能缺席世界杯", "impact": "HIGH"}
+      ],
+      "tactical_analysis": "西班牙继续坚持控球战术。Gavi的缺席是重大损失，但Rodri在中场的调度能力可以弥补。Lamine Yamal和Nico Williams的两翼齐飞是最大威胁。中后卫位置Alvaro Morata状态一般，可能需要调整。",
+      "formation_strengths": ["边路进攻", "控球能力", "中场深度"],
+      "formation_weaknesses": ["中锋位置", "老将体能"]
+    },
+    "France": {
+      "coach": "Didier Deschamps",
+      "formation": "4-2-3-1",
+      "predicted_starting_xi": [
+        {"name": "Mike Maignan", "position": "GK", "club": "AC Milan", "age": 29, "status": "CONFIRMED"},
+        {"name": "Kylian Mbappé", "position": "RW", "club": "Real Madrid", "age": 27, "status": "CONFIRMED"},
+        {"name": "Ibrahima Konaté", "position": "CB", "club": "Liverpool", "age": 26, "status": "CONFIRMED"},
+        {"name": "William Saliba", "position": "CB", "club": "Arsenal", "age": 24, "status": "CONFIRMED"},
+        {"name": "Theo Hernandez", "position": "LB", "club": "AC Milan", "age": 27, "status": "CONFIRMED"},
+        {"name": "Aurelien Tchouameni", "position": "CDM", "club": "Real Madrid", "age": 25, "status": "CONFIRMED"},
+        {"name": "Eduardo Camavinga", "position": "CDM", "club": "Real Madrid", "age": 23, "status": "CONFIRMED"},
+        {"name": "Ousmane Dembélé", "position": "RW", "club": "PSG", "age": 28, "status": "CONFIRMED"},
+        {"name": "Antoine Griezmann", "position": "CAM", "club": "Atlético Madrid", "age": 34, "status": "CONFIRMED"},
+        {"name": "Bradley Barcola", "position": "LW", "club": "PSG", "age": 23, "status": "CONFIRMED"},
+        {"name": "Kylian Mbappé", "position": "ST", "club": "Real Madrid", "age": 27, "status": "CONFIRMED"}
+      ],
+      "key_bench": [
+        {"name": "Randal Kolo Muani", "position": "ST", "club": "PSG"},
+        {"name": "Kingsley Coman", "position": "LW", "club": "Bayern Munich"},
+        {"name": "N'Golo Kanté", "position": "CDM", "club": "Al-Ittihad"},
+        {"name": "Alphonse Areola", "position": "GK", "club": "West Ham"}
+      ],
+      "injuries_suspensions": [
+        {"player": "Paul Pogba", "issue": "禁药禁赛", "status": "错过世界杯", "impact": "MEDIUM"}
+      ],
+      "tactical_analysis": "法国4-2-3-1体系成熟。Mbappé是绝对核心，可能在决赛阶段前踢中锋位置。Dembélé和Barcola的两翼速度是破密集防守的利器。中场防守强度有所下降，但Tchouameni-Camavinga组合活力十足。",
+      "formation_strengths": ["速度优势", "个人能力", "替补深度"],
+      "formation_weaknesses": ["中锋储备", "中场组织"]
+    },
+    "England": {
+      "coach": "Thomas Tuchel",
+      "formation": "4-3-3",
+      "predicted_starting_xi": [
+        {"name": "Jordan Pickford", "position": "GK", "club": "Everton", "age": 31, "status": "CONFIRMED"},
+        {"name": "Trent Alexander-Arnold", "position": "RB", "club": "Real Madrid", "age": 27, "status": "CONFIRMED"},
+        {"name": "John Stones", "position": "CB", "club": "Manchester City", "age": 31, "status": "CONFIRMED"},
+        {"name": "Marc Guéhi", "position": "CB", "club": "Crystal Palace", "age": 25, "status": "CONFIRMED"},
+        {"name": "Ben White", "position": "LB", "club": "Arsenal", "age": 28, "status": "CONFIRMED"},
+        {"name": "Declan Rice", "position": "CDM", "club": "Arsenal", "age": 27, "status": "CONFIRMED"},
+        {"name": "Jude Bellingham", "position": "CM", "club": "Real Madrid", "age": 22, "status": "CONFIRMED"},
+        {"name": "Phil Foden", "position": "CAM", "club": "Manchester City", "age": 25, "status": "CONFIRMED"},
+        {"name": "Bukayo Saka", "position": "RW", "club": "Arsenal", "age": 24, "status": "CONFIRMED"},
+        {"name": "Harry Kane", "position": "ST", "club": "Bayern Munich", "age": 32, "status": "CONFIRMED"},
+        {"name": "Marcus Rashford", "position": "LW", "club": "Manchester United", "age": 28, "status": "LIKELY"}
+      ],
+      "key_bench": [
+        {"name": "Cole Palmer", "position": "RW", "club": "Chelsea"},
+        {"name": "Jarrod Bowen", "position": "RW", "club": "West Ham"},
+        {"name": "Ivan Toney", "position": "ST", "club": "Al-Nassr"},
+        {"name": "Aaron Ramsdale", "position": "GK", "club": "Arsenal"}
+      ],
+      "injuries_suspensions": [
+        {"player": "Kyle Walker", "issue": "年龄增大", "status": "状态下滑，可能替补", "impact": "LOW"}
+      ],
+      "tactical_analysis": "Tuchel上任后强调进攻效率。Bellingham作为中场核心连接前后场。Saka和Rice（作为边锋）的组合是最大威胁。Harry Kane的支点作用至关重要。替补席深度足够，但防线经验略显不足。",
+      "formation_strengths": ["前场火力", "中场创造力", "边路进攻"],
+      "formation_weaknesses": ["防线经验", "门将位置"]
+    },
+    "Argentina": {
+      "coach": "Lionel Scaloni",
+      "formation": "4-4-2",
+      "predicted_starting_xi": [
+        {"name": "Emiliano Martínez", "position": "GK", "club": "Aston Villa", "age": 33, "status": "CONFIRMED"},
+        {"name": "Gonzalo Montiel", "position": "RB", "club": "Nottingham Forest", "age": 28, "status": "LIKELY"},
+        {"name": "Cristian Romero", "position": "CB", "club": "Tottenham", "age": 27, "status": "CONFIRMED"},
+        {"name": "Nicolás Otamendi", "position": "CB", "club": "Benfica", "age": 37, "status": "CONFIRMED"},
+        {"name": "Nicolás Tagliafico", "position": "LB", "club": "Lyon", "age": 33, "status": "CONFIRMED"},
+        {"name": "Angel Di María", "position": "RW", "club": "Benfica", "age": 38, "status": "UNCERTAIN"},
+        {"name": "Rodrigo De Paul", "position": "CM", "club": "Atlético Madrid", "age": 31, "status": "CONFIRMED"},
+        {"name": "Leandro Paredes", "position": "CM", "club": "Roma", "age": 31, "status": "CONFIRMED"},
+        {"name": "Enzo Fernández", "position": "CM", "club": "Chelsea", "age": 24, "status": "CONFIRMED"},
+        {"name": "Lionel Messi", "position": "CAM", "club": "Inter Miami", "age": 39, "status": "UNCERTAIN"},
+        {"name": "Julián Álvarez", "position": "ST", "club": "Manchester City", "age": 25, "status": "CONFIRMED"}
+      ],
+      "key_bench": [
+        {"name": " Lautaro Martínez", "position": "ST", "club": "Inter Milan"},
+        {"name": "Alexis Mac Allister", "position": "CM", "club": "Liverpool"},
+        {"name": "Exequiel Palacios", "position": "CM", "club": "Bayer Leverkusen"},
+        {"name": "Franco Armani", "position": "GK", "club": "River Plate"}
+      ],
+      "injuries_suspensions": [
+        {"player": "Angel Di María", "issue": "年龄和体能", "status": "可能替补或退役", "impact": "MEDIUM"},
+        {"player": "Lionel Messi", "issue": "39岁高龄", "status": "最后一届，成疑", "impact": "CRITICAL"}
+      ],
+      "tactical_analysis": "阿根廷卫冕之路艰难。Messi可能最后一届世界杯，但39岁高龄是最大变数。Di María同样年迈。Julián Álvarez状态正佳，可能承担更多进球责任。中后场年龄偏大，面对年轻对手可能吃亏。",
+      "formation_strengths": ["Messi因素", "团队凝聚力", "大赛经验"],
+      "formation_weaknesses": ["核心老化", "体能问题", "替代人选"]
+    },
+    "Brazil": {
+      "coach": "Carlo Ancelotti",
+      "formation": "4-2-3-1",
+      "predicted_starting_xi": [
+        {"name": "Alisson Becker", "position": "GK", "club": "Liverpool", "age": 33, "status": "CONFIRMED"},
+        {"name": "Danilo", "position": "RB", "club": "Juventus", "age": 34, "status": "CONFIRMED"},
+        {"name": "Marquinhos", "position": "CB", "club": "PSG", "age": 31, "status": "CONFIRMED"},
+        {"name": "Lucas Veríssimo", "position": "CB", "club": "Benfica", "age": 30, "status": "LIKELY"},
+        {"name": "Wendell", "position": "LB", "club": "Al-Fayha", "age": 32, "status": "LIKELY"},
+        {"name": "Bruno Guimarães", "position": "CDM", "club": "Newcastle", "age": 28, "status": "CONFIRMED"},
+        {"name": "Joaquin Henrique", "position": "CDM", "club": "Real Madrid", "age": 20, "status": "CONFIRMED"},
+        {"name": "Vinícius Jr", "position": "LW", "club": "Real Madrid", "age": 25, "status": "CONFIRMED"},
+        {"name": "Rodrygo", "position": "CAM", "club": "Real Madrid", "age": 25, "status": "CONFIRMED"},
+        {"name": "Savio", "position": "RW", "club": "Wolverhampton", "age": 26, "status": "CONFIRMED"},
+        {"name": "Endrick", "position": "ST", "club": "Real Madrid", "age": 19, "status": "CONFIRMED"}
+      ],
+      "key_bench": [
+        {"name": "Neymar", "position": "LW", "club": "Al-Hilal", "status": "INJURED"},
+        {"name": "Bellingham", "position": "CM", "club": "Real Madrid"},
+        {"name": "Richarlison", "position": "ST", "club": "Tottenham"},
+        {"name": "Ederson", "position": "GK", "club": "Manchester City"}
+      ],
+      "injuries_suspensions": [
+        {"player": "Neymar", "issue": "ACL断裂", "status": "恢复中，可能错过世界杯", "impact": "HIGH"}
+      ],
+      "tactical_analysis": "巴西重建中，Neymar可能缺席削弱星光。Vinícius和Rodrygo的皇马连线是核心火力。Endrick作为新星可能担任首发中锋。防线老化明显，Marquinhos需要更好的搭档。Ancelotti的战术调整能力是关键。",
+      "formation_strengths": ["皇马攻击三人组", "年轻活力", "边路速度"],
+      "formation_weaknesses": ["中锋经验", "防线老化", "缺少 Neymar"]
+    },
+    "Portugal": {
+      "coach": "Roberto Martínez",
+      "formation": "4-3-3",
+      "predicted_starting_xi": [
+        {"name": "Diogo Costa", "position": "GK", "club": "Manchester City", "age": 26, "status": "CONFIRMED"},
+        {"name": "Nelson Semedo", "position": "RB", "club": "Wolverhampton", "age": 32, "status": "CONFIRMED"},
+        {"name": "Rúben Dias", "position": "CB", "club": "Manchester City", "age": 28, "status": "CONFIRMED"},
+        {"name": "António Silva", "position": "CB", "club": "Benfica", "age": 22, "status": "CONFIRMED"},
+        {"name": "Nuno Mendes", "position": "LB", "club": "PSG", "age": 23, "status": "CONFIRMED"},
+        {"name": "Bruno Fernandes", "position": "CAM", "club": "Manchester United", "age": 31, "status": "CONFIRMED"},
+        {"name": "João Palhinha", "position": "CDM", "club": "Bayern Munich", "age": 30, "status": "CONFIRMED"},
+        {"name": "Nuno Santos", "position": "LM", "club": "Sporting", "age": 31, "status": "LIKELY"},
+        {"name": "Rafael Leão", "position": "RM", "club": "AC Milan", "age": 26, "status": "CONFIRMED"},
+        {"name": "Cristiano Ronaldo", "position": "ST", "club": "Al-Nassr", "age": 41, "status": "UNCERTAIN"},
+        {"name": "Pedro Neto", "position": "LW", "club": "Chelsea", "age": 25, "status": "CONFIRMED"}
+      ],
+      "key_bench": [
+        {"name": "Bernardo Silva", "position": "CAM", "club": "Manchester City"},
+        {"name": "Rúben Neves", "position": "CM", "club": "Al-Hilal"},
+        {"name": "Diogo Jota", "position": "ST", "club": "Liverpool"},
+        {"name": "José Sá", "position": "GK", "club": "Wolverhampton"}
+      ],
+      "injuries_suspensions": [
+        {"player": "Cristiano Ronaldo", "issue": "41岁高龄", "status": "最后一届，成疑", "impact": "HIGH"}
+      ],
+      "tactical_analysis": "葡萄牙黄金一代末期，Ronaldo是否参加成疑。Bruno Fernandes是中场核心。Rafael Leão和Pedro Neto的边路组合威力十足。防线以Rúben Dias为核心，但搭档 António Silva 经验不足。",
+      "formation_strengths": ["边路进攻", "中场创造力", "门将位置"],
+      "formation_weaknesses": ["中锋储备", "老将体能", "防守经验"]
+    },
+    "Germany": {
+      "coach": "Julian Nagelsmann",
+      "formation": "4-2-3-1",
+      "predicted_starting_xi": [
+        {"name": "Marc-André ter Stegen", "position": "GK", "club": "Barcelona", "age": 33, "status": "CONFIRMED"},
+        {"name": "Joshua Kimmich", "position": "RB", "club": "Bayern Munich", "age": 31, "status": "CONFIRMED"},
+        {"name": "Jonathan Tah", "position": "CB", "club": "Bayer Leverkusen", "age": 29, "status": "CONFIRMED"},
+        {"name": "Nico Schlotterbeck", "position": "CB", "club": "Dortmund", "age": 25, "status": "CONFIRMED"},
+        {"name": "David Raum", "position": "LB", "club": "Leipzig", "age": 27, "status": "CONFIRMED"},
+        {"name": "Jamal Musiala", "position": "CAM", "club": "Bayern Munich", "age": 22, "status": "CONFIRMED"},
+        {"name": "Florian Wirtz", "position": "CAM", "club": "Bayer Leverkusen", "age": 22, "status": "CONFIRMED"},
+        {"name": "Ilkay Gündogan", "position": "CDM", "club": "Manchester City", "age": 35, "status": "UNCERTAIN"},
+        {"name": "Leroy Sané", "position": "RW", "club": "Bayern Munich", "age": 29, "status": "CONFIRMED"},
+        {"name": "Kai Havertz", "position": "ST", "club": "Arsenal", "age": 26, "status": "CONFIRMED"},
+        {"name": "Florian Wirtz", "position": "LW", "club": "Bayer Leverkusen", "age": 22, "status": "CONFIRMED"}
+      ],
+      "key_bench": [
+        {"name": "Thomas Müller", "position": "ST", "club": "Bayern Munich"},
+        {"name": "Chris Führich", "position": "RW", "club": "Stuttgart"},
+        {"name": "Gianluigi Donnarumma", "position": "GK", "club": "PSG"},
+        {"name": "Robert Andrich", "position": "CDM", "club": "Bayer Leverkusen"}
+      ],
+      "injuries_suspensions": [
+        {"player": "Toni Kroos", "issue": "退役", "status": "不参加世界杯", "impact": "MEDIUM"}
+      ],
+      "tactical_analysis": "德国年轻化改革进行中。Kroos退役留下中场空缺。Musiala和Wirtz的双子星是最大希望。Havertz状态回勇可能担任首发中锋。防线Tah-Schlotterbeck组合稳固。Nagelsmann的战术创新能力是关键。",
+      "formation_strengths": ["中场新人", "边路速度", "战术灵活"],
+      "formation_weaknesses": ["门将位置", "老将缺席", "淘汰赛经验"]
+    },
+    "Netherlands": {
+      "coach": "Ronald Koeman",
+      "formation": "4-3-3",
+      "predicted_starting_xi": [
+        {"name": "Bart Verbruggen", "position": "GK", "club": "Brighton", "age": 23, "status": "CONFIRMED"},
+        {"name": "Denzel Dumfries", "position": "RB", "club": "Inter Milan", "age": 29, "status": "CONFIRMED"},
+        {"name": "Virgil van Dijk", "position": "CB", "club": "Liverpool", "age": 34, "status": "CONFIRMED"},
+        {"name": "Jurrien Timber", "position": "CB", "club": "Arsenal", "age": 24, "status": "CONFIRMED"},
+        {"name": "Nathan Aké", "position": "LB", "club": "Manchester City", "age": 31, "status": "CONFIRMED"},
+        {"name": "Frenkie de Jong", "position": "CDM", "club": "Barcelona", "age": 28, "status": "CONFIRMED"},
+        {"name": "Ryan Gravenberch", "position": "CM", "club": "Bayern Munich", "age": 23, "status": "CONFIRMED"},
+        {"name": "Xavi Simons", "position": "CAM", "club": "RB Leipzig", "age": 22, "status": "CONFIRMED"},
+        {"name": "Cody Gakpo", "position": "LW", "club": "Liverpool", "age": 26, "status": "CONFIRMED"},
+        {"name": "Donyell Malen", "position": "RW", "club": "PSG", "age": 26, "status": "CONFIRMED"},
+        {"name": "Wout Weghorst", "position": "ST", "club": "Manchester United", "age": 33, "status": "UNCERTAIN"}
+      ],
+      "key_bench": [
+        {"name": "Memphis Depay", "position": "ST", "club": "Atlético Madrid"},
+        {"name": "Steven Bergwijn", "position": "LW", "club": "Al-Ittihad"},
+        {"name": "Jeremie Frimpong", "position": "RB", "club": "Bayer Leverkusen"},
+        {"name": "Justin Bijlow", "position": "GK", "club": "Feyenoord"}
+      ],
+      "injuries_suspensions": [
+        {"player": "Teun Koopmeiners", "issue": "身体状况", "status": "待定", "impact": "LOW"}
+      ],
+      "tactical_analysis": "荷兰中后场稳固，Van Dijk领衔防线。中场Frenkie de Jong调度有方，Xavi Simons冲击力强。边路Gakpo和Malen速度快。中锋位置Weghorst状态下滑，Memphis可能取代。整体星光不足但战术纪律严明。",
+      "formation_strengths": ["防线稳固", "中场控制", "边路速度"],
+      "formation_weaknesses": ["中锋得分", "星光不足", "淘汰赛压力"]
+    }
+  },
+  "key_matchups": [
+    {
+      "match": "Spain vs France",
+      "significance": "半决赛潜在对决",
+      "key_battle": "Lamine Yamal vs Theo Hernandez",
+      "prediction": "西班牙稍占优势（技术），法国身体对抗占优"
+    },
+    {
+      "match": "Brazil vs Argentina",
+      "significance": "决赛潜在对决",
+      "key_battle": "Vinícius Jr vs Messi",
+      "prediction": "取决于Messi状态，巴西赔率略高"
+    },
+    {
+      "match": "England vs Germany",
+      "significance": "八强潜在对决",
+      "key_battle": "Bellingham vs Musiala",
+      "prediction": "势均力敌，取决于临场发挥"
+    }
+  ],
+  "report_summary": {
+    "most_complete_squad": "France",
+    "biggest_weakness": "Argentina (Messi成疑)",
+    "dark_horse": "Netherlands",
+    "most_exciting_attack": "France",
+    "best_defense": "Netherlands"
+  }
+}

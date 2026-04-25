@@ -1,0 +1,438 @@
+{
+  "generated_at": "2026-04-12T04:09:43.824685",
+  "simulation_type": "Monte Carlo 1000次",
+  "group_predictions": {
+    "A": {
+      "Mexico": {
+        "round_of_16_prob": 55.8,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "South Korea": {
+        "round_of_16_prob": 42.1,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Chile": {
+        "round_of_16_prob": 62.0,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "South Africa": {
+        "round_of_16_prob": 40.1,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      }
+    },
+    "B": {
+      "Italy": {
+        "round_of_16_prob": 63.0,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Switzerland": {
+        "round_of_16_prob": 53.4,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Qatar": {
+        "round_of_16_prob": 44.1,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Bosnia": {
+        "round_of_16_prob": 39.5,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      }
+    },
+    "C": {
+      "Brazil": {
+        "round_of_16_prob": 63.5,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Morocco": {
+        "round_of_16_prob": 55.8,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Nigeria": {
+        "round_of_16_prob": 43.7,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Scotland": {
+        "round_of_16_prob": 37.0,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      }
+    },
+    "D": {
+      "USA": {
+        "round_of_16_prob": 53.5,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Australia": {
+        "round_of_16_prob": 47.5,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Ukraine": {
+        "round_of_16_prob": 50.1,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Paraguay": {
+        "round_of_16_prob": 48.9,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      }
+    },
+    "E": {
+      "Germany": {
+        "round_of_16_prob": 63.8,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Ecuador": {
+        "round_of_16_prob": 35.8,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Poland": {
+        "round_of_16_prob": 55.3,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Ivory Coast": {
+        "round_of_16_prob": 45.1,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      }
+    },
+    "F": {
+      "Netherlands": {
+        "round_of_16_prob": 64.0,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Japan": {
+        "round_of_16_prob": 56.3,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Sweden": {
+        "round_of_16_prob": 37.6,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Tunisia": {
+        "round_of_16_prob": 42.1,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      }
+    },
+    "G": {
+      "Belgium": {
+        "round_of_16_prob": 57.8,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Serbia": {
+        "round_of_16_prob": 39.2,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Egypt": {
+        "round_of_16_prob": 44.6,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Iran": {
+        "round_of_16_prob": 29.3,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "New Zealand": {
+        "round_of_16_prob": 29.1,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      }
+    },
+    "H": {
+      "Spain": {
+        "round_of_16_prob": 65.2,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Uruguay": {
+        "round_of_16_prob": 57.6,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Cameroon": {
+        "round_of_16_prob": 35.7,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Saudi Arabia": {
+        "round_of_16_prob": 41.5,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      }
+    },
+    "I": {
+      "France": {
+        "round_of_16_prob": 66.0,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Senegal": {
+        "round_of_16_prob": 55.9,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Norway": {
+        "round_of_16_prob": 34.1,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Iraq": {
+        "round_of_16_prob": 44.0,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      }
+    },
+    "J": {
+      "Argentina": {
+        "round_of_16_prob": 68.9,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Austria": {
+        "round_of_16_prob": 49.7,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Algeria": {
+        "round_of_16_prob": 40.8,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Jordan": {
+        "round_of_16_prob": 40.6,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      }
+    },
+    "K": {
+      "Portugal": {
+        "round_of_16_prob": 76.1,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Colombia": {
+        "round_of_16_prob": 73.8,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Uzbekistan": {
+        "round_of_16_prob": 50.1,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      }
+    },
+    "L": {
+      "England": {
+        "round_of_16_prob": 59.8,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Croatia": {
+        "round_of_16_prob": 60.2,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Ghana": {
+        "round_of_16_prob": 39.7,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      },
+      "Panama": {
+        "round_of_16_prob": 40.3,
+        "quarter_prob": 0,
+        "semi_prob": 0,
+        "final_prob": 0,
+        "champion_prob": 0
+      }
+    }
+  },
+  "championship_probs": {
+    "South Africa": {
+      "round_of_16_prob": 40.1,
+      "quarter_prob": 0,
+      "semi_prob": 0,
+      "final_prob": 0,
+      "champion_prob": 0
+    },
+    "Chile": {
+      "round_of_16_prob": 62.0,
+      "quarter_prob": 0,
+      "semi_prob": 0,
+      "final_prob": 0,
+      "champion_prob": 0
+    },
+    "Italy": {
+      "round_of_16_prob": 63.0,
+      "quarter_prob": 0,
+      "semi_prob": 0,
+      "final_prob": 0,
+      "champion_prob": 0
+    },
+    "Switzerland": {
+      "round_of_16_prob": 53.4,
+      "quarter_prob": 0,
+      "semi_prob": 0,
+      "final_prob": 0,
+      "champion_prob": 0
+    },
+    "Nigeria": {
+      "round_of_16_prob": 43.7,
+      "quarter_prob": 0,
+      "semi_prob": 0,
+      "final_prob": 0,
+      "champion_prob": 0
+    },
+    "Morocco": {
+      "round_of_16_prob": 55.8,
+      "quarter_prob": 0,
+      "semi_prob": 0,
+      "final_prob": 0,
+      "champion_prob": 0
+    },
+    "Ukraine": {
+      "round_of_16_prob": 50.1,
+      "quarter_prob": 0,
+      "semi_prob": 0,
+      "final_prob": 0,
+      "champion_prob": 0
+    },
+    "Paraguay": {
+      "round_of_16_prob": 48.9,
+      "quarter_prob": 0,
+      "semi_prob": 0,
+      "final_prob": 0,
+      "champion_prob": 0
+    },
+    "Ivory Coast": {
+      "round_of_16_prob": 45.1,
+      "quarter_prob": 0,
+      "semi_prob": 0,
+      "final_prob": 0,
+      "champion_prob": 0
+    },
+    "Germany": {
+      "round_of_16_prob": 63.8,
+      "quarter_prob": 0,
+      "semi_prob": 0,
+      "final_prob": 0,
+      "champion_prob": 0
+    }
+  }
+}

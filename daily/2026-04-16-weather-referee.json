@@ -1,0 +1,341 @@
+{
+  "date": "2026-04-16",
+  "report_type": "Weather & Referee Analysis",
+  "generated_at": "2026-04-16T18:09:27",
+  "days_until_wc": 56,
+  "wc_start_date": "2026-06-11",
+  "status_note": "世界杯尚未开始（开幕日6月11日）。本报告基于场馆气候数据和裁判配置对今日模拟比赛进行前瞻性分析。",
+  "weather_analysis": {
+    "analysis_date": "2026-04-16",
+    "note": "今日为模拟比赛,使用2026世界杯场馆4月典型气候数据",
+    "venue_conditions": {
+      "France_England": {
+        "venue": "假设北方凉爽场馆",
+        "temp": "12-16°C",
+        "humidity": "中等",
+        "wind": "10-15 km/h",
+        "risk": "低",
+        "condition": "多云"
+      },
+      "Spain_Germany": {
+        "venue": "假设中等温度场馆",
+        "temp": "15-22°C",
+        "humidity": "低",
+        "wind": "5-10 km/h",
+        "risk": "低",
+        "condition": "晴朗"
+      },
+      "Brazil_Argentina": {
+        "venue": "假设Miami场馆",
+        "temp": "22-26°C",
+        "humidity": "高",
+        "wind": "15-20 km/h",
+        "risk": "中高",
+        "condition": "晴朗"
+      },
+      "Portugal_Netherlands": {
+        "venue": "假设温热场馆",
+        "temp": "16-20°C",
+        "humidity": "中高",
+        "wind": "15-20 km/h",
+        "risk": "中",
+        "condition": "多云"
+      },
+      "Italy_Belgium": {
+        "venue": "假设温和场馆",
+        "temp": "14-18°C",
+        "humidity": "中等",
+        "wind": "8-12 km/h",
+        "risk": "低",
+        "condition": "晴朗"
+      }
+    },
+    "key_weather_factors": {
+      "temperature_impact": "高温(25°C+)导致体能下降15-20%,适合控球球队",
+      "humidity_impact": "高湿度增加脱水风险,影响耐力型球队",
+      "wind_impact": "强风(20km/h+)影响传球精度,利好防守反击"
+    },
+    "risk_assessment": {
+      "France_England": {
+        "risk_level": "低",
+        "primary_factors": [
+          "凉爽气候有利于两队发挥"
+        ]
+      },
+      "Spain_Germany": {
+        "risk_level": "低",
+        "primary_factors": [
+          "中等温度,控球球队略占优"
+        ]
+      },
+      "Brazil_Argentina": {
+        "risk_level": "中高",
+        "primary_factors": [
+          "Miami湿度高,南美球队适应能力强"
+        ]
+      },
+      "Portugal_Netherlands": {
+        "risk_level": "中",
+        "primary_factors": [
+          "温度适宜,但两队风格不同"
+        ]
+      },
+      "Italy_Belgium": {
+        "risk_level": "低",
+        "primary_factors": [
+          "温和气候,充分发挥"
+        ]
+      }
+    }
+  },
+  "referee_analysis": {
+    "note": "今日假设裁判分配,基于2026世界杯裁判名单风格匹配",
+    "assigned_referees": [
+      {
+        "match": "France vs England",
+        "referee": "Slavko Vincic",
+        "style": "宽松",
+        "reason": "两队身体流打法,宽松裁判利于发挥"
+      },
+      {
+        "match": "Spain vs Germany",
+        "referee": "Clément Turpin",
+        "style": "均衡",
+        "reason": "技术流派对决,需要公正执法"
+      },
+      {
+        "match": "Brazil vs Argentina",
+        "referee": "Facundo Tello",
+        "style": "均衡",
+        "reason": "南美内战,本土裁判更合适"
+      },
+      {
+        "match": "Portugal vs Netherlands",
+        "referee": "Michael Oliver",
+        "style": "严格",
+        "reason": "严格执法防止激烈对抗失控"
+      },
+      {
+        "match": "Italy vs Belgium",
+        "referee": "Raphael Claus",
+        "style": "均衡",
+        "reason": "意大利技术流,需要平衡执法"
+      }
+    ],
+    "style_benefits": {
+      "严格裁判": [
+        "西班牙",
+        "巴西",
+        "意大利"
+      ],
+      "宽松裁判": [
+        "法国",
+        "英格兰",
+        "德国",
+        "荷兰",
+        "比利时",
+        "葡萄牙"
+      ],
+      "均衡裁判": [
+        "阿根廷",
+        "西班牙",
+        "意大利"
+      ]
+    }
+  },
+  "combined_analysis": [
+    {
+      "match": "France vs England",
+      "prediction": "France 40.3% | Draw 34.0% | England 25.8%",
+      "xG": "France 2.46 vs England 1.87",
+      "venue": "假设北方凉爽场馆",
+      "weather": {
+        "venue": "假设北方凉爽场馆",
+        "temp": "12-16°C",
+        "humidity": "中等",
+        "wind": "10-15 km/h",
+        "risk": "低",
+        "condition": "多云"
+      },
+      "referee": {
+        "match": "France vs England",
+        "referee": "Slavko Vincic",
+        "style": "宽松",
+        "reason": "两队身体流打法,宽松裁判利于发挥"
+      },
+      "home_team_style": "反击型",
+      "away_team_style": "身体流",
+      "weather_impact": {
+        "home": 2,
+        "away": 2
+      },
+      "ref_impact": {
+        "home": 2,
+        "away": 2
+      },
+      "combined_impact": {
+        "home": 4,
+        "away": 4
+      },
+      "favored_by_conditions": "neutral",
+      "key_factors": [
+        "Slavko Vincic宽松执法,身体对抗多的球队占优"
+      ]
+    },
+    {
+      "match": "Spain vs Germany",
+      "prediction": "Spain 38.3% | Draw 29.5% | Germany 32.2%",
+      "xG": "Spain 2.78 vs Germany 2.18",
+      "venue": "假设中等温度场馆",
+      "weather": {
+        "venue": "假设中等温度场馆",
+        "temp": "15-22°C",
+        "humidity": "低",
+        "wind": "5-10 km/h",
+        "risk": "低",
+        "condition": "晴朗"
+      },
+      "referee": {
+        "match": "Spain vs Germany",
+        "referee": "Clément Turpin",
+        "style": "均衡",
+        "reason": "技术流派对决,需要公正执法"
+      },
+      "home_team_style": "控球型",
+      "away_team_style": "高压踢法",
+      "weather_impact": {
+        "home": 0,
+        "away": 2
+      },
+      "ref_impact": {
+        "home": 0,
+        "away": 0
+      },
+      "combined_impact": {
+        "home": 0,
+        "away": 2
+      },
+      "favored_by_conditions": "Germany",
+      "key_factors": [
+        "环境条件对客队Germany有利(+2%)",
+        "Clément Turpin均衡执法,双方公平"
+      ]
+    },
+    {
+      "match": "Brazil vs Argentina",
+      "prediction": "Brazil 39.5% | Draw 43.7% | Argentina 16.8%",
+      "xG": "Brazil 2.95 vs Argentina 2.15",
+      "venue": "假设Miami场馆",
+      "weather": {
+        "venue": "假设Miami场馆",
+        "temp": "22-26°C",
+        "humidity": "高",
+        "wind": "15-20 km/h",
+        "risk": "中高",
+        "condition": "晴朗"
+      },
+      "referee": {
+        "match": "Brazil vs Argentina",
+        "referee": "Facundo Tello",
+        "style": "均衡",
+        "reason": "南美内战,本土裁判更合适"
+      },
+      "home_team_style": "技术流",
+      "away_team_style": "经验型",
+      "weather_impact": {
+        "home": 3,
+        "away": 3
+      },
+      "ref_impact": {
+        "home": 0,
+        "away": 0
+      },
+      "combined_impact": {
+        "home": 3,
+        "away": 3
+      },
+      "favored_by_conditions": "neutral",
+      "key_factors": [
+        "高湿度/高温环境下,南美球队体能优势明显",
+        "Facundo Tello均衡执法,双方公平"
+      ]
+    },
+    {
+      "match": "Portugal vs Netherlands",
+      "prediction": "Portugal 37.4% | Draw 34.0% | Netherlands 28.6%",
+      "xG": "Portugal 2.22 vs Netherlands 1.60",
+      "venue": "假设温热场馆",
+      "weather": {
+        "venue": "假设温热场馆",
+        "temp": "16-20°C",
+        "humidity": "中高",
+        "wind": "15-20 km/h",
+        "risk": "中",
+        "condition": "多云"
+      },
+      "referee": {
+        "match": "Portugal vs Netherlands",
+        "referee": "Michael Oliver",
+        "style": "严格",
+        "reason": "严格执法防止激烈对抗失控"
+      },
+      "home_team_style": "边路流",
+      "away_team_style": "控球型",
+      "weather_impact": {
+        "home": 0,
+        "away": 2
+      },
+      "ref_impact": {
+        "home": 0,
+        "away": 0
+      },
+      "combined_impact": {
+        "home": 0,
+        "away": 2
+      },
+      "favored_by_conditions": "Netherlands",
+      "key_factors": [
+        "环境条件对客队Netherlands有利(+2%)",
+        "Michael Oliver严格执法,技术型球队占优"
+      ]
+    },
+    {
+      "match": "Italy vs Belgium",
+      "prediction": "Italy 50.2% | Draw 34.9% | Belgium 14.9%",
+      "xG": "Italy 1.80 vs Belgium 1.92",
+      "venue": "假设温和场馆",
+      "weather": {
+        "venue": "假设温和场馆",
+        "temp": "14-18°C",
+        "humidity": "中等",
+        "wind": "8-12 km/h",
+        "risk": "低",
+        "condition": "晴朗"
+      },
+      "referee": {
+        "match": "Italy vs Belgium",
+        "referee": "Raphael Claus",
+        "style": "均衡",
+        "reason": "意大利技术流,需要平衡执法"
+      },
+      "home_team_style": "整体型",
+      "away_team_style": "个人型",
+      "weather_impact": {
+        "home": 0,
+        "away": 0
+      },
+      "ref_impact": {
+        "home": 0,
+        "away": 0
+      },
+      "combined_impact": {
+        "home": 0,
+        "away": 0
+      },
+      "favored_by_conditions": "neutral",
+      "key_factors": [
+        "Raphael Claus均衡执法,双方公平"
+      ]
+    }
+  ]
+}

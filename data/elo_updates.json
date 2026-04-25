@@ -1,0 +1,39 @@
+{
+  "updates": [
+    {
+      "timestamp": "2026-04-15T22:00:00",
+      "match": "Arsenal 2-1 Liverpool",
+      "stage": "premier_league",
+      "elo_changes": {
+        "Arsenal": {
+          "before": 1845,
+          "after": 1860,
+          "change": 15
+        },
+        "Liverpool": {
+          "before": 1820,
+          "after": 1805,
+          "change": -15
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-16T22:00:00",
+      "match": "Manchester City 3-0 Chelsea",
+      "stage": "premier_league",
+      "elo_changes": {
+        "Manchester City": {
+          "before": 1900,
+          "after": 1920,
+          "change": 20
+        },
+        "Chelsea": {
+          "before": 1750,
+          "after": 1730,
+          "change": -20
+        }
+      }
+    }
+  ],
+  "last_update": "2026-04-18T18:37:13.553818"
+}

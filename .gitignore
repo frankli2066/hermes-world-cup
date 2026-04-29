@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Logs
+*.log
+logs/
+
+# Local config (contains API keys)
+data/api-keys.json
+data/*_local.json
+
+# Cache files
+*.cache
+.cache/
+*.json.bak
+
+# Model files (too large for git)
+models/*.pkl
+models/*.pth
+models/*.h5
+
+# Images (can be regenerated)
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# OS files
+Thumbs.db

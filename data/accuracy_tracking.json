@@ -1,0 +1,42 @@
+{
+  "cumulative": {
+    "total_predictions": 40,
+    "total_correct": 19,
+    "overall_accuracy": 47.5,
+    "score_exact_matches": 3,
+    "score_accuracy": 7.5,
+    "high_confidence_correct": 8,
+    "high_confidence_total": 19,
+    "high_confidence_accuracy": 42.1,
+    "medium_confidence_correct": 11,
+    "medium_confidence_total": 21,
+    "medium_confidence_accuracy": 52.4
+  },
+  "daily_accuracy": [
+    {"date": "2026-04-10~14", "predictions": 6, "correct": 3, "accuracy": 50.0},
+    {"date": "2026-04-20", "predictions": 2, "correct": 1, "accuracy": 50.0},
+    {"date": "2026-04-21", "predictions": 2, "correct": 0, "accuracy": 0.0},
+    {"date": "2026-04-23", "predictions": 6, "correct": 4, "accuracy": 66.7},
+    {"date": "2026-04-24", "predictions": 3, "correct": 1, "accuracy": 33.3},
+    {"date": "2026-04-26", "predictions": 18, "correct": 8, "accuracy": 44.4},
+    {"date": "2026-04-28", "predictions": 3, "correct": 2, "accuracy": 66.7}
+  ],
+  "model_parameters": {
+    "high_confidence_threshold_home": 55,
+    "high_confidence_threshold_away": 55,
+    "draw_prob_ceiling": 25,
+    "home_underdog_factor": 1.15,
+    "away_underdog_enabled": true,
+    "confidence_channels": {
+      "🟣": "极高 ≥65%",
+      "🟢": "高 ≥55%",
+      "🟡": "中 35-55%",
+      "🔴": "低 <35%"
+    }
+  },
+  "last_updated": "2026-04-28T23:00:00+08:00",
+  "model_version": "v4.3",
+  "baseline_accuracy": 54.5,
+  "current_deviation": -7.0,
+  "grade": "C+"
+}

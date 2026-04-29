@@ -1,0 +1,340 @@
+{
+  "date": "2026-04-26",
+  "generated_at": "2026-04-26T12:51:55.650113",
+  "predictions": [
+    {
+      "league": "🇪🇸 西甲",
+      "home_cn": "瓦伦西亚",
+      "away_cn": "赫罗纳",
+      "home": "Valencia",
+      "away": "Girona",
+      "home_prob": 36,
+      "draw_prob": 27,
+      "away_prob": 37,
+      "result": "客胜 (赫罗纳)",
+      "confidence": "🟡",
+      "scores": [
+        "0-0 (19%)",
+        "0-1 (17%)",
+        "1-0 (17%)"
+      ],
+      "over_25": 19
+    },
+    {
+      "league": "🇪🇸 西甲",
+      "home_cn": "马竞",
+      "away_cn": "毕尔巴鄂",
+      "home": "Atl. Madrid",
+      "away": "Ath Bilbao",
+      "home_prob": 50,
+      "draw_prob": 27,
+      "away_prob": 23,
+      "result": "主胜 (马竞)",
+      "confidence": "🟢",
+      "scores": [
+        "1-0 (24%)",
+        "2-0 (18%)",
+        "0-0 (15%)"
+      ],
+      "over_25": 20
+    },
+    {
+      "league": "🇪🇸 西甲",
+      "home_cn": "巴列卡诺",
+      "away_cn": "皇社",
+      "home": "Rayo Vallecano",
+      "away": "Real Sociedad",
+      "home_prob": 21,
+      "draw_prob": 27,
+      "away_prob": 52,
+      "result": "客胜 (皇社)",
+      "confidence": "🟡",
+      "scores": [
+        "0-1 (28%)",
+        "0-2 (18%)",
+        "0-0 (15%)"
+      ],
+      "over_25": 19
+    },
+    {
+      "league": "🇪🇸 西甲",
+      "home_cn": "奥维耶多",
+      "away_cn": "埃尔切",
+      "home": "Oviedo",
+      "away": "Elche",
+      "home_prob": 38,
+      "draw_prob": 27,
+      "away_prob": 35,
+      "result": "主胜 (奥维耶多)",
+      "confidence": "🟡",
+      "scores": [
+        "1-0 (19%)",
+        "0-0 (19%)",
+        "1-1 (16%)"
+      ],
+      "over_25": 18
+    },
+    {
+      "league": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 英超",
+      "home_cn": "阿森纳",
+      "away_cn": "纽卡斯尔",
+      "home": "Arsenal",
+      "away": "Newcastle",
+      "home_prob": 52,
+      "draw_prob": 27,
+      "away_prob": 21,
+      "result": "主胜 (阿森纳)",
+      "confidence": "🟢",
+      "scores": [
+        "1-0 (26%)",
+        "2-0 (20%)",
+        "0-0 (15%)"
+      ],
+      "over_25": 21
+    },
+    {
+      "league": "🇮🇹 意甲",
+      "home_cn": "博洛尼亚",
+      "away_cn": "罗马",
+      "home": "Bologna",
+      "away": "AS Roma",
+      "home_prob": 30,
+      "draw_prob": 27,
+      "away_prob": 43,
+      "result": "客胜 (罗马)",
+      "confidence": "🟡",
+      "scores": [
+        "0-1 (22%)",
+        "0-0 (17%)",
+        "1-1 (16%)"
+      ],
+      "over_25": 19
+    },
+    {
+      "league": "🇮🇹 意甲",
+      "home_cn": "维罗纳",
+      "away_cn": "莱切",
+      "home": "Verona",
+      "away": "Lecce",
+      "home_prob": 38,
+      "draw_prob": 27,
+      "away_prob": 35,
+      "result": "主胜 (维罗纳)",
+      "confidence": "🟡",
+      "scores": [
+        "1-0 (19%)",
+        "0-0 (18%)",
+        "0-1 (16%)"
+      ],
+      "over_25": 18
+    },
+    {
+      "league": "🇮🇹 意甲",
+      "home_cn": "佛罗伦萨",
+      "away_cn": "萨索洛",
+      "home": "Fiorentina",
+      "away": "Sassuolo",
+      "home_prob": 49,
+      "draw_prob": 27,
+      "away_prob": 24,
+      "result": "主胜 (佛罗伦萨)",
+      "confidence": "🟢",
+      "scores": [
+        "1-0 (26%)",
+        "2-0 (16%)",
+        "0-0 (15%)"
+      ],
+      "over_25": 19
+    },
+    {
+      "league": "🇮🇹 意甲",
+      "home_cn": "热那亚",
+      "away_cn": "科莫",
+      "home": "Genoa",
+      "away": "Como",
+      "home_prob": 33,
+      "draw_prob": 27,
+      "away_prob": 40,
+      "result": "客胜 (科莫)",
+      "confidence": "🟡",
+      "scores": [
+        "0-1 (21%)",
+        "0-0 (19%)",
+        "1-1 (16%)"
+      ],
+      "over_25": 18
+    },
+    {
+      "league": "🇩🇪 德甲",
+      "home_cn": "汉堡",
+      "away_cn": "霍芬海姆",
+      "home": "Hamburger SV",
+      "away": "Hoffenheim",
+      "home_prob": 34,
+      "draw_prob": 27,
+      "away_prob": 39,
+      "result": "客胜 (霍芬海姆)",
+      "confidence": "🟡",
+      "scores": [
+        "0-1 (20%)",
+        "0-0 (18%)",
+        "1-1 (18%)"
+      ],
+      "over_25": 18
+    },
+    {
+      "league": "🇩🇪 德甲",
+      "home_cn": "斯图加特",
+      "away_cn": "不莱梅",
+      "home": "Stuttgart",
+      "away": "Werder Bremen",
+      "home_prob": 44,
+      "draw_prob": 27,
+      "away_prob": 29,
+      "result": "主胜 (斯图加特)",
+      "confidence": "🟢",
+      "scores": [
+        "1-0 (22%)",
+        "0-0 (18%)",
+        "1-1 (16%)"
+      ],
+      "over_25": 17
+    },
+    {
+      "league": "🇩🇪 德甲",
+      "home_cn": "多特",
+      "away_cn": "弗赖堡",
+      "home": "Dortmund",
+      "away": "Freiburg",
+      "home_prob": 58,
+      "draw_prob": 27,
+      "away_prob": 15,
+      "result": "主胜 (多特)",
+      "confidence": "🟢",
+      "scores": [
+        "1-0 (28%)",
+        "2-0 (25%)",
+        "0-0 (12%)"
+      ],
+      "over_25": 21
+    },
+    {
+      "league": "🇫🇷 法甲",
+      "home_cn": "昂热",
+      "away_cn": "巴黎",
+      "home": "Angers",
+      "away": "PSG",
+      "home_prob": 7,
+      "draw_prob": 26,
+      "away_prob": 67,
+      "result": "客胜 (巴黎)",
+      "confidence": "🟡",
+      "scores": [
+        "0-2 (29%)",
+        "0-1 (26%)",
+        "1-2 (9%)"
+      ],
+      "over_25": 28
+    },
+    {
+      "league": "🇫🇷 法甲",
+      "home_cn": "图卢兹",
+      "away_cn": "摩纳哥",
+      "home": "Toulouse",
+      "away": "Monaco",
+      "home_prob": 17,
+      "draw_prob": 27,
+      "away_prob": 56,
+      "result": "客胜 (摩纳哥)",
+      "confidence": "🟡",
+      "scores": [
+        "0-1 (29%)",
+        "0-2 (21%)",
+        "0-0 (12%)"
+      ],
+      "over_25": 21
+    },
+    {
+      "league": "🇫🇷 法甲",
+      "home_cn": "洛里昂",
+      "away_cn": "斯特拉斯堡",
+      "home": "Lorient",
+      "away": "Strasbourg",
+      "home_prob": 32,
+      "draw_prob": 27,
+      "away_prob": 41,
+      "result": "客胜 (斯特拉斯堡)",
+      "confidence": "🟡",
+      "scores": [
+        "0-1 (21%)",
+        "0-0 (17%)",
+        "1-1 (15%)"
+      ],
+      "over_25": 19
+    },
+    {
+      "league": "🇫🇷 法甲",
+      "home_cn": "勒阿弗尔",
+      "away_cn": "梅斯",
+      "home": "Le Havre",
+      "away": "Metz",
+      "home_prob": 42,
+      "draw_prob": 27,
+      "away_prob": 31,
+      "result": "主胜 (勒阿弗尔)",
+      "confidence": "🟡",
+      "scores": [
+        "1-0 (20%)",
+        "0-0 (18%)",
+        "1-1 (16%)"
+      ],
+      "over_25": 18
+    },
+    {
+      "league": "🇫🇷 法甲",
+      "home_cn": "巴黎",
+      "away_cn": "里尔",
+      "home": "Paris FC",
+      "away": "Lille",
+      "home_prob": 20,
+      "draw_prob": 27,
+      "away_prob": 54,
+      "result": "客胜 (里尔)",
+      "confidence": "🟡",
+      "scores": [
+        "0-1 (29%)",
+        "0-2 (19%)",
+        "0-0 (15%)"
+      ],
+      "over_25": 19
+    },
+    {
+      "league": "🇫🇷 法甲",
+      "home_cn": "雷恩",
+      "away_cn": "南特",
+      "home": "Rennes",
+      "away": "Nantes",
+      "home_prob": 53,
+      "draw_prob": 27,
+      "away_prob": 20,
+      "result": "主胜 (雷恩)",
+      "confidence": "🟢",
+      "scores": [
+        "1-0 (28%)",
+        "2-0 (20%)",
+        "0-0 (14%)"
+      ],
+      "over_25": 21
+    }
+  ],
+  "results_collected": true,
+  "results_file": "results/results-2026-04-26.json",
+  "results_summary": {
+    "confirmed": 18,
+    "wdl_correct": 8,
+    "wdl_accuracy": "44.4%",
+    "score_correct": 2,
+    "pending": 0,
+    "collected_at": "2026-04-27T23:00:00+08:00"
+  }
+}

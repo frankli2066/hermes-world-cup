@@ -1,0 +1,25 @@
+{
+  "date": "2026-04-21",
+  "timestamp": "2026-04-21T20:00:00+08:00",
+  "status": "pre_tournament",
+  "note": "2026世界杯尚未开始（2026年6月11日-7月19日），今日无实际比赛",
+  "data_source": "Polymarket市场数据 (2026-04-21 18:03)",
+  "polymarket_champion_odds": [
+    {"rank": 1, "team": "France", "prob": 16.40, "one_day_change": "+0.35%", "volume": 16309244.72},
+    {"rank": 2, "team": "Spain", "prob": 16.15, "one_day_change": "+0.10%", "volume": 15059160.78},
+    {"rank": 3, "team": "England", "prob": 11.05, "one_day_change": "0.00%", "volume": 12311893.96},
+    {"rank": 4, "team": "Argentina", "prob": 8.95, "one_day_change": "+0.10%", "volume": 12659409.28},
+    {"rank": 5, "team": "Brazil", "prob": 8.50, "one_day_change": "+0.05%", "volume": 12694312.99},
+    {"rank": 6, "team": "Portugal", "prob": 7.75, "one_day_change": "+0.40%", "volume": 14069942.34},
+    {"rank": 7, "team": "Germany", "prob": 5.35, "one_day_change": "+0.10%", "volume": 12121545.31},
+    {"rank": 8, "team": "Netherlands", "prob": 3.35, "one_day_change": "+0.10%", "volume": 14534920.59},
+    {"rank": 9, "team": "Norway", "prob": 2.35, "one_day_change": "0.00%", "volume": 12828859.89},
+    {"rank": 10, "team": "Japan", "prob": 2.15, "one_day_change": "-0.10%", "volume": 16146821.65}
+  ],
+  "market_summary": {
+    "total_volume": 703318432.27,
+    "top_favorites": ["France", "Spain", "England"],
+    "trending_up": ["Portugal (+0.40%)", "France (+0.35%)", "Belgium (+0.40%)"],
+    "trending_down": ["Japan (-0.10%)"]
+  }
+}

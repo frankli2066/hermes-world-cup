@@ -18,6 +18,8 @@ TEAM_NAMES = {
     "Man City": "曼城",
     "Manchester City": "曼城",
     "Man United": "曼联",
+    "Man Utd": "曼联",
+    "Manchester Utd": "曼联",
     "Manchester United": "曼联",
     "Newcastle": "纽卡斯尔",
     "Nott'm Forest": "诺丁汉森林",

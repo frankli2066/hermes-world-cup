@@ -70,6 +70,14 @@ def add_prediction_result(prediction: dict, result: dict):
     """
     history = load_accuracy_history()
 
+    # 检查是否重复（同一日期、主队、客队、联赛）
+    match_key = f"{prediction.get('date')}_{prediction.get('home')}_{prediction.get('away')}_{prediction.get('league')}"
+    existing_keys = [f"{p.get('date')}_{p.get('home')}_{p.get('away')}_{p.get('league')}" 
+                     for p in history.get('predictions', [])]
+    if match_key in existing_keys:
+        print(f"⚠️ 跳过重复记录: {prediction.get('home')} vs {prediction.get('away')} ({prediction.get('date')})")
+        return None
+
     # 判断是否命中
     wdl_hit = prediction['predicted_winner'] == result['actual_winner']
     score_hit = result['actual_score'] in prediction.get('top_scores', [])

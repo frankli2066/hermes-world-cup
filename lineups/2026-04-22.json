@@ -1,0 +1,40 @@
+{
+  "date": "2026-04-22",
+  "timestamp": "2026-04-22T20:00:00+08:00",
+  "status": "pre_tournament",
+  "days_until_world_cup": 50,
+  "tournament_dates": "2026年6月11日-7月19日",
+  "data_source": "BBC Sport World Cup主页 + Wikipedia 2026世界杯阵容",
+  "note": "世界杯尚未开始，今日为赛前准备阶段，无实际比赛",
+  "latest_news": {
+    "bbc_sport": [
+      {"title": "50 days until World Cup - pick your favourite kits", "posted": "4 hours ago", "category": "World Cup"},
+      {"title": "Fans being fleeced by £111 World Cup train tickets - FSA", "posted": "4 days ago", "category": "World Cup"},
+      {"title": "Scotland confirm final World Cup warm-up against Bolivia", "posted": "9 April", "category": "Scotland Men"},
+      {"title": "Alexander-Arnord fails to ease Tuchel concerns as Kane stars", "posted": "8 April", "category": "Football"},
+      {"title": "Ekitike to miss rest of season and World Cup", "posted": "16 April", "category": "Football"},
+      {"title": "Agyemang to miss World Cup with Achilles injury", "posted": "7 April", "category": "Football"},
+      {"title": "Oliver and Taylor selected as World Cup referees", "posted": "9 April", "category": "World Cup"}
+    ]
+  },
+  "confirmed_injuries": [
+    {"player": "Hugo Ekitike", "team": "France", "injury": "未具体说明", "status": "将缺席本赛季剩余比赛和2026世界杯", "source": "BBC Sport, 2026-04-16"},
+    {"player": "Patrick Agyemang", "team": "England", "injury": "跟腱断裂 (Achilles)", "status": "将缺席2026世界杯", "source": "BBC Sport, 2026-04-07"}
+  ],
+  "world_cup_squad_info": {
+    "provisional_release": "2026年5月11日（35-55人名单，不公开）",
+    "final_squad_deadline": "2026年6月1日（最终23-26人名单）",
+    "tournament_start": "2026年6月11日",
+    "squad_size": "最多26人，包括3名守门员"
+  },
+  "polymarket_champion_odds_top5": [
+    {"rank": 1, "team": "France", "prob": 16.40},
+    {"rank": 2, "team": "Spain", "prob": 16.15},
+    {"rank": 3, "team": "England", "prob": 11.05},
+    {"rank": 4, "team": "Argentina", "prob": 8.95},
+    {"rank": 5, "team": "Brazil", "prob": 8.50}
+  ],
+  "warm_up_matches": [
+    {"home": "Scotland", "away": "Bolivia", "date": "2026年6月5日", "venue": "Hampden Park", "broadcast": "BBC现场直播"}
+  ]
+}

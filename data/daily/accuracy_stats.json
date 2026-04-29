@@ -1,0 +1,31 @@
+{
+  "total": 29,
+  "correct": 15,
+  "score_correct": 7,
+  "half_correct": 0,
+  "by_league": {
+    "EPL": {
+      "total": 5,
+      "correct": 3
+    },
+    "La Liga": {
+      "total": 11,
+      "correct": 5
+    },
+    "Serie A": {
+      "total": 6,
+      "correct": 2
+    },
+    "Bundesliga": {
+      "total": 3,
+      "correct": 2
+    },
+    "Ligue 1": {
+      "total": 4,
+      "correct": 3
+    }
+  },
+  "win_rate": 51.7,
+  "score_rate": 24.1,
+  "half_rate": 0.0
+}

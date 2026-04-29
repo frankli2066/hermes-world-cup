@@ -1,0 +1,264 @@
+{
+  "players": {
+    "Germany": {
+      "key_players_available": 3,
+      "total_stars": 4,
+      "injuries": ["Manuel Neuer(轻度)"],
+      "suspensions": [],
+      "availability": "good",
+      "star_players": ["Kai Havertz", "Jamal Musiala", "Florian Wirtz"]
+    },
+    "Scotland": {
+      "key_players_available": 2,
+      "total_stars": 2,
+      "injuries": [],
+      "suspensions": [],
+      "availability": "good",
+      "star_players": ["Andrew Robertson", "John McGinn"]
+    },
+    "Spain": {
+      "key_players_available": 3,
+      "total_stars": 4,
+      "injuries": [],
+      "suspensions": [],
+      "availability": "good",
+      "star_players": ["Rodri", "Pedri", "Lamine Yamal"]
+    },
+    "Italy": {
+      "key_players_available": 2,
+      "total_stars": 3,
+      "injuries": ["Federico Chiesa(十字韧带)"],
+      "suspensions": [],
+      "availability": "suspect",
+      "star_players": ["Gianluigi Donnarumma", "Nicolo Barella"]
+    },
+    "Netherlands": {
+      "key_players_available": 3,
+      "total_stars": 4,
+      "injuries": [],
+      "suspensions": [],
+      "availability": "good",
+      "star_players": ["Virgil van Dijk", "Xavi Simons", " Cody Gakpo"]
+    },
+    "France": {
+      "key_players_available": 3,
+      "total_stars": 5,
+      "injuries": ["Kylian Mbappe(轻度)"],
+      "suspensions": [],
+      "availability": "suspect",
+      "star_players": ["Kylian Mbappe", "Antoine Griezmann", "Ousmane Dembele"]
+    }
+  },
+  "recent_form": {
+    "Germany": {
+      "form_rating": 0.75,
+      "trend": "improving",
+      "last_5_results": ["win", "win", "draw", "win", "win"],
+      "goals_scored_avg": 2.2,
+      "goals_conceded_avg": 0.8,
+      "clean_sheets": 3,
+      "confidence": "high"
+    },
+    "Scotland": {
+      "form_rating": 0.45,
+      "trend": "stable",
+      "last_5_results": ["loss", "draw", "win", "loss", "draw"],
+      "goals_scored_avg": 1.0,
+      "goals_conceded_avg": 1.5,
+      "clean_sheets": 1,
+      "confidence": "low"
+    },
+    "Spain": {
+      "form_rating": 0.80,
+      "trend": "improving",
+      "last_5_results": ["win", "win", "win", "draw", "win"],
+      "goals_scored_avg": 2.5,
+      "goals_conceded_avg": 0.5,
+      "clean_sheets": 4,
+      "confidence": "high"
+    },
+    "Italy": {
+      "form_rating": 0.55,
+      "trend": "stable",
+      "last_5_results": ["draw", "win", "loss", "draw", "win"],
+      "goals_scored_avg": 1.5,
+      "goals_conceded_avg": 1.2,
+      "clean_sheets": 2,
+      "confidence": "medium"
+    },
+    "Netherlands": {
+      "form_rating": 0.70,
+      "trend": "stable",
+      "last_5_results": ["win", "draw", "win", "win", "loss"],
+      "goals_scored_avg": 2.0,
+      "goals_conceded_avg": 1.0,
+      "clean_sheets": 2,
+      "confidence": "medium"
+    },
+    "France": {
+      "form_rating": 0.65,
+      "trend": "declining",
+      "last_5_results": ["win", "draw", "loss", "win", "draw"],
+      "goals_scored_avg": 1.8,
+      "goals_conceded_avg": 1.2,
+      "clean_sheets": 1,
+      "confidence": "medium"
+    }
+  },
+  "tactics": {
+    "Germany": {
+      "preferred_formation": "4-2-3-1",
+      "formation_variations": ["4-3-3", "3-4-3"],
+      "pressing_intensity": "high",
+      "build_up_style": "possession",
+      "defensive_line": "high",
+      "set_piece_strength": 0.6
+    },
+    "Scotland": {
+      "preferred_formation": "4-5-1",
+      "formation_variations": ["5-4-1", "4-4-2"],
+      "pressing_intensity": "low",
+      "build_up_style": "direct",
+      "defensive_line": "low",
+      "set_piece_strength": 0.5
+    },
+    "Spain": {
+      "preferred_formation": "4-3-3",
+      "formation_variations": ["4-2-3-1", "3-4-3"],
+      "pressing_intensity": "high",
+      "build_up_style": "possession",
+      "defensive_line": "high",
+      "set_piece_strength": 0.5
+    },
+    "Italy": {
+      "preferred_formation": "4-3-3",
+      "formation_variations": ["3-5-2", "4-4-2"],
+      "pressing_intensity": "medium",
+      "build_up_style": "possession",
+      "defensive_line": "medium",
+      "set_piece_strength": 0.7
+    },
+    "Netherlands": {
+      "preferred_formation": "4-3-3",
+      "formation_variations": ["3-4-3", "4-2-3-1"],
+      "pressing_intensity": "high",
+      "build_up_style": "possession",
+      "defensive_line": "high",
+      "set_piece_strength": 0.6
+    },
+    "France": {
+      "preferred_formation": "4-3-3",
+      "formation_variations": ["4-2-3-1", "3-4-3"],
+      "pressing_intensity": "medium",
+      "build_up_style": "counter",
+      "defensive_line": "medium",
+      "set_piece_strength": 0.6
+    }
+  },
+  "team_morale": {
+    "Germany": {
+      "coach_change": false,
+      "coach_change_date": null,
+      "internal_issues": false,
+      "issues_desc": "",
+      "morale_rating": 0.8,
+      "unity": "good",
+      "motivation_factors": ["主场优势", "新阵型磨合"]
+    },
+    "Scotland": {
+      "coach_change": false,
+      "coach_change_date": null,
+      "internal_issues": false,
+      "issues_desc": "",
+      "morale_rating": 0.5,
+      "unity": "good",
+      "motivation_factors": ["首次参赛"]
+    },
+    "Spain": {
+      "coach_change": true,
+      "coach_change_date": "2024-09",
+      "internal_issues": false,
+      "issues_desc": "",
+      "morale_rating": 0.85,
+      "unity": "good",
+      "motivation_factors": ["新帅上任", "年轻阵容渴望证明"]
+    },
+    "Italy": {
+      "coach_change": false,
+      "coach_change_date": null,
+      "internal_issues": false,
+      "issues_desc": "",
+      "morale_rating": 0.6,
+      "unity": "medium",
+      "motivation_factors": []
+    },
+    "Netherlands": {
+      "coach_change": false,
+      "coach_change_date": null,
+      "internal_issues": false,
+      "issues_desc": "",
+      "morale_rating": 0.75,
+      "unity": "good",
+      "motivation_factors": []
+    },
+    "France": {
+      "coach_change": false,
+      "coach_change_date": null,
+      "internal_issues": true,
+      "issues_desc": "Mbappe与教头有轻微分歧",
+      "morale_rating": 0.65,
+      "unity": "medium",
+      "motivation_factors": []
+    }
+  },
+  "venues": {
+    "Germany": {
+      "is_home": true,
+      "stadium_name": "安联球场",
+      "fan_atmosphere": 0.9,
+      "pitch_condition": "good",
+      "travel_distance": 0,
+      "weather_advantage": 1.0
+    },
+    "Scotland": {
+      "is_home": false,
+      "stadium_name": "未知",
+      "fan_atmosphere": 0.3,
+      "pitch_condition": "good",
+      "travel_distance": 12,
+      "weather_advantage": 0.3
+    },
+    "Spain": {
+      "is_home": false,
+      "stadium_name": "未知",
+      "fan_atmosphere": 0.4,
+      "pitch_condition": "good",
+      "travel_distance": 8,
+      "weather_advantage": 0.5
+    },
+    "Italy": {
+      "is_home": false,
+      "stadium_name": "未知",
+      "fan_atmosphere": 0.4,
+      "pitch_condition": "good",
+      "travel_distance": 6,
+      "weather_advantage": 0.5
+    },
+    "Netherlands": {
+      "is_home": false,
+      "stadium_name": "未知",
+      "fan_atmosphere": 0.4,
+      "pitch_condition": "good",
+      "travel_distance": 5,
+      "weather_advantage": 0.6
+    },
+    "France": {
+      "is_home": false,
+      "stadium_name": "未知",
+      "fan_atmosphere": 0.4,
+      "pitch_condition": "good",
+      "travel_distance": 4,
+      "weather_advantage": 0.6
+    }
+  }
+}

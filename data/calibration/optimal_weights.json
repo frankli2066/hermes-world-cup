@@ -1,33 +1,81 @@
 {
-  "elo_weight": 0.30,
-  "fifa_weight": 0.15,
+  "elo_weight": 0.20,
+  "fifa_weight": 0.10,
   "form_weight": 0.25,
   "experience_weight": 0.15,
-  "market_weight": 0.15,
+  "market_weight": 0.60,
+  "max_probability": 0.65,
   "home_advantage": {
     "default": 65,
     "premier_league": 68,
-    "la_liga": 65,
+    "la_liga": 57,
     "serie_a": 62,
     "bundesliga": 60,
     "ligue_1": 65,
     "world_cup": 50,
     "euro_cup": 55
   },
-  "note": "优化后的权重配置 (2026-04-18)",
+  "note": "优化后的权重配置 (2026-04-26 23:00) - 基于当日13场实际结果微调",
   "optimizations": [
-    "提高form_weight: 0.20 -> 0.25 (近期状态更重要)",
-    "降低fifa_weight: 0.20 -> 0.15 (FIFA排名滞后)",
-    "Elo基础维持: 0.30",
-    "主场优势按联赛差异化配置",
-    "添加平局概率模型（v2.0修复）"
+    "提高market_weight: 0.15 -> 0.60 (市场赔率是最强预测因子)",
+    "降低elo_weight: 0.30 -> 0.20",
+    "降低fifa_weight: 0.15 -> 0.10",
+    "设置max_probability: 0.70 -> 0.65 (降低过度自信, 04-26高置信仅50%)",
+    "平局修正系数: 0.05 -> 0.07 (04-26平局失误率偏高)",
+    "La Liga主场优势: 65 -> 57 (04-26西甲33.3%准确率, 主场优势被高估)",
+    "基础平局概率表针对世界杯调整 (2026-04-26)",
+    "Elo差>180时提高平局概率（反转逻辑）",
+    "淘汰赛添加平局推荐逻辑",
+    "客队赢预测轻微矫正"
   ],
-  "updated_at": "2026-04-18T08:15:00",
+  "live_results_feedback": {
+    "date": "2026-04-26",
+    "confirmed_matches": 13,
+    "wdl_accuracy": "61.5%",
+    "score_accuracy": "15.4%",
+    "high_confidence_accuracy": "50.0%",
+    "medium_confidence_accuracy": "71.4%",
+    "by_league": {
+      "la_liga": "33.3%",
+      "epl": "100.0%",
+      "serie_a": "50.0%",
+      "bundesliga": "50.0%",
+      "ligue_1": "100.0%"
+    },
+    "key_issues": [
+      "🟢高置信仅50%,远低于🟡的71% — 置信度标签需重新校准",
+      "平局预测: 5场失误中3场涉及平局判断错误",
+      "西甲主场优势被高估(已从65降至57)",
+      "佛罗伦萨0-0萨索洛: 🟢高置信主胜打出0-0闷平,模型需要降权"
+    ],
+    "parameter_changes": {
+      "max_probability": "0.70 → 0.65",
+      "draw_correction_factor": "0.05 → 0.07",
+      "la_liga_home_advantage": "65 → 57"
+    }
+  },
+  "backtest_results": {
+    "date": "2026-04-26",
+    "total_accuracy": "61.9%",
+    "total_matches": 299,
+    "recommended_accuracy": "78.9%",
+    "high_confidence": "83.7%",
+    "medium_confidence": "74.5%",
+    "stage_accuracy": {
+      "group": "57.6%",
+      "round_of_16": "77.5%",
+      "quarter": "70.0%",
+      "semi": "80.0%",
+      "final": "100.0%"
+    }
+  },
+  "updated_at": "2026-04-26T15:07:00Z",
   "draw_model": {
     "base_rate": 0.27,
     "low_elo_diff_bonus": 0.04,
     "high_elo_diff_penalty": -0.06,
     "form_streak_reduction": -0.015,
-    "h2h_draw_bonus": 0.025
+    "h2h_draw_bonus": 0.025,
+    "correction_factor": 0.07
   }
 }

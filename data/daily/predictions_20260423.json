@@ -1,0 +1,962 @@
+{
+  "created_at": "2026-04-23T06:02:49.868047",
+  "matches": [
+    {
+      "date": "2026-04-23",
+      "home": "Bournemouth",
+      "away": "Leeds",
+      "league": "EPL",
+      "kickoff_utc": "03:00",
+      "kickoff_beijing": "11:00",
+      "end_time_beijing": "13:00",
+      "odds_home": "",
+      "odds_draw": "",
+      "odds_away": ""
+    },
+    {
+      "date": "2026-04-23",
+      "home": "Burnley",
+      "away": "Manchester City",
+      "league": "EPL",
+      "kickoff_utc": "03:00",
+      "kickoff_beijing": "11:00",
+      "end_time_beijing": "13:00",
+      "odds_home": "",
+      "odds_draw": "",
+      "odds_away": ""
+    },
+    {
+      "date": "2026-04-23",
+      "home": "Elche",
+      "away": "Atl. Madrid",
+      "league": "La Liga",
+      "kickoff_utc": "01:00",
+      "kickoff_beijing": "09:00",
+      "end_time_beijing": "11:00",
+      "odds_home": "",
+      "odds_draw": "",
+      "odds_away": ""
+    },
+    {
+      "date": "2026-04-23",
+      "home": "Real Sociedad",
+      "away": "Getafe",
+      "league": "La Liga",
+      "kickoff_utc": "02:00",
+      "kickoff_beijing": "10:00",
+      "end_time_beijing": "12:00",
+      "odds_home": "",
+      "odds_draw": "",
+      "odds_away": ""
+    },
+    {
+      "date": "2026-04-23",
+      "home": "Barcelona",
+      "away": "Celta Vigo",
+      "league": "La Liga",
+      "kickoff_utc": "03:30",
+      "kickoff_beijing": "11:30",
+      "end_time_beijing": "13:30",
+      "odds_home": "",
+      "odds_draw": "",
+      "odds_away": ""
+    },
+    {
+      "date": "2026-04-23",
+      "home": "PSG",
+      "away": "Nantes",
+      "league": "Ligue 1",
+      "kickoff_utc": "01:00",
+      "kickoff_beijing": "09:00",
+      "end_time_beijing": "11:00",
+      "odds_home": "",
+      "odds_draw": "",
+      "odds_away": ""
+    },
+    {
+      "date": "2026-04-24",
+      "home": "Levante",
+      "away": "Sevilla",
+      "league": "La Liga",
+      "kickoff_utc": "01:00",
+      "kickoff_beijing": "09:00",
+      "end_time_beijing": "11:00",
+      "odds_home": "",
+      "odds_draw": "",
+      "odds_away": ""
+    },
+    {
+      "date": "2026-04-24",
+      "home": "Rayo Vallecano",
+      "away": "Espanyol",
+      "league": "La Liga",
+      "kickoff_utc": "02:00",
+      "kickoff_beijing": "10:00",
+      "end_time_beijing": "12:00",
+      "odds_home": "",
+      "odds_draw": "",
+      "odds_away": ""
+    }
+  ],
+  "predictions": [
+    {
+      "home_prob": 0.37007923849896296,
+      "draw_prob": 0.29500000000000004,
+      "away_prob": 0.334920761501037,
+      "recommendation": "伯恩茅斯",
+      "confidence": "🟡 低信心",
+      "elo_diff": 0,
+      "top_scores": [
+        {
+          "score": "2-2",
+          "prob": 6.9,
+          "label": "⭐ 首选"
+        },
+        {
+          "score": "2-1",
+          "prob": 6.75,
+          "label": "🔶 次选"
+        },
+        {
+          "score": "1-2",
+          "prob": 6.6000000000000005,
+          "label": "#3"
+        },
+        {
+          "score": "1-1",
+          "prob": 6.25,
+          "label": "#4"
+        },
+        {
+          "score": "3-2",
+          "prob": 6.15,
+          "label": "#5"
+        }
+      ],
+      "home_xg": 2.16,
+      "away_xg": 2.11,
+      "half_time_predictions": [
+        "0-0",
+        "0-1",
+        "1-0"
+      ],
+      "half_time_probs": [
+        {
+          "score": "0-0",
+          "prob": 16.7
+        },
+        {
+          "score": "0-1",
+          "prob": 15.35
+        },
+        {
+          "score": "1-0",
+          "prob": 14.799999999999999
+        }
+      ],
+      "second_half_predictions": [],
+      "total_xg": 4.2,
+      "over_25_prob": 80.0,
+      "over_recommendation": "大2.5球 🟢",
+      "ht_total_xg": 1.7,
+      "ht_over_15_prob": 53.0,
+      "ht_over_recommendation": "上半场大1.5球 🟡",
+      "handicap": 0,
+      "home_form": {
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 4,
+        "goals_against": 2,
+        "points": 6,
+        "form": [
+          "W",
+          "W"
+        ],
+        "games": 2
+      },
+      "away_form": {
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 5,
+        "goals_against": 1,
+        "points": 6,
+        "form": [
+          "W",
+          "W"
+        ],
+        "games": 2
+      },
+      "h2h": {
+        "home_wins": 0,
+        "away_wins": 0,
+        "draws": 1,
+        "h2h": [
+          "D"
+        ]
+      },
+      "home_stats": {
+        "home_points_per_game": 1.3333333333333333,
+        "away_points_per_game": 1.3076923076923077,
+        "home_goal_diff": 2,
+        "away_goal_diff": -5,
+        "home_games": 12,
+        "away_games": 13
+      },
+      "away_stats": {
+        "home_points_per_game": 1.5,
+        "away_points_per_game": 0.8333333333333334,
+        "home_goal_diff": 4,
+        "away_goal_diff": -6,
+        "home_games": 12,
+        "away_games": 12
+      }
+    },
+    {
+      "home_prob": 0.30689073456985183,
+      "draw_prob": 0.27588,
+      "away_prob": 0.41722926543014816,
+      "recommendation": "曼城",
+      "confidence": "🟡 中信心",
+      "elo_diff": -490,
+      "top_scores": [
+        {
+          "score": "1-1",
+          "prob": 11.600000000000001,
+          "label": "⭐ 首选"
+        },
+        {
+          "score": "0-1",
+          "prob": 10.2,
+          "label": "🔶 次选"
+        },
+        {
+          "score": "1-0",
+          "prob": 8.799999999999999,
+          "label": "#3"
+        },
+        {
+          "score": "1-2",
+          "prob": 8.75,
+          "label": "#4"
+        },
+        {
+          "score": "2-1",
+          "prob": 8.1,
+          "label": "#5"
+        }
+      ],
+      "home_xg": 1.2,
+      "away_xg": 1.31,
+      "half_time_predictions": [
+        "0-0",
+        "1-0",
+        "0-1"
+      ],
+      "half_time_probs": [
+        {
+          "score": "0-0",
+          "prob": 37.5
+        },
+        {
+          "score": "1-0",
+          "prob": 18.6
+        },
+        {
+          "score": "0-1",
+          "prob": 17.05
+        }
+      ],
+      "second_half_predictions": [],
+      "total_xg": 2.6,
+      "over_25_prob": 50.0,
+      "over_recommendation": "小2.5球 🔴",
+      "ht_total_xg": 1.0,
+      "ht_over_15_prob": 27.0,
+      "ht_over_recommendation": "上半场小1.5球 🔴",
+      "handicap": 1.0,
+      "home_form": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "goals_for": 1,
+        "goals_against": 6,
+        "points": 0,
+        "form": [
+          "L",
+          "L"
+        ],
+        "games": 2
+      },
+      "away_form": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0,
+        "form": [],
+        "games": 0
+      },
+      "h2h": {
+        "home_wins": 0,
+        "away_wins": 0,
+        "draws": 0,
+        "h2h": []
+      },
+      "home_stats": {
+        "home_points_per_game": 0.3333333333333333,
+        "away_points_per_game": 0.6923076923076923,
+        "home_goal_diff": -13,
+        "away_goal_diff": -14,
+        "home_games": 12,
+        "away_games": 13
+      },
+      "away_stats": {
+        "home_points_per_game": 1.0,
+        "away_points_per_game": 1.0,
+        "home_goal_diff": 0,
+        "away_goal_diff": 0,
+        "home_games": 0,
+        "away_games": 0
+      }
+    },
+    {
+      "home_prob": 0.3673228956491974,
+      "draw_prob": 0.27108000000000004,
+      "away_prob": 0.3615971043508026,
+      "recommendation": "Elche",
+      "confidence": "🟡 低信心",
+      "elo_diff": -90,
+      "top_scores": [
+        {
+          "score": "1-1",
+          "prob": 13.200000000000001,
+          "label": "⭐ 首选"
+        },
+        {
+          "score": "0-1",
+          "prob": 11.450000000000001,
+          "label": "🔶 次选"
+        },
+        {
+          "score": "1-0",
+          "prob": 11.200000000000001,
+          "label": "#3"
+        },
+        {
+          "score": "0-0",
+          "prob": 9.9,
+          "label": "#4"
+        },
+        {
+          "score": "1-2",
+          "prob": 7.85,
+          "label": "#5"
+        }
+      ],
+      "home_xg": 1.19,
+      "away_xg": 1.14,
+      "half_time_predictions": [
+        "0-0",
+        "1-0",
+        "0-1"
+      ],
+      "half_time_probs": [
+        {
+          "score": "0-0",
+          "prob": 39.5
+        },
+        {
+          "score": "1-0",
+          "prob": 19.1
+        },
+        {
+          "score": "0-1",
+          "prob": 17.349999999999998
+        }
+      ],
+      "second_half_predictions": [],
+      "total_xg": 2.3,
+      "over_25_prob": 42.0,
+      "over_recommendation": "小2.5球 🔴",
+      "ht_total_xg": 0.9,
+      "ht_over_15_prob": 24.0,
+      "ht_over_recommendation": "上半场小1.5球 🔴",
+      "handicap": 0,
+      "home_form": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0,
+        "form": [],
+        "games": 0
+      },
+      "away_form": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0,
+        "form": [],
+        "games": 0
+      },
+      "h2h": {
+        "home_wins": 0,
+        "away_wins": 0,
+        "draws": 0,
+        "h2h": []
+      },
+      "home_stats": {
+        "home_points_per_game": 1.0,
+        "away_points_per_game": 1.0,
+        "home_goal_diff": 0,
+        "away_goal_diff": 0,
+        "home_games": 0,
+        "away_games": 0
+      },
+      "away_stats": {
+        "home_points_per_game": 1.0,
+        "away_points_per_game": 1.0,
+        "home_goal_diff": 0,
+        "away_goal_diff": 0,
+        "home_games": 0,
+        "away_games": 0
+      }
+    },
+    {
+      "home_prob": 0.3979153198168348,
+      "draw_prob": 0.27216,
+      "away_prob": 0.3299246801831652,
+      "recommendation": "皇社",
+      "confidence": "🟡 低信心",
+      "elo_diff": 180,
+      "top_scores": [
+        {
+          "score": "1-0",
+          "prob": 13.15,
+          "label": "⭐ 首选"
+        },
+        {
+          "score": "1-1",
+          "prob": 11.4,
+          "label": "🔶 次选"
+        },
+        {
+          "score": "0-1",
+          "prob": 10.25,
+          "label": "#3"
+        },
+        {
+          "score": "2-1",
+          "prob": 8.85,
+          "label": "#4"
+        },
+        {
+          "score": "2-0",
+          "prob": 7.75,
+          "label": "#5"
+        }
+      ],
+      "home_xg": 1.29,
+      "away_xg": 1.04,
+      "half_time_predictions": [
+        "0-0",
+        "1-0",
+        "0-1"
+      ],
+      "half_time_probs": [
+        {
+          "score": "0-0",
+          "prob": 36.9
+        },
+        {
+          "score": "1-0",
+          "prob": 20.5
+        },
+        {
+          "score": "0-1",
+          "prob": 16.400000000000002
+        }
+      ],
+      "second_half_predictions": [],
+      "total_xg": 2.4,
+      "over_25_prob": 44.0,
+      "over_recommendation": "小2.5球 🔴",
+      "ht_total_xg": 1.0,
+      "ht_over_15_prob": 26.0,
+      "ht_over_recommendation": "上半场小1.5球 🔴",
+      "handicap": 0.5,
+      "home_form": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0,
+        "form": [],
+        "games": 0
+      },
+      "away_form": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0,
+        "form": [],
+        "games": 0
+      },
+      "h2h": {
+        "home_wins": 0,
+        "away_wins": 0,
+        "draws": 0,
+        "h2h": []
+      },
+      "home_stats": {
+        "home_points_per_game": 1.0,
+        "away_points_per_game": 1.0,
+        "home_goal_diff": 0,
+        "away_goal_diff": 0,
+        "home_games": 0,
+        "away_games": 0
+      },
+      "away_stats": {
+        "home_points_per_game": 1.0,
+        "away_points_per_game": 1.0,
+        "home_goal_diff": 0,
+        "away_goal_diff": 0,
+        "home_games": 0,
+        "away_games": 0
+      }
+    },
+    {
+      "home_prob": 0.41595790821715456,
+      "draw_prob": 0.27408,
+      "away_prob": 0.3099620917828454,
+      "recommendation": "巴萨",
+      "confidence": "🟡 中信心",
+      "elo_diff": 340,
+      "top_scores": [
+        {
+          "score": "1-0",
+          "prob": 12.9,
+          "label": "⭐ 首选"
+        },
+        {
+          "score": "1-1",
+          "prob": 12.3,
+          "label": "🔶 次选"
+        },
+        {
+          "score": "2-0",
+          "prob": 10.299999999999999,
+          "label": "#3"
+        },
+        {
+          "score": "2-1",
+          "prob": 9.35,
+          "label": "#4"
+        },
+        {
+          "score": "0-1",
+          "prob": 9.2,
+          "label": "#5"
+        }
+      ],
+      "home_xg": 1.35,
+      "away_xg": 0.97,
+      "half_time_predictions": [
+        "0-0",
+        "1-0",
+        "0-1"
+      ],
+      "half_time_probs": [
+        {
+          "score": "0-0",
+          "prob": 39.4
+        },
+        {
+          "score": "1-0",
+          "prob": 21.2
+        },
+        {
+          "score": "0-1",
+          "prob": 14.899999999999999
+        }
+      ],
+      "second_half_predictions": [],
+      "total_xg": 2.4,
+      "over_25_prob": 44.0,
+      "over_recommendation": "小2.5球 🔴",
+      "ht_total_xg": 0.9,
+      "ht_over_15_prob": 24.0,
+      "ht_over_recommendation": "上半场小1.5球 🔴",
+      "handicap": 1.0,
+      "home_form": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0,
+        "form": [],
+        "games": 0
+      },
+      "away_form": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0,
+        "form": [],
+        "games": 0
+      },
+      "h2h": {
+        "home_wins": 0,
+        "away_wins": 0,
+        "draws": 0,
+        "h2h": []
+      },
+      "home_stats": {
+        "home_points_per_game": 1.0,
+        "away_points_per_game": 1.0,
+        "home_goal_diff": 0,
+        "away_goal_diff": 0,
+        "home_games": 0,
+        "away_games": 0
+      },
+      "away_stats": {
+        "home_points_per_game": 1.0,
+        "away_points_per_game": 1.0,
+        "home_goal_diff": 0,
+        "away_goal_diff": 0,
+        "home_games": 0,
+        "away_games": 0
+      }
+    },
+    {
+      "home_prob": 0.42184161742720866,
+      "draw_prob": 0.27480000000000004,
+      "away_prob": 0.3033583825727913,
+      "recommendation": "巴黎",
+      "confidence": "🟡 中信心",
+      "elo_diff": 400,
+      "top_scores": [
+        {
+          "score": "1-0",
+          "prob": 12.85,
+          "label": "⭐ 首选"
+        },
+        {
+          "score": "1-1",
+          "prob": 12.55,
+          "label": "🔶 次选"
+        },
+        {
+          "score": "2-0",
+          "prob": 9.950000000000001,
+          "label": "#3"
+        },
+        {
+          "score": "0-0",
+          "prob": 8.95,
+          "label": "#4"
+        },
+        {
+          "score": "2-1",
+          "prob": 8.6,
+          "label": "#5"
+        }
+      ],
+      "home_xg": 1.37,
+      "away_xg": 0.95,
+      "half_time_predictions": [
+        "0-0",
+        "1-0",
+        "0-1"
+      ],
+      "half_time_probs": [
+        {
+          "score": "0-0",
+          "prob": 36.7
+        },
+        {
+          "score": "1-0",
+          "prob": 24.6
+        },
+        {
+          "score": "0-1",
+          "prob": 14.249999999999998
+        }
+      ],
+      "second_half_predictions": [],
+      "total_xg": 2.4,
+      "over_25_prob": 44.0,
+      "over_recommendation": "小2.5球 🔴",
+      "ht_total_xg": 1.0,
+      "ht_over_15_prob": 24.0,
+      "ht_over_recommendation": "上半场小1.5球 🔴",
+      "handicap": 1.0,
+      "home_form": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0,
+        "form": [],
+        "games": 0
+      },
+      "away_form": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0,
+        "form": [],
+        "games": 0
+      },
+      "h2h": {
+        "home_wins": 0,
+        "away_wins": 0,
+        "draws": 0,
+        "h2h": []
+      },
+      "home_stats": {
+        "home_points_per_game": 1.0,
+        "away_points_per_game": 1.0,
+        "home_goal_diff": 0,
+        "away_goal_diff": 0,
+        "home_games": 0,
+        "away_games": 0
+      },
+      "away_stats": {
+        "home_points_per_game": 1.0,
+        "away_points_per_game": 1.0,
+        "home_goal_diff": 0,
+        "away_goal_diff": 0,
+        "home_games": 0,
+        "away_games": 0
+      }
+    },
+    {
+      "home_prob": 0.3634675288636678,
+      "draw_prob": 0.27144,
+      "away_prob": 0.36509247113633225,
+      "recommendation": "塞维利亚",
+      "confidence": "🟡 低信心",
+      "elo_diff": -120,
+      "top_scores": [
+        {
+          "score": "1-1",
+          "prob": 12.55,
+          "label": "⭐ 首选"
+        },
+        {
+          "score": "1-0",
+          "prob": 11.15,
+          "label": "🔶 次选"
+        },
+        {
+          "score": "0-1",
+          "prob": 11.15,
+          "label": "#3"
+        },
+        {
+          "score": "0-0",
+          "prob": 10.35,
+          "label": "#4"
+        },
+        {
+          "score": "1-2",
+          "prob": 8.9,
+          "label": "#5"
+        }
+      ],
+      "home_xg": 1.18,
+      "away_xg": 1.15,
+      "half_time_predictions": [
+        "0-0",
+        "0-1",
+        "1-0"
+      ],
+      "half_time_probs": [
+        {
+          "score": "0-0",
+          "prob": 37.15
+        },
+        {
+          "score": "0-1",
+          "prob": 18.85
+        },
+        {
+          "score": "1-0",
+          "prob": 18.75
+        }
+      ],
+      "second_half_predictions": [],
+      "total_xg": 2.3,
+      "over_25_prob": 42.0,
+      "over_recommendation": "小2.5球 🔴",
+      "ht_total_xg": 1.0,
+      "ht_over_15_prob": 25.0,
+      "ht_over_recommendation": "上半场小1.5球 🔴",
+      "handicap": 0,
+      "home_form": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0,
+        "form": [],
+        "games": 0
+      },
+      "away_form": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0,
+        "form": [],
+        "games": 0
+      },
+      "h2h": {
+        "home_wins": 0,
+        "away_wins": 0,
+        "draws": 0,
+        "h2h": []
+      },
+      "home_stats": {
+        "home_points_per_game": 1.0,
+        "away_points_per_game": 1.0,
+        "home_goal_diff": 0,
+        "away_goal_diff": 0,
+        "home_games": 0,
+        "away_games": 0
+      },
+      "away_stats": {
+        "home_points_per_game": 1.0,
+        "away_points_per_game": 1.0,
+        "home_goal_diff": 0,
+        "away_goal_diff": 0,
+        "home_games": 0,
+        "away_games": 0
+      }
+    },
+    {
+      "home_prob": 0.3778621769772906,
+      "draw_prob": 0.27,
+      "away_prob": 0.3521378230227095,
+      "recommendation": "巴列卡诺",
+      "confidence": "🟡 低信心",
+      "elo_diff": 0,
+      "top_scores": [
+        {
+          "score": "1-1",
+          "prob": 13.100000000000001,
+          "label": "⭐ 首选"
+        },
+        {
+          "score": "1-0",
+          "prob": 11.700000000000001,
+          "label": "🔶 次选"
+        },
+        {
+          "score": "0-0",
+          "prob": 10.35,
+          "label": "#3"
+        },
+        {
+          "score": "0-1",
+          "prob": 9.950000000000001,
+          "label": "#4"
+        },
+        {
+          "score": "2-1",
+          "prob": 8.4,
+          "label": "#5"
+        }
+      ],
+      "home_xg": 1.23,
+      "away_xg": 1.11,
+      "half_time_predictions": [
+        "0-0",
+        "1-0",
+        "0-1"
+      ],
+      "half_time_probs": [
+        {
+          "score": "0-0",
+          "prob": 39.550000000000004
+        },
+        {
+          "score": "1-0",
+          "prob": 19.8
+        },
+        {
+          "score": "0-1",
+          "prob": 15.4
+        }
+      ],
+      "second_half_predictions": [],
+      "total_xg": 2.3,
+      "over_25_prob": 42.0,
+      "over_recommendation": "小2.5球 🔴",
+      "ht_total_xg": 1.0,
+      "ht_over_15_prob": 25.0,
+      "ht_over_recommendation": "上半场小1.5球 🔴",
+      "handicap": 0,
+      "home_form": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0,
+        "form": [],
+        "games": 0
+      },
+      "away_form": {
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 0,
+        "goals_against": 0,
+        "points": 0,
+        "form": [],
+        "games": 0
+      },
+      "h2h": {
+        "home_wins": 0,
+        "away_wins": 0,
+        "draws": 0,
+        "h2h": []
+      },
+      "home_stats": {
+        "home_points_per_game": 1.0,
+        "away_points_per_game": 1.0,
+        "home_goal_diff": 0,
+        "away_goal_diff": 0,
+        "home_games": 0,
+        "away_games": 0
+      },
+      "away_stats": {
+        "home_points_per_game": 1.0,
+        "away_points_per_game": 1.0,
+        "home_goal_diff": 0,
+        "away_goal_diff": 0,
+        "home_games": 0,
+        "away_games": 0
+      }
+    }
+  ]
+}

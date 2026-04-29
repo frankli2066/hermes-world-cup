@@ -313,6 +313,8 @@ class DynamicxGModel:
             "away_team": away_team,
             "home_xg": home_xg,
             "away_xg": away_xg,
+            "xg_diff": round(home_xg - away_xg, 2),  # 【优化4】xG差异分析 - 两队xG差距比单独xG更有预测价值
+            "xg_ratio": round(home_xg / away_xg, 2) if away_xg > 0 else 1.0,  # xG比率
             "expected_total_goals": round(home_xg + away_xg, 2),
             "predicted_score": f"{pred[0]}-{pred[1]}",
             "most_likely_score": f"{ml_score[0]}-{ml_score[1]}",

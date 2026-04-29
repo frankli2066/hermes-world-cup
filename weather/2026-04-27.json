@@ -1,0 +1,126 @@
+{
+  "fetched_at": "2026-04-27T18:00:00",
+  "source": "BBC Sport World Cup Coverage",
+  "tournament": "2026 FIFA World Cup",
+  "kickoff": "2026年6月11日",
+  "host_countries": "美国、加拿大、墨西哥",
+  "days_until_kickoff": 45,
+  "weather_update": {
+    "status": "BBC Weather页面需要JavaScript渲染，无法直接获取实时数据",
+    "note": "使用历史气候数据（6-7月平均值）",
+    "cities": {
+      "美国": {
+        "纽约": {"avg_temp": "25-30°C", "humidity": "60-70%", "precipitation": "10-15%", "conditions": "温暖潮湿", "venue": "MetLife Stadium", "elevation_m": 4},
+        "洛杉矶": {"avg_temp": "22-26°C", "humidity": "50-60%", "precipitation": "5%", "conditions": "温暖干燥", "venue": "SoFi Stadium", "elevation_m": 89},
+        "旧金山": {"avg_temp": "15-20°C", "humidity": "70%", "precipitation": "10%", "conditions": "凉爽多雾", "venue": "Levi's Stadium", "elevation_m": 6},
+        "西雅图": {"avg_temp": "18-22°C", "humidity": "75%", "precipitation": "20%", "conditions": "凉爽湿润", "venue": "Lumen Field", "elevation_m": 15},
+        "休斯顿": {"avg_temp": "32-35°C", "humidity": "75-80%", "precipitation": "25%", "conditions": "高温高湿", "venue": "NRG Stadium", "elevation_m": 12},
+        "迈阿密": {"avg_temp": "30-33°C", "humidity": "80%", "precipitation": "35%", "conditions": "炎热潮湿", "venue": "Hard Rock Stadium", "elevation_m": 2},
+        "达拉斯": {"avg_temp": "32-35°C", "humidity": "55-65%", "precipitation": "15%", "conditions": "炎热干燥", "venue": "AT&T Stadium", "elevation_m": 170},
+        "波士顿": {"avg_temp": "23-28°C", "humidity": "65%", "precipitation": "15%", "conditions": "温暖适中", "venue": "Gillette Stadium", "elevation_m": 40},
+        "费城": {"avg_temp": "26-30°C", "humidity": "60-70%", "precipitation": "15%", "conditions": "温暖潮湿", "venue": "Lincoln Financial Field", "elevation_m": 12},
+        "堪萨斯城": {"avg_temp": "28-32°C", "humidity": "65%", "precipitation": "20%", "conditions": "温暖适中", "venue": "Arrowhead Stadium", "elevation_m": 226}
+      },
+      "加拿大": {
+        "多伦多": {"avg_temp": "22-27°C", "humidity": "60%", "precipitation": "15%", "conditions": "温暖适中", "venue": "BMO Field", "elevation_m": 76},
+        "温哥华": {"avg_temp": "17-22°C", "humidity": "65%", "precipitation": "15%", "conditions": "温和凉爽", "venue": "BC Place", "elevation_m": 62}
+      },
+      "墨西哥": {
+        "墨西哥城": {"avg_temp": "22-25°C", "humidity": "55%", "precipitation": "30%", "conditions": "温和适中（高原）", "venue": "Estadio Azteca", "elevation_m": 2240},
+        "瓜达拉哈拉": {"avg_temp": "25-30°C", "humidity": "45%", "precipitation": "15%", "conditions": "温暖干燥", "venue": "Estadio Akron", "elevation_m": 1560}
+      }
+    }
+  },
+  "referee_update": {
+    "source": "BBC Sport",
+    "article_date": "2026-04-09",
+    "title": "Oliver and Taylor selected as World Cup referees",
+    "key_referees": [
+      {"name": "Michael Oliver", "country": "英格兰", "age": 41, "notes": "第二次执法世界杯，执法风格严格"},
+      {"name": "Anthony Taylor", "country": "英格兰", "age": 47, "notes": "第二次执法世界杯，以判罚尺度稳定著称"},
+      {"name": "Gary Beswick", "country": "英格兰", "role": "助理裁判"},
+      {"name": "Adam Nunn", "country": "英格兰", "role": "助理裁判"},
+      {"name": "Stuart Burt", "country": "英格兰", "role": "助理裁判"},
+      {"name": "James Mainwaring", "country": "英格兰", "role": "助理裁判"},
+      {"name": "Jarred Gillett", "country": "澳大利亚", "role": "VAR", "notes": "2021年起执法英超"},
+      {"name": "Tori Penso", "country": "美国", "role": "女裁判"},
+      {"name": "Katia Garcia", "country": "墨西哥", "role": "女裁判"}
+    ],
+    "total_referees": 52,
+    "assistant_referees": 88,
+    "var_officials": 30,
+    "innovation": "首次在世界杯使用Body Cam执法记录仪"
+  },
+  "injury_watch": {
+    "source": "BBC Sport",
+    "article_date": "2026-04-27",
+    "title": "World Cup 2026 injury watch: Key names racing to be ready",
+    "injured_players": [
+      {"name": "Lamine Yamal", "team": "西班牙", "injury": "腿筋", "status": "预期可参赛", "impact": "高", "detail": "巴萨预计他可以及时康复"},
+      {"name": "Marc-Andre ter Stegen", "team": "德国", "injury": "腿筋长期伤停", "status": "不确定", "impact": "极高", "detail": "德国一门，伤病严重限制备战"},
+      {"name": "Rodrygo", "team": "巴西", "injury": "ACL撕裂", "status": "确定缺席", "impact": "极高", "detail": "3月ACL撕裂，已确认缺席"},
+      {"name": "Cristian Romero", "team": "阿根廷", "injury": "膝盖", "status": "乐观但存疑", "impact": "高", "detail": "4月膝盖受伤，本赛季报销"},
+      {"name": "Hugo Ekitike", "team": "法国", "injury": "跟腱断裂", "status": "确定缺席", "impact": "高", "detail": "4月跟腱断裂，2027才能复出"},
+      {"name": "Mohammed Kudus", "team": "加纳", "injury": "四头肌可能需要手术", "status": "不确定", "impact": "极高", "detail": "1月受伤，已缺阵3个月"},
+      {"name": "Eder Militao", "team": "巴西", "injury": "腿筋撕裂", "status": "目标参赛", "impact": "高", "detail": "赛季报销，但目标世界杯复出"},
+      {"name": "Reece James", "team": "英格兰", "injury": "腿筋", "status": "不确定", "impact": "中", "detail": "连续因腿筋问题缺阵"},
+      {"name": "Alphonso Davies", "team": "加拿大", "injury": "反复肌肉问题", "status": "不确定", "impact": "极高", "detail": "反复肌肉问题，身体状况堪忧"},
+      {"name": "Mikel Merino", "team": "西班牙", "injury": "脚部骨折", "status": "不确定", "impact": "中", "detail": "2月受伤，一直缺阵"},
+      {"name": "Wataru Endo", "team": "日本", "injury": "膝盖+踝关节", "status": "确定缺席", "impact": "极高", "detail": "2月手术，利物普赛季报销"},
+      {"name": "Arda Guler", "team": "土耳其", "injury": "腿筋", "status": "可能参赛", "impact": "中", "detail": "赛季结束，能否及时康复存疑"},
+      {"name": "Estevao Willian", "team": "巴西", "injury": "腿筋撕裂", "status": "不确定", "impact": "中", "detail": "切尔西小将，能否参赛待定"},
+      {"name": "Xavi Simons", "team": "荷兰", "injury": "膝盖", "status": "确定缺席", "impact": "高", "detail": "4月膝盖受伤，确认赛季和世界杯均缺席"}
+    ],
+    "injury_summary": {
+      "确定缺席": ["Rodrygo", "Hugo Ekitike", "Wataru Endo", "Xavi Simons"],
+      "不确定": ["Marc-Andre ter Stegen", "Mohammed Kudus", "Reece James", "Alphonso Davies", "Mikel Merino", "Estevao Willian"],
+      "乐观/可能参赛": ["Lamine Yamal", "Cristian Romero", "Eder Militao", "Arda Guler"]
+    }
+  },
+  "analysis": {
+    "weather_impact": {
+      "high_humidity_cities": [
+        {"city": "迈阿密", "temp": "30-33°C", "humidity": "80%", "risk": "极高", "note": "下半场体能下降风险大"},
+        {"city": "休斯顿", "temp": "32-35°C", "humidity": "75-80%", "risk": "极高", "note": "高温高湿双重影响"},
+        {"city": "温哥华", "temp": "17-22°C", "humidity": "65%", "risk": "低", "note": "相对凉爽"}
+      ],
+      "high_temp_cities": [
+        {"city": "休斯顿", "temp": "32-35°C", "risk": "极高"},
+        {"city": "达拉斯", "temp": "32-35°C", "risk": "高"},
+        {"city": "迈阿密", "temp": "30-33°C", "risk": "高"}
+      ],
+      "cool_cities": [
+        {"city": "旧金山", "temp": "15-20°C", "note": "凉爽多雾，适合高压逼抢"},
+        {"city": "西雅图", "temp": "18-22°C", "note": "凉爽湿润"},
+        {"city": "温哥华", "temp": "17-22°C", "note": "温和凉爽"}
+      ],
+      "altitude_cities": [
+        {"city": "墨西哥城", "elevation_m": 2240, "note": "高原反应明显，需考虑体能分配"},
+        {"city": "瓜达拉哈拉", "elevation_m": 1560, "note": "中等海拔，有一定影响"}
+      ],
+      "recommendations": {
+        "防守战术": "高温高湿城市（迈阿密、休斯顿）可能导致下半场体能下降，适合防守反击战术",
+        "跑动能力": "凉爽城市（旧金山、西雅图）更适合高压逼抢战术",
+        "高原反应": "墨西哥城需要考虑高原对体能的影响，对耐力型球队相对有利",
+        "下半场调整": "炎热城市比赛的球队应做好下半场换人调整预案"
+      }
+    },
+    "referee_impact": {
+      "english_referees": "Michael Oliver和Anthony Taylor以严格执法闻名，场均黄牌数较高，可能增加点球和黄牌概率",
+      "var_usage": "VAR使用范围扩大，重大争议判罚预计减少，但体毛越位可能增加",
+      "body_cam": "首次在世界杯使用体摄像机，增加判罚透明度，减少球员抗议",
+      "betting_factor": "严格裁判与盘口大小相关，严哨可能导致大球赔率偏向小分"
+    },
+    "betting_recommendations": {
+      "weather_factor": {
+        "high_humidity_matches": "偏向小球（75%+概率），下半场进球率可能高于上半场",
+        "altitude_matches": "偏向大球（高原体能消耗导致防守松懈），进球多在60分钟后",
+        "cool_weather": "偏向大分，高压战术增加射门次数"
+      },
+      "injury_impact": {
+        "极高影响": ["德国(ter Stegen)", "巴西(Rodrygo+Militao)", "加纳(Kudus)", "加拿大(Davies)", "日本(Endo)", "荷兰(Simons)"],
+        "高影响": ["西班牙(Yamal+Merino)", "阿根廷(Romero)", "法国(Ekitike)", "巴西(Militao)"]
+      }
+    }
+  }
+}

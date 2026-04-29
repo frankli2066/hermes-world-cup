@@ -14,6 +14,7 @@ from collections import defaultdict
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "core"))
 
 from core.unified_predictor import UnifiedPredictor
+from core.match_odds import MatchOddsEngine
 
 # 历史比赛数据（2010-2022世界杯 + 其他赛事）
 HISTORICAL_MATCHES = {
@@ -281,6 +282,69 @@ HISTORICAL_MATCHES = {
         {"home": "France", "away": "Morocco", "score": "2-0", "stage": "semi"},
         {"home": "Argentina", "away": "France", "score": "3-3", "stage": "final"},
     ],
+    "2024_Euro": [
+        # A组
+        {"home": "Germany", "away": "Scotland", "score": "5-1", "stage": "group"},
+        {"home": "Hungary", "away": "Switzerland", "score": "1-3", "stage": "group"},
+        {"home": "Germany", "away": "Hungary", "score": "2-0", "stage": "group"},
+        {"home": "Scotland", "away": "Switzerland", "score": "1-1", "stage": "group"},
+        {"home": "Switzerland", "away": "Germany", "score": "1-1", "stage": "group"},
+        {"home": "Scotland", "away": "Hungary", "score": "0-1", "stage": "group"},
+        # B组
+        {"home": "Spain", "away": "Croatia", "score": "3-0", "stage": "group"},
+        {"home": "Italy", "away": "Albania", "score": "2-1", "stage": "group"},
+        {"home": "Spain", "away": "Italy", "score": "1-0", "stage": "group"},
+        {"home": "Croatia", "away": "Albania", "score": "2-2", "stage": "group"},
+        {"home": "Albania", "away": "Spain", "score": "0-1", "stage": "group"},
+        {"home": "Croatia", "away": "Italy", "score": "1-1", "stage": "group"},
+        # C组
+        {"home": "Slovenia", "away": "Denmark", "score": "1-1", "stage": "group"},
+        {"home": "Serbia", "away": "England", "score": "0-1", "stage": "group"},
+        {"home": "Denmark", "away": "England", "score": "1-1", "stage": "group"},
+        {"home": "Serbia", "away": "Slovenia", "score": "1-1", "stage": "group"},
+        {"home": "England", "away": "Slovenia", "score": "0-0", "stage": "group"},
+        {"home": "Denmark", "away": "Serbia", "score": "0-0", "stage": "group"},
+        # D组
+        {"home": "Netherlands", "away": "France", "score": "0-0", "stage": "group"},
+        {"home": "Poland", "away": "Austria", "score": "1-2", "stage": "group"},
+        {"home": "Austria", "away": "Poland", "score": "3-1", "stage": "group"},
+        {"home": "France", "away": "Netherlands", "score": "0-0", "stage": "group"},
+        {"home": "France", "away": "Poland", "score": "1-1", "stage": "group"},
+        {"home": "Austria", "away": "Netherlands", "score": "3-2", "stage": "group"},
+        # E组
+        {"home": "Romania", "away": "Ukraine", "score": "3-0", "stage": "group"},
+        {"home": "Belgium", "away": "Slovakia", "score": "0-1", "stage": "group"},
+        {"home": "Slovakia", "away": "Ukraine", "score": "1-2", "stage": "group"},
+        {"home": "Belgium", "away": "Romania", "score": "2-0", "stage": "group"},
+        {"home": "Ukraine", "away": "Belgium", "score": "0-0", "stage": "group"},
+        {"home": "Slovakia", "away": "Romania", "score": "1-1", "stage": "group"},
+        # F组
+        {"home": "Turkey", "away": "Georgia", "score": "3-1", "stage": "group"},
+        {"home": "Portugal", "away": "Czech Republic", "score": "2-1", "stage": "group"},
+        {"home": "Georgia", "away": "Czech Republic", "score": "1-1", "stage": "group"},
+        {"home": "Turkey", "away": "Portugal", "score": "0-3", "stage": "group"},
+        {"home": "Czech Republic", "away": "Turkey", "score": "1-2", "stage": "group"},
+        {"home": "Georgia", "away": "Portugal", "score": "1-3", "stage": "group"},
+        # 16强
+        {"home": "Switzerland", "away": "Italy", "score": "2-0", "stage": "round_of_16"},
+        {"home": "Germany", "away": "Denmark", "score": "2-0", "stage": "round_of_16"},
+        {"home": "England", "away": "Slovakia", "score": "2-1", "stage": "round_of_16"},
+        {"home": "Spain", "away": "Georgia", "score": "4-1", "stage": "round_of_16"},
+        {"home": "Portugal", "away": "Slovenia", "score": "0-0", "stage": "round_of_16"},
+        {"home": "France", "away": "Belgium", "score": "1-0", "stage": "round_of_16"},
+        {"home": "Romania", "away": "Netherlands", "score": "0-3", "stage": "round_of_16"},
+        {"home": "Austria", "away": "Turkey", "score": "1-2", "stage": "round_of_16"},
+        # 8强
+        {"home": "Spain", "away": "Germany", "score": "2-1", "stage": "quarter"},
+        {"home": "Portugal", "away": "France", "score": "0-0", "stage": "quarter"},
+        {"home": "Netherlands", "away": "Turkey", "score": "2-1", "stage": "quarter"},
+        {"home": "England", "away": "Switzerland", "score": "0-0", "stage": "quarter"},
+        # 半决赛
+        {"home": "Spain", "away": "France", "score": "2-1", "stage": "semi"},
+        {"home": "Netherlands", "away": "England", "score": "1-2", "stage": "semi"},
+        # 决赛
+        {"home": "Spain", "away": "England", "score": "2-1", "stage": "final"},
+    ],
 }
 
 def get_actual_result(score: str) -> str:
@@ -307,6 +371,7 @@ def main():
     
     # 初始化预测器
     predictor = UnifiedPredictor()
+    match_odds_engine = MatchOddsEngine()
     
     # 收集所有比赛
     all_matches = []
@@ -330,6 +395,17 @@ def main():
         "by_year": defaultdict(lambda: {"total": 0, "correct": 0}),
         "upsets": [],  # 冷门比赛
         "correct_upsets": 0,
+        # 【新增】按赛事类型分开统计
+        "worldcup": {"total": 0, "correct": 0, "recommended": {"total": 0, "correct": 0}},
+        "euro": {"total": 0, "correct": 0, "recommended": {"total": 0, "correct": 0}},
+        # 【新增】按信心等级统计
+        "by_confidence": {
+            "high": {"total": 0, "correct": 0},
+            "mid": {"total": 0, "correct": 0},
+            "low": {"total": 0, "correct": 0},
+        },
+        # 【新增】信心过滤后的统计
+        "recommended_only": {"total": 0, "correct": 0},
     }
     
     # 运行回测
@@ -343,19 +419,58 @@ def main():
         year = match["year"]
         
         try:
-            # 使用UnifiedPredictor预测
-            # 提供默认odds以确保市场权重生效
-            default_odds = {"home": 2.5, "draw": 3.2, "away": 2.8}
-            pred = predictor.predict(home, away, odds=default_odds)
-            # 根据概率判断预测结果
-            probs = pred["prediction"]
-            if probs["home_win"] >= probs["draw"] and probs["home_win"] >= probs["away_win"]:
-                pred_result = "home"
-            elif probs["away_win"] >= probs["draw"] and probs["away_win"] >= probs["home_win"]:
-                pred_result = "away"
+            # 【优化】获取赔率：优先用真实历史赔率，没有则用通用赔率
+            tournament = "worldcup" if "Euro" not in year else "euro"
+            real_odds = None
+            
+            # 世界杯和欧洲杯赔率分别存储在不同的key下
+            odds_key = year.replace("Euro", "").strip() if "Euro" in year else year
+            
+            # 尝试从赔率数据中获取
+            if tournament == "worldcup":
+                real_odds = match_odds_engine.get_match_odds(home, away)
+            elif tournament == "euro":
+                # 欧洲杯赔率在"2024_Euro"key下
+                if "2024_Euro" in match_odds_engine.odds_data:
+                    euro_matches = match_odds_engine.odds_data.get("2024_Euro", {})
+                    if (home, away) in euro_matches:
+                        odds_tuple = euro_matches[(home, away)]
+                        real_odds = {"odds_home": odds_tuple[0], "odds_draw": odds_tuple[1], "odds_away": odds_tuple[2]}
+            
+            # 使用真实赔率（如果有），否则用通用赔率作为基准
+            if real_odds:
+                odds = {"home": real_odds["odds_home"], "draw": real_odds["odds_draw"], "away": real_odds["odds_away"]}
             else:
+                odds = {"home": 2.5, "draw": 3.2, "away": 2.8}  # 通用赔率作为fallback
+            
+            pred = predictor.predict(home, away, odds=odds, match_stage=stage, tournament=tournament)
+            # 【修复】使用recommended_team作为预测结果
+            probs = pred["prediction"]
+            pred_result = probs.get("recommended_team", None)
+            
+            # 如果recommended_team是None或无效，使用概率最大者
+            if pred_result is None or pred_result not in ["home", "away", "平局"]:
+                if probs["home_win"] >= probs["draw"] and probs["home_win"] >= probs["away_win"]:
+                    pred_result = "home"
+                elif probs["away_win"] >= probs["draw"] and probs["away_win"] >= probs["home_win"]:
+                    pred_result = "away"
+                else:
+                    pred_result = "draw"
+            # 将"平局"映射为"draw"
+            if pred_result == "平局":
                 pred_result = "draw"
             pred_score = get_score_prediction(pred, home, away)
+            
+            # 【新增】获取信心等级
+            confidence = pred["prediction"].get("confidence", "")
+            confidence_level = "low"
+            if "🟢" in confidence or "高" in confidence:
+                confidence_level = "high"
+            elif "中" in confidence:
+                confidence_level = "mid"
+            
+            # 【优化】信心过滤：低信心比赛不计入"推荐"
+            is_recommended = confidence_level in ["high", "mid"]
             
             # 判断是否正确
             is_correct = pred_result == actual_result
@@ -365,13 +480,44 @@ def main():
             stats["by_stage"][stage]["total"] += 1
             stats["by_year"][year]["total"] += 1
             
+            # 【新增】按信心等级统计
+            stats["by_confidence"][confidence_level]["total"] += 1
+            
+            # 【新增】按赛事类型统计
+            if tournament == "worldcup":
+                stats["worldcup"]["total"] += 1
+                if is_recommended:
+                    stats["worldcup"]["recommended"]["total"] += 1
+            else:
+                stats["euro"]["total"] += 1
+                if is_recommended:
+                    stats["euro"]["recommended"]["total"] += 1
+            
+            # 【新增】信心过滤：只推荐高/中信心
+            if is_recommended:
+                stats["recommended_only"]["total"] += 1
+            
             if is_correct:
                 stats["correct_result"] += 1
                 stats["by_stage"][stage]["correct"] += 1
                 stats["by_year"][year]["correct"] += 1
+                stats["by_confidence"][confidence_level]["correct"] += 1
+                
+                # 【新增】按赛事类型统计
+                if tournament == "worldcup":
+                    stats["worldcup"]["correct"] += 1
+                    if is_recommended:
+                        stats["worldcup"]["recommended"]["correct"] += 1
+                else:
+                    stats["euro"]["correct"] += 1
+                    if is_recommended:
+                        stats["euro"]["recommended"]["correct"] += 1
+                
+                # 【新增】信心过滤统计
+                if is_recommended:
+                    stats["recommended_only"]["correct"] += 1
             else:
                 # 记录预测错误的高信心比赛
-                confidence = pred["prediction"].get("confidence", "未知")
                 if "高" in confidence:
                     stats["upsets"].append({
                         "home": home,
@@ -379,7 +525,8 @@ def main():
                         "score": actual_score,
                         "predicted": pred_result,
                         "actual": actual_result,
-                        "year": year
+                        "year": year,
+                        "confidence": confidence
                     })
             
         except Exception as e:
@@ -392,13 +539,42 @@ def main():
     accuracy = stats["correct_result"] / stats["total"] * 100 if stats["total"] > 0 else 0
     print(f"\n总体准确率: {accuracy:.1f}% ({stats['correct_result']}/{stats['total']})")
     
+    # 【新增】信心过滤后的准确率
+    rec_acc = stats["recommended_only"]["correct"] / stats["recommended_only"]["total"] * 100 if stats["recommended_only"]["total"] > 0 else 0
+    print(f"📍 信心过滤后（高/中信心）: {rec_acc:.1f}% ({stats['recommended_only']['correct']}/{stats['recommended_only']['total']})")
+    
+    # 【新增】分开统计世界杯和欧洲杯
+    print("\n📍 赛事分开统计")
+    print("-" * 40)
+    wc_acc = stats["worldcup"]["correct"] / stats["worldcup"]["total"] * 100 if stats["worldcup"]["total"] > 0 else 0
+    print(f"  🏆 世界杯: {wc_acc:.1f}% ({stats['worldcup']['correct']}/{stats['worldcup']['total']})")
+    if stats["worldcup"]["recommended"]["total"] > 0:
+        wc_rec_acc = stats["worldcup"]["recommended"]["correct"] / stats["worldcup"]["recommended"]["total"] * 100
+        print(f"     其中推荐（高/中信心）: {wc_rec_acc:.1f}% ({stats['worldcup']['recommended']['correct']}/{stats['worldcup']['recommended']['total']})")
+    
+    euro_acc = stats["euro"]["correct"] / stats["euro"]["total"] * 100 if stats["euro"]["total"] > 0 else 0
+    print(f"  🏆 欧洲杯: {euro_acc:.1f}% ({stats['euro']['correct']}/{stats['euro']['total']})")
+    if stats["euro"]["recommended"]["total"] > 0:
+        euro_rec_acc = stats["euro"]["recommended"]["correct"] / stats["euro"]["recommended"]["total"] * 100
+        print(f"     其中推荐（高/中信心）: {euro_rec_acc:.1f}% ({stats['euro']['recommended']['correct']}/{stats['euro']['recommended']['total']})")
+    
+    # 【新增】按信心等级统计
+    print("\n📍 按信心等级准确率")
+    print("-" * 40)
+    for level, name in [("high", "🟢 高信心"), ("mid", "🟡 中信心"), ("low", "🔴 低信心（不推荐）")]:
+        data = stats["by_confidence"][level]
+        if data["total"] > 0:
+            acc = data["correct"] / data["total"] * 100
+            print(f"  {name}: {acc:.1f}% ({data['correct']}/{data['total']})")
+    
     print("\n📍 各年份准确率")
     print("-" * 40)
     for year in sorted(stats["by_year"].keys()):
         data = stats["by_year"][year]
         if data["total"] > 0:
             acc = data["correct"] / data["total"] * 100
-            print(f"  {year}年: {acc:.1f}% ({data['correct']}/{data['total']})")
+            marker = "🏆" if "Euro" not in year else "⚽"
+            print(f"  {marker} {year}年: {acc:.1f}% ({data['correct']}/{data['total']})")
     
     print("\n📍 按比赛阶段准确率")
     print("-" * 40)
@@ -424,6 +600,7 @@ def main():
         for i, upset in enumerate(stats["upsets"][:5], 1):
             print(f"  {i}. {upset['home']} vs {upset['away']}")
             print(f"     比分: {upset['score']} | 预测: {upset['predicted']} | 实际: {upset['actual']}")
+            print(f"     信心: {upset.get('confidence', '未知')}")
     else:
         print("  无")
     

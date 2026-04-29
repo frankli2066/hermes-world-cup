@@ -1,0 +1,22 @@
+{
+  "version": "v6.0",
+  "module": "draw_detector_v6",
+  "date": "2026-04-27",
+  "author": "DeepSeek V4-Pro 博弈论注入",
+  "signals": {
+    "elo_closeness": "Elo差分200以内线性映射 (0-2分)",
+    "qualify_on_draw": "平局出线博弈: 双向3分/单向2分/无0分",
+    "player_dependency": "依赖度^1.5 × 2.5 非线性降权",
+    "stage_draw_rate": "赛事阶段基线平局率 × 3",
+    "odds_draw_signal": "赔率平局异常(待实时数据)"
+  },
+  "baseline": {
+    "group_stage": "49.7% → 预期+3-5%",
+    "overall": "54.5% → 预期+2-3%"
+  },
+  "todo": [
+    "集成到UnifiedPredictor.predict()",
+    "对接实时小组积分榜(qualify_on_draw数据)",
+    "激活odds_tracker赔率实时期望"
+  ]
+}

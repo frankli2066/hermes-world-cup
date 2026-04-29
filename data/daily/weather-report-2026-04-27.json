@@ -1,0 +1,108 @@
+{
+  "date": "2026-04-27",
+  "report_time": "2026-04-26 18:00 CST",
+  "cron": "weather-referee-18:00",
+  "world_cup_status": "off-season (世界杯正赛6月开幕)",
+  "matches": [
+    {
+      "league": "意甲",
+      "kickoff_cst": "00:00",
+      "home": "都灵",
+      "away": "国际米兰",
+      "city": "都灵",
+      "country": "意大利",
+      "local_time": "2026-04-26 18:00",
+      "weather": {
+        "temp_c": 23,
+        "feels_like": 16,
+        "humidity_pct": 56,
+        "wind_kmh": 5,
+        "precipitation": "patchy_rain",
+        "condition": "适宜",
+        "temp_range": "12-23°C",
+        "key_concern": "夜间降温10°C，替补上场需适应"
+      },
+      "rating": "good"
+    },
+    {
+      "league": "意甲",
+      "kickoff_cst": "02:45",
+      "home": "AC米兰",
+      "away": "尤文图斯",
+      "city": "米兰",
+      "country": "意大利",
+      "local_time": "2026-04-26 20:45",
+      "weather": {
+        "temp_c": 19,
+        "feels_like": 19,
+        "humidity_pct": 50,
+        "wind_kmh": 7,
+        "precipitation": "overcast_to_clear",
+        "condition": "完美",
+        "temp_range": "14-23°C",
+        "key_concern": "无极端天气，双方公平竞技"
+      },
+      "rating": "excellent"
+    },
+    {
+      "league": "西甲",
+      "kickoff_cst": "00:30",
+      "home": "奥萨苏纳",
+      "away": "塞维利亚",
+      "city": "潘普洛纳",
+      "country": "西班牙",
+      "local_time": "2026-04-26 18:30",
+      "weather": {
+        "temp_c": 22,
+        "feels_like": 13,
+        "humidity_pct": 51,
+        "wind_kmh": 14,
+        "precipitation": "evening_sun_then_rain",
+        "condition": "注意温降",
+        "temp_range": "7-23°C",
+        "key_concern": "半场后温降9°C、湿度从51%飙至86%，肌肉抽筋风险增加"
+      },
+      "rating": "caution"
+    },
+    {
+      "league": "法甲",
+      "kickoff_cst": "02:45",
+      "home": "马赛",
+      "away": "尼斯",
+      "city": "马赛",
+      "country": "法国",
+      "local_time": "2026-04-26 20:45",
+      "weather": {
+        "temp_c": 17,
+        "feels_like": 17,
+        "humidity_pct": 71,
+        "wind_kmh": 9,
+        "precipitation": "clear",
+        "condition": "良好",
+        "temp_range": "16-19°C",
+        "key_concern": "湿度偏高(71-83%)，体感偏黏"
+      },
+      "rating": "good"
+    },
+    {
+      "league": "西甲",
+      "kickoff_cst": "03:00",
+      "home": "比利亚雷亚尔",
+      "away": "塞尔塔",
+      "city": "比利亚雷亚尔",
+      "country": "西班牙",
+      "local_time": "2026-04-26 21:00",
+      "weather": {
+        "temp_c": 18,
+        "feels_like": 18,
+        "humidity_pct": 47,
+        "wind_kmh": 8,
+        "precipitation": "clear",
+        "condition": "完美",
+        "temp_range": "15-22°C",
+        "key_concern": "干燥凉爽，黄金比赛条件"
+      },
+      "rating": "excellent"
+    }
+  ]
+}

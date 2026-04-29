@@ -250,6 +250,73 @@ HISTORICAL_MATCH_ODDS = {
         # 三四名
         ("Brazil", "Netherlands"): (2.10, 3.30, 3.30),
     },
+
+    # ========== 2024 欧洲杯 ==========
+    # 数据来源：基于2024欧洲杯市场赔率估算
+    # 赔率格式：(主胜, 平局, 客胜)
+    "2024_Euro": {
+        # A组
+        ("Germany", "Scotland"): (1.35, 5.00, 8.00),  # 揭幕战
+        ("Hungary", "Switzerland"): (2.20, 3.30, 3.20),
+        ("Germany", "Hungary"): (1.40, 4.50, 7.00),
+        ("Scotland", "Switzerland"): (2.80, 3.20, 2.50),
+        ("Switzerland", "Germany"): (4.00, 3.50, 1.85),
+        ("Scotland", "Hungary"): (2.50, 3.20, 2.80),
+        # B组
+        ("Spain", "Croatia"): (1.90, 3.40, 4.00),
+        ("Italy", "Albania"): (1.25, 5.50, 12.0),
+        ("Spain", "Italy"): (2.20, 3.20, 3.30),
+        ("Croatia", "Albania"): (1.65, 3.60, 5.50),
+        ("Albania", "Spain"): (6.00, 4.00, 1.50),
+        ("Croatia", "Italy"): (2.80, 3.20, 2.50),
+        # C组
+        ("Slovenia", "Denmark"): (3.50, 3.20, 2.10),
+        ("Serbia", "England"): (4.50, 3.50, 1.80),
+        ("Denmark", "England"): (3.50, 3.30, 2.05),
+        ("Serbia", "Slovenia"): (2.10, 3.20, 3.50),
+        ("England", "Slovenia"): (1.50, 4.00, 6.50),
+        ("Denmark", "Serbia"): (2.30, 3.20, 3.10),
+        # D组
+        ("Netherlands", "France"): (2.80, 3.10, 2.55),
+        ("Poland", "Austria"): (3.00, 3.30, 2.30),
+        ("Austria", "Poland"): (2.00, 3.30, 3.80),
+        ("France", "Netherlands"): (1.95, 3.30, 4.00),
+        ("France", "Poland"): (1.50, 4.00, 6.50),
+        ("Austria", "Netherlands"): (3.80, 3.50, 1.90),
+        # E组
+        ("Romania", "Ukraine"): (2.50, 3.20, 2.80),
+        ("Belgium", "Slovakia"): (1.45, 4.20, 7.00),
+        ("Slovakia", "Ukraine"): (3.00, 3.20, 2.35),
+        ("Belgium", "Romania"): (1.65, 3.60, 5.50),
+        ("Ukraine", "Belgium"): (3.50, 3.30, 2.05),
+        ("Slovakia", "Romania"): (2.80, 3.10, 2.55),
+        # F组
+        ("Turkey", "Georgia"): (1.60, 3.80, 5.50),
+        ("Portugal", "Czech Republic"): (1.55, 3.80, 6.00),
+        ("Georgia", "Czech Republic"): (3.20, 3.20, 2.30),
+        ("Turkey", "Portugal"): (3.80, 3.30, 1.95),
+        ("Czech Republic", "Turkey"): (2.20, 3.30, 3.20),
+        ("Georgia", "Portugal"): (6.00, 4.00, 1.50),
+        # 16强
+        ("Switzerland", "Italy"): (2.80, 3.20, 2.50),
+        ("Germany", "Denmark"): (1.65, 3.80, 5.00),
+        ("England", "Slovakia"): (1.40, 4.50, 7.50),
+        ("Spain", "Georgia"): (1.22, 6.00, 13.0),
+        ("Portugal", "Slovenia"): (1.45, 4.20, 7.50),
+        ("France", "Belgium"): (2.20, 3.10, 3.40),
+        ("Romania", "Netherlands"): (4.00, 3.50, 1.85),
+        ("Austria", "Turkey"): (2.30, 3.30, 3.00),
+        # 8强
+        ("Spain", "Germany"): (2.30, 3.30, 2.90),
+        ("Portugal", "France"): (2.80, 3.10, 2.55),
+        ("Netherlands", "Turkey"): (1.65, 3.80, 5.00),
+        ("England", "Switzerland"): (1.85, 3.40, 4.20),
+        # 半决赛
+        ("Spain", "France"): (2.20, 3.20, 3.30),
+        ("Netherlands", "England"): (2.80, 3.20, 2.50),
+        # 决赛
+        ("Spain", "England"): (2.10, 3.30, 3.50),
+    },
 }
 
 

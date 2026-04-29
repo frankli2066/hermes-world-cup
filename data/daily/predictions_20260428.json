@@ -1,0 +1,136 @@
+{
+  "created_at": "2026-04-28T06:07:13.923395",
+  "matches": [
+    {
+      "date": "2026-04-28",
+      "home": "Manchester Utd",
+      "away": "Brentford",
+      "time": "03:00",
+      "days_diff": 0,
+      "timestamp": 1777316400,
+      "league": "EPL"
+    },
+    {
+      "date": "2026-04-28",
+      "home": "Espanyol",
+      "away": "Levante",
+      "time": "03:00",
+      "days_diff": 0,
+      "timestamp": 1777316400,
+      "league": "La Liga"
+    },
+    {
+      "date": "2026-04-28",
+      "home": "Cagliari",
+      "away": "Atalanta",
+      "time": "00:30",
+      "days_diff": 0,
+      "timestamp": 1777307400,
+      "league": "Serie A"
+    }
+  ],
+  "predictions": [
+    [
+      {
+        "date": "2026-04-28",
+        "home": "Manchester Utd",
+        "away": "Brentford",
+        "time": "03:00",
+        "days_diff": 0,
+        "timestamp": 1777316400,
+        "league": "EPL"
+      },
+      {
+        "home_prob": 0.6198290004329203,
+        "draw_prob": 0.20547945205479448,
+        "away_prob": 0.17469154751228508,
+        "recommendation": "主队胜",
+        "confidence": "高信心",
+        "top_scores": [
+          {
+            "score": "2-0",
+            "prob": 12
+          },
+          {
+            "score": "2-1",
+            "prob": 11
+          },
+          {
+            "score": "1-0",
+            "prob": 10
+          }
+        ],
+        "home_xg": 1.6,
+        "away_xg": 1.23
+      }
+    ],
+    [
+      {
+        "date": "2026-04-28",
+        "home": "Espanyol",
+        "away": "Levante",
+        "time": "03:00",
+        "days_diff": 0,
+        "timestamp": 1777316400,
+        "league": "La Liga"
+      },
+      {
+        "home_prob": 0.4084219072233164,
+        "draw_prob": 0.24793388429752067,
+        "away_prob": 0.343644208479163,
+        "recommendation": "平局",
+        "confidence": "低信心",
+        "top_scores": [
+          {
+            "score": "1-1",
+            "prob": 14
+          },
+          {
+            "score": "0-0",
+            "prob": 10
+          },
+          {
+            "score": "2-2",
+            "prob": 8
+          }
+        ],
+        "home_xg": 1.37,
+        "away_xg": 1.19
+      }
+    ],
+    [
+      {
+        "date": "2026-04-28",
+        "home": "Cagliari",
+        "away": "Atalanta",
+        "time": "00:30",
+        "days_diff": 0,
+        "timestamp": 1777307400,
+        "league": "Serie A"
+      },
+      {
+        "home_prob": 0.1993586623712731,
+        "draw_prob": 0.20547945205479454,
+        "away_prob": 0.5951618855739323,
+        "recommendation": "客队胜",
+        "confidence": "高信心",
+        "top_scores": [
+          {
+            "score": "0-2",
+            "prob": 10
+          },
+          {
+            "score": "1-2",
+            "prob": 10
+          },
+          {
+            "score": "0-1",
+            "prob": 9
+          }
+        ],
+        "home_xg": 1.33,
+        "away_xg": 1.37
+      }
+    ]
+  ]
+}

@@ -319,9 +319,13 @@ def fetch_flashscore_results(league: str, days_back: int = 1) -> list:
         return results
 
     # 回退到预设数据库
-    # [修复] 更新到4月18-19日的比赛结果
+    # [修复] 更新到4月21日的比赛结果
     confirmed_results = {
         "EPL": [
+            # April 21, 2026
+            ("2026-04-21", "Crystal Palace", "West Ham", 0, 0),
+            # April 20, 2026
+            ("2026-04-20", "Newcastle", "Manchester City", 1, 3),
             # April 19, 2026 - 今日比赛
             ("2026-04-19", "Tottenham", "Brighton", 2, 1),
             ("2026-04-19", "Chelsea", "Manchester Utd", 1, 2),
@@ -363,6 +367,11 @@ def fetch_flashscore_results(league: str, days_back: int = 1) -> list:
             ("2026-04-13", "Atlético Madrid", "Real Sociedad", 1, 0),
         ],
         "Serie A": [
+            # April 21, 2026
+            ("2026-04-21", "Lecce", "Fiorentina", 1, 1),
+            # April 20, 2026
+            ("2026-04-20", "Juventus", "Bologna", 2, 1),
+            ("2026-04-20", "Pisa", "Genoa", 1, 2),
             # April 18-21, 2026
             ("2026-04-18", "Sassuolo", "Como", 1, 2),
             ("2026-04-18", "Inter", "Cagliari", 3, 1),
@@ -377,6 +386,8 @@ def fetch_flashscore_results(league: str, days_back: int = 1) -> list:
             ("2026-04-13", "Juventus", "Bologna", 2, 0),
         ],
         "Bundesliga": [
+            # April 20, 2026
+            ("2026-04-20", "B. Monchengladbach", "Mainz", 1, 1),
             # April 18-20, 2026
             ("2026-04-18", "St. Pauli", "FC Koln", 1, 1),
             ("2026-04-18", "Bayer Leverkusen", "Augsburg", 3, 0),
@@ -644,9 +655,9 @@ def get_upcoming_matches(league: str, days_ahead: int = 1) -> list:
                     'odds_away': '',
                 })
 
-        # 按日期排序，取最多3场
+        # 按日期排序，取最多6场
         selected.sort(key=lambda x: x['date'])
-        selected = selected[:3]
+        selected = selected[:6]
 
         # [修复] 如果没有找到今日/明日的比赛，扩大搜索范围到7天
         if not selected:
@@ -674,8 +685,9 @@ def get_upcoming_matches(league: str, days_ahead: int = 1) -> list:
                         'odds_draw': '',
                         'odds_away': '',
                     })
+            # 按日期排序，取最多6场
             selected.sort(key=lambda x: x['date'])
-            selected = selected[:3]
+            selected = selected[:6]
             if selected:
                 print(f"      [成功] 找到了 {len(selected)} 场7天内的比赛: {[m['date'] for m in selected]}")
 
@@ -1076,6 +1088,12 @@ def make_prediction(home_team: str, away_team: str, league: str = "EPL", neutral
     # 应用主场优势（加法而非乘法）
     home_prob += home_advantage_prob + form_home_advantage
 
+    # 先计算基础平局概率
+    dm = config.get("draw_model", {})
+    draw_base = dm.get("base_rate", 0.27)
+    draw_elo_adjust = -abs_diff / 5000 * dm.get("high_elo_diff_penalty", -0.06)
+    draw_prob = draw_base + draw_elo_adjust
+
     # ========== 5.5 整合市场赔率（最重要！） ==========
     # 当有市场赔率时，用赔率替代模型概率
     # 赔率是最强的预测因子，给予更高权重
@@ -1083,21 +1101,14 @@ def make_prediction(home_team: str, away_team: str, league: str = "EPL", neutral
         odds_home = odds['home']
         odds_draw = odds['draw']
         odds_away = odds['away']
-        
+
         # 市场赔率权重：当有真实赔率时，给予70%权重
         market_blend = 0.70
-        
+
         # 赔率整合：赔率概率更加准确，直接采用
         home_prob = home_prob * (1 - market_blend) + odds_home * market_blend
         away_prob = away_prob * (1 - market_blend) + odds_away * market_blend
         draw_prob = draw_prob * (1 - market_blend) + odds_draw * market_blend
-
-    # [FIX v2.0] 平局概率使用配置模型，不再被覆盖
-    draw_base = dm.get("base_rate", 0.27)
-    # Elo差距对平局的影响（线性插值）
-    # abs_diff=0时平局概率最高，abs_diff>=300时最低
-    draw_elo_adjust = -abs_diff / 5000 * dm.get("high_elo_diff_penalty", -0.06)
-    draw_prob = draw_base + draw_elo_adjust
 
     # 状态对平局的影响
     home_wins_in_form = home_form['form'].count('W') if home_form['form'] else 0
@@ -1124,6 +1135,23 @@ def make_prediction(home_team: str, away_team: str, league: str = "EPL", neutral
     else:
         home_prob = 0.35
         away_prob = 0.40
+
+    # [FIX v2.2] 应用最大概率限制（防止过度自信）
+    max_prob = config.get("max_probability", 0.70)
+    if home_prob > max_prob:
+        excess = home_prob - max_prob
+        home_prob = max_prob
+        away_prob = max(0.10, away_prob - excess * 0.5)
+        draw_prob = max(0.15, draw_prob - excess * 0.5)
+    if away_prob > max_prob:
+        excess = away_prob - max_prob
+        away_prob = max_prob
+        home_prob = max(0.10, home_prob - excess * 0.5)
+        draw_prob = max(0.15, draw_prob - excess * 0.5)
+    # 确保概率为正
+    home_prob = max(0.05, home_prob)
+    away_prob = max(0.05, away_prob)
+    draw_prob = max(0.10, draw_prob)
 
     # ========== 6. 生成推荐 ==========
     if home_prob > away_prob:
@@ -1221,21 +1249,41 @@ def make_prediction(home_team: str, away_team: str, league: str = "EPL", neutral
     # 半场预期进球
     ht_total_xg = sum(h + a for (h, a), count in half_scores.items() for _ in range(count)) / n_simulations
 
-    # 大小球推荐
-    if over_25_prob >= 70:
-        over_recommendation = "大2.5球 🟢"
-    elif over_25_prob >= 55:
-        over_recommendation = "大2.5球 🟡"
-    else:
-        over_recommendation = "小2.5球 🔴"
+    # ============ 大小球推荐（优化版） ============
+    # 改进：使用更保守的阈值，结合近期进球数和xG调整
 
-    # 上半场大小球推荐
-    if ht_over_15_prob >= 60:
-        ht_over_recommendation = "上半场大1.5球 🟢"
-    elif ht_over_15_prob >= 45:
-        ht_over_recommendation = "上半场大1.5球 🟡"
+    # 1. 计算近期进球调整因子（最近5场平均进球数）
+    home_recent_goals = home_form.get('goals_for', 0) / max(home_form.get('games', 1), 1)
+    away_recent_goals = away_form.get('goals_for', 0) / max(away_form.get('games', 1), 1)
+    avg_recent_goals = (home_recent_goals + away_recent_goals) / 2
+
+    # 2. 调整后的概率（结合模拟概率和近期状态）
+    # 如果两队近期都是高进球队，略微上调大球概率
+    adjusted_over_25_prob = over_25_prob
+    if avg_recent_goals > 2.5:
+        adjusted_over_25_prob += 8  # 高进球队组合
+    elif avg_recent_goals < 1.8:
+        adjusted_over_25_prob -= 5  # 低进球队组合
+
+    # 3. 使用更保守的阈值（仅推荐明确的机会）
+    if adjusted_over_25_prob >= 75:  # 提高阈值到75%
+        over_recommendation = "大2.5球 🟢"
+    elif adjusted_over_25_prob >= 62:  # 提高阈值到62%
+        over_recommendation = "大2.5球 🟡"
+    elif adjusted_over_25_prob <= 25:  # 很低概率时明确推荐小球
+        over_recommendation = "小2.5球 🔴"
     else:
+        over_recommendation = "小2.5球 🔴"  # 中间地带推荐小球（更保守）
+
+    # 上半场大小球推荐（更保守）
+    if ht_over_15_prob >= 68:  # 提高阈值
+        ht_over_recommendation = "上半场大1.5球 🟢"
+    elif ht_over_15_prob >= 50:  # 提高阈值
+        ht_over_recommendation = "上半场大1.5球 🟡"
+    elif ht_over_15_prob <= 20:  # 很低概率时明确推荐小球
         ht_over_recommendation = "上半场小1.5球 🔴"
+    else:
+        ht_over_recommendation = "上半场小1.5球 🔴"  # 中间地带推荐小球
 
     # ============ 让球盘 ============
     handicap = 0
@@ -1503,12 +1551,13 @@ def format_prediction(match: dict, pred: dict) -> str:
 
     # 比分推荐
     scores_str = ""
-    for s in pred.get('top_scores', []):
-        scores_str += f"\n   {s['label']}: {s['score']} ({s['prob']:.1f}%)"
+    for i, s in enumerate(pred.get('top_scores', [])):
+        label = s.get('label', '⭐ 首选' if i == 0 else ('🔶 次选' if i == 1 else f'#{i+1}'))
+        scores_str += f"\n   {label}: {s['score']} ({s['prob']:.1f}%)"
 
     # 半场预测
     ht_preds = pred.get('half_time_probs', [])
-    ht_str = ", ".join([f"{s['score']}({s['prob']:.0f}%)" for s in ht_preds]) if ht_preds else ", ".join(pred.get('half_time_predictions', []))
+    ht_str = ", ".join([f"{s.get('label', s.get('score', ''))}({s['prob']:.0f}%)" for s in ht_preds]) if ht_preds else ", ".join(pred.get('half_time_predictions', []))
 
     # 下半场预测
     ft2_str = ", ".join(pred.get('second_half_predictions', []))
@@ -1595,6 +1644,11 @@ def format_telegram_message(matches: list, predictions: list) -> str:
             rec = get_team_cn(rec)
         conf = pred.get('confidence', '')
 
+        # 低信心警告
+        low_conf_warning = ''
+        if '低信心' in conf:
+            low_conf_warning = ' ⚠️ 低信心，建议观望'
+
         # 比分推荐（3个）
         top_scores = pred.get('top_scores', [])
         scores_str = ""
@@ -1639,7 +1693,7 @@ def format_telegram_message(matches: list, predictions: list) -> str:
         lines.append(f"{time_info}")
         lines.append(f"⚽ {home_cn} vs {away_cn}")
         lines.append(f"📊 胜平负: {h_prob:.0f}% | {d_prob:.0f}% | {a_prob:.0f}%")
-        lines.append(f"✅ 推荐: {rec} {conf}")
+        lines.append(f"✅ 推荐: {rec} {conf}{low_conf_warning}")
         lines.append(f"⚽ 比分: {scores_str}")
         lines.append(f"⏱️ 半场: {ht_str}")
         lines.append(f"📈 大小: 全场{total_xg:.1f}球({over_rec.replace('大2.5球 ', '').replace('小2.5球 ', '')}) | 上半场{ht_total_xg:.1f}球({ht_over_rec.replace('上半场大1.5球 ', '').replace('上半场小1.5球 ', '')})")
@@ -1710,59 +1764,54 @@ def format_telegram_result(matches: list, predictions: list, results: list) -> s
 
 
 def send_telegram_message(message: str) -> bool:
-    """发送消息到Telegram（使用hermes send_message）"""
+    """发送消息到Telegram（优先使用hermes，回退到API）"""
+    import urllib.parse
+    import urllib.request
+    
+    # 方法1: 尝试使用hermes命令行工具
     try:
         import subprocess
-
-        # 使用hermes命令行工具发送
         result = subprocess.run(
-            ['hermes', 'send', '--platform', 'telegram', '--message', message],
+            ['hermes', 'chat', '--message', message],
             capture_output=True,
             text=True,
             timeout=30
         )
-
         if result.returncode == 0:
-            print(f"Telegram推送成功")
+            print(f"Telegram推送成功(hermes)")
             return True
-        else:
-            print(f"Telegram推送失败: {result.stderr}")
-            return False
-
     except FileNotFoundError:
-        # hermes命令不存在，尝试使用send_to_telegram脚本
-        try:
-            import urllib.parse
-            import urllib.request
+        pass  # hermes不存在，继续用API
+    except Exception as e:
+        print(f"hermes推送失败: {e}，尝试API...")
 
-            config_path = os.path.expanduser("~/.hermes/.secrets.json")
-            if os.path.exists(config_path):
-                with open(config_path) as f:
-                    config = json.load(f)
-                    token = config.get('telegram_bot_token', '')
+    # 方法2: 使用Telegram Bot API
+    try:
+        config_path = os.path.expanduser("~/.hermes/.secrets.json")
+        token = ''
+        if os.path.exists(config_path):
+            with open(config_path) as f:
+                config = json.load(f)
+                token = config.get('telegram_bot_token', '')
 
-            if not token:
-                print("未找到Telegram bot token，跳过推送")
-                return False
-
-            url = f"https://api.telegram.org/bot{token}/sendMessage"
-            data = urllib.parse.urlencode({
-                'chat_id': TELEGRAM_CHAT_ID,
-                'text': message,
-                'parse_mode': 'HTML'
-            }).encode()
-
-            req = urllib.request.Request(url, data=data)
-            resp = urllib.request.urlopen(req, timeout=10)
-            print(f"Telegram推送成功")
-            return True
-
-        except Exception as e:
-            print(f"Telegram推送失败: {e}")
+        if not token:
+            print("未找到Telegram bot token，跳过推送")
             return False
+
+        url = f"https://api.telegram.org/bot{token}/sendMessage"
+        data = urllib.parse.urlencode({
+            'chat_id': TELEGRAM_CHAT_ID,
+            'text': message,
+            'parse_mode': 'HTML'
+        }).encode()
+
+        req = urllib.request.Request(url, data=data)
+        resp = urllib.request.urlopen(req, timeout=10)
+        print(f"Telegram推送成功(API)")
+        return True
 
     except Exception as e:
-        print(f"Telegram推送失败: {e}")
+        print(f"Telegram API推送失败: {e}")
         return False
 
 
@@ -1879,6 +1928,9 @@ def update_with_results(predictions_path: str = None):
                 actual = r
                 break
 
+        # 处理嵌套结构：pred可能是[match, pred_dict]列表
+        if isinstance(pred, list) and len(pred) >= 2:
+            pred = pred[1]
         rec = pred['recommendation']
 
         if actual:
@@ -2039,6 +2091,9 @@ def main():
                 print(f"\n共 {len(matches)} 场比赛:\n")
 
                 for i, (match, pred) in enumerate(zip(matches, predictions), 1):
+                    # 处理嵌套结构：pred可能是[match, pred_dict]列表
+                    if isinstance(pred, list) and len(pred) >= 2:
+                        pred = pred[1]
                     print(format_prediction(match, pred))
             return
 
@@ -2062,8 +2117,8 @@ def main():
     # 按日期排序
     all_matches.sort(key=lambda x: x['date'])
 
-    # 只取前3场（只选当天能结束的比赛）
-    selected = all_matches[:3]
+    # 只取前8场（只选当天能结束的比赛）— 扩大样本量
+    selected = all_matches[:8]
 
     print(f"\n📋 选取 {len(selected)} 场比赛进行预测:\n")
 

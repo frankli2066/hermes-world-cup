@@ -1,0 +1,36 @@
+{
+  "date": "2026-04-24",
+  "generated_at": "2026-04-24T18:00:00",
+  "no_matches": true,
+  "days_until_world_cup": 48,
+  "world_cup_start": "2026-06-11",
+  "polymarket_update": {
+    "timestamp": "2026-04-23T18:03:42",
+    "top_teams": [
+      {"team": "France", "prob": 16.55, "change_1d": 0.70, "change_7d": 0.20},
+      {"team": "Spain", "prob": 15.95, "change_1d": -0.30, "change_7d": -1.20},
+      {"team": "England", "prob": 11.05, "change_1d": 0.00, "change_7d": 0.00},
+      {"team": "Argentina", "prob": 8.90, "change_1d": 0.05, "change_7d": 0.05},
+      {"team": "Brazil", "prob": 8.50, "change_1d": 0.00, "change_7d": 0.05},
+      {"team": "Portugal", "prob": 7.95, "change_1d": 0.05, "change_7d": 0.70},
+      {"team": "Germany", "prob": 5.35, "change_1d": -0.10, "change_7d": 0.15}
+    ]
+  },
+  "host_cities_weather_outlook": {
+    "high_temperature": [
+      {"city": "Dallas", "country": "USA", "avg_temp_jun": 32, "humidity": 60, "risk": "high"},
+      {"city": "Miami", "country": "USA", "avg_temp_jun": 30, "humidity": 75, "risk": "high"}
+    ],
+    "mild_temperature": [
+      {"city": "Los Angeles", "country": "USA", "avg_temp_jun": 22, "humidity": 55, "risk": "low"},
+      {"city": "New York", "country": "USA", "avg_temp_jun": 24, "humidity": 65, "risk": "low"},
+      {"city": "Mexico City", "country": "Mexico", "avg_temp_jun": 22, "humidity": 50, "altitude_risk": "high"}
+    ]
+  },
+  "betting_insights": {
+    "champion_favorites": ["France", "Spain", "England"],
+    "climate_adaptation": "France and Spain have good climate adaptation",
+    "altitude_concern": "Teams playing in Mexico City early in tournament",
+    "heat_concern": "Teams with thin squads may struggle in Dallas/Miami"
+  }
+}

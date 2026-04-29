@@ -1,0 +1,83 @@
+{
+  "date": "2026-04-28",
+  "collected_at": "2026-04-28T23:00:00+08:00",
+  "update_note": "最终版 — 3场全部完赛",
+  "total_predictions": 3,
+  "confirmed_results": 3,
+  "pending_results": 0,
+  "matches": [
+    {
+      "league": "英超",
+      "home": "Manchester United",
+      "away": "Brentford",
+      "home_cn": "曼联",
+      "away_cn": "布伦特福德",
+      "predicted_winner": "home",
+      "predicted_confidence": "🟢",
+      "actual_score": "2-1",
+      "actual_winner": "home",
+      "wdl_hit": true,
+      "score_hit": false,
+      "status": "FULL_TIME"
+    },
+    {
+      "league": "西甲",
+      "home": "Espanyol",
+      "away": "Levante",
+      "home_cn": "西班牙人",
+      "away_cn": "莱万特",
+      "predicted_winner": "draw",
+      "predicted_confidence": "🟡",
+      "actual_score": "0-0",
+      "actual_winner": "draw",
+      "wdl_hit": true,
+      "score_hit": true,
+      "status": "FULL_TIME"
+    },
+    {
+      "league": "意甲",
+      "home": "Cagliari",
+      "away": "Atalanta",
+      "home_cn": "卡利亚里",
+      "away_cn": "亚特兰大",
+      "predicted_winner": "away",
+      "predicted_confidence": "🟢",
+      "actual_score": "3-2",
+      "actual_winner": "home",
+      "wdl_hit": false,
+      "score_hit": false,
+      "status": "FULL_TIME",
+      "note": "🔴大冷门！卡利亚里主场3-2爆冷，Mendy首秀梅开二度"
+    }
+  ],
+  "accuracy": {
+    "confirmed_total": 3,
+    "confirmed_wdl_correct": 2,
+    "confirmed_wdl_accuracy": 66.67,
+    "confirmed_score_exact": 1,
+    "confirmed_score_accuracy": 33.33,
+    "high_confidence_total": 2,
+    "high_confidence_wdl_correct": 1,
+    "high_confidence_wdl_accuracy": 50.0,
+    "medium_confidence_total": 1,
+    "medium_confidence_wdl_correct": 1,
+    "medium_confidence_wdl_accuracy": 100.0,
+    "by_league": {
+      "英超": {
+        "total": 1,
+        "correct": 1,
+        "rate": 100.0
+      },
+      "西甲": {
+        "total": 1,
+        "correct": 1,
+        "rate": 100.0
+      },
+      "意甲": {
+        "total": 1,
+        "correct": 0,
+        "rate": 0.0
+      }
+    }
+  }
+}

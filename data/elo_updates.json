@@ -33,49 +33,62 @@
           "change": -20
         }
       }
-    }
-  ],
-    "last_update": "2026-04-18T18:37:13.553818"
-},
-{
-  "timestamp": "2026-04-28T23:00:00",
-  "update_type": "accuracy_feedback",
-  "matches": [
-    {
-      "match": "Manchester United 2-1 Brentford",
-      "stage": "premier_league",
-      "prediction": "home_win",
-      "result": "hit",
-      "confidence": "high",
-      "note": "主场32分命中，曼联争欧冠资格"
     },
     {
-      "match": "Espanyol 0-0 Levante",
-      "stage": "la_liga",
-      "prediction": "draw",
-      "result": "hit",
-      "confidence": "medium",
-      "note": "平局精准命中（含比分），保级战闷平"
-    },
-    {
-      "match": "Cagliari 3-2 Atalanta",
-      "stage": "serie_a",
-      "prediction": "away_win",
-      "result": "miss",
-      "confidence": "high",
-      "note": "大冷门！卡利亚里主场爆冷，Mendy首秀梅开二度"
+      "timestamp": "2026-04-29T23:00:00",
+      "action": "injury_based_elo_adjustment",
+      "reason": "Key players confirmed out or high-risk for 2026 World Cup",
+      "adjustments": {
+        "Brazil": {
+          "before": 1920,
+          "after": 1914,
+          "change": -6,
+          "reason": "Rodrygo (ACL out) + Militao (high-risk)"
+        },
+        "Argentina": {
+          "before": 1850,
+          "after": 1846,
+          "change": -4,
+          "reason": "Romero (high-risk knee)"
+        },
+        "France": {
+          "before": 1870,
+          "after": 1866,
+          "change": -4,
+          "reason": "Ekitike (Achilles out)"
+        },
+        "Canada": {
+          "before": 1570,
+          "after": 1564,
+          "change": -6,
+          "reason": "Davies (high-risk muscle issues)"
+        },
+        "Japan": {
+          "before": 1720,
+          "after": 1710,
+          "change": -10,
+          "reason": "Endo (captain, knee+ankle surgery out)"
+        },
+        "Netherlands": {
+          "before": 1800,
+          "after": 1794,
+          "change": -6,
+          "reason": "Xavi Simons (knee out)"
+        },
+        "Germany": {
+          "before": 1820,
+          "after": 1816,
+          "change": -4,
+          "reason": "Ter Stegen (GK uncertainty)"
+        },
+        "Croatia": {
+          "before": 1770,
+          "after": 1767,
+          "change": -3,
+          "reason": "Modric recovery uncertain (precautionary)"
+        }
+      }
     }
   ],
-  "accuracy": {
-    "total": 3,
-    "correct": 2,
-    "rate": 66.67
-  },
-  "polymarket_top3": [
-    {"team": "France", "prob": 16.35},
-    {"team": "Spain", "prob": 15.45},
-    {"team": "England", "prob": 11.15}
-  ],
-  "cumulative_accuracy": 47.5,
-  "next_prediction_date": "2026-05-02"
+  "last_update": "2026-04-29T23:00:00"
 }

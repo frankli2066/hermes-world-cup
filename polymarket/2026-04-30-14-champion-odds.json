@@ -1,0 +1,367 @@
+{
+  "timestamp": "2026-04-30T05:30:00Z",
+  "total_volume": 864235178.8067813,
+  "volume_24h": 6624564.045167,
+  "teams": [
+    {
+      "team": "Uzbekistan",
+      "prob": 0.0025,
+      "volume": 36480196.70269315,
+      "liquidity": 5364491.7899
+    },
+    {
+      "team": "Cura\u00e7ao",
+      "prob": 0.0025,
+      "volume": 33470053.3737561,
+      "liquidity": 6121026.45778
+    },
+    {
+      "team": "USA",
+      "prob": 0.0155,
+      "volume": 29182576.126270868,
+      "liquidity": 3741042.58583
+    },
+    {
+      "team": "New Zealand",
+      "prob": 0.0025,
+      "volume": 26760860.304164317,
+      "liquidity": 5410930.51337
+    },
+    {
+      "team": "Saudi Arabia",
+      "prob": 0.0025,
+      "volume": 24829624.413064495,
+      "liquidity": 5741356.48955
+    },
+    {
+      "team": "South Africa",
+      "prob": 0.0025,
+      "volume": 24726228.718405947,
+      "liquidity": 5988532.0053
+    },
+    {
+      "team": "Jordan",
+      "prob": 0.0025,
+      "volume": 23565150.049244665,
+      "liquidity": 6374182.98428
+    },
+    {
+      "team": "France",
+      "prob": 0.1605,
+      "volume": 22478448.22703556,
+      "liquidity": 441497.14733
+    },
+    {
+      "team": "Qatar",
+      "prob": 0.0025,
+      "volume": 21946405.474679805,
+      "liquidity": 6328633.99385
+    },
+    {
+      "team": "Iran",
+      "prob": 0.0015,
+      "volume": 21539189.117790055,
+      "liquidity": 5863189.46569
+    },
+    {
+      "team": "Egypt",
+      "prob": 0.0045,
+      "volume": 21076883.157815292,
+      "liquidity": 5525583.21853
+    },
+    {
+      "team": "South Korea",
+      "prob": 0.0045,
+      "volume": 20614467.996803004,
+      "liquidity": 4585349.13264
+    },
+    {
+      "team": "Canada",
+      "prob": 0.006500000000000001,
+      "volume": 20397261.276315082,
+      "liquidity": 5901218.76448
+    },
+    {
+      "team": "Cape Verde",
+      "prob": 0.0025,
+      "volume": 20394007.454008766,
+      "liquidity": 6095657.48946
+    },
+    {
+      "team": "Australia",
+      "prob": 0.0025,
+      "volume": 19970864.570363965,
+      "liquidity": 6164744.39201
+    },
+    {
+      "team": "Tunisia",
+      "prob": 0.0035000000000000005,
+      "volume": 19681702.132485177,
+      "liquidity": 6524463.24877
+    },
+    {
+      "team": "Algeria",
+      "prob": 0.0035000000000000005,
+      "volume": 19447846.898287747,
+      "liquidity": 6141464.30002
+    },
+    {
+      "team": "Ivory Coast",
+      "prob": 0.0045,
+      "volume": 18970320.647888772,
+      "liquidity": 6312254.60321
+    },
+    {
+      "team": "Ecuador",
+      "prob": 0.0075,
+      "volume": 17916109.36886177,
+      "liquidity": 2919415.58159
+    },
+    {
+      "team": "Japan",
+      "prob": 0.0215,
+      "volume": 17845430.797764122,
+      "liquidity": 1161565.48099
+    },
+    {
+      "team": "Spain",
+      "prob": 0.1525,
+      "volume": 17758418.353822317,
+      "liquidity": 1147626.33581
+    },
+    {
+      "team": "Paraguay",
+      "prob": 0.0045,
+      "volume": 17368552.212694373,
+      "liquidity": 5660936.01925
+    },
+    {
+      "team": "Morocco",
+      "prob": 0.0175,
+      "volume": 16846829.93885318,
+      "liquidity": 1608908.78443
+    },
+    {
+      "team": "Scotland",
+      "prob": 0.0035000000000000005,
+      "volume": 16670605.708987191,
+      "liquidity": 5173846.55499
+    },
+    {
+      "team": "Portugal",
+      "prob": 0.0735,
+      "volume": 16622762.808078619,
+      "liquidity": 1332859.06495
+    },
+    {
+      "team": "Haiti",
+      "prob": 0.0015,
+      "volume": 16211643.432820065,
+      "liquidity": 6201189.88328
+    },
+    {
+      "team": "Brazil",
+      "prob": 0.0855,
+      "volume": 16154187.610018846,
+      "liquidity": 1790774.51047
+    },
+    {
+      "team": "Mexico",
+      "prob": 0.0105,
+      "volume": 16145972.32964232,
+      "liquidity": 2701510.97535
+    },
+    {
+      "team": "Netherlands",
+      "prob": 0.0335,
+      "volume": 16116126.175577914,
+      "liquidity": 1819615.61714
+    },
+    {
+      "team": "Ghana",
+      "prob": 0.0025,
+      "volume": 16009690.493344897,
+      "liquidity": 5827189.87908
+    },
+    {
+      "team": "Austria",
+      "prob": 0.006500000000000001,
+      "volume": 15828639.623704404,
+      "liquidity": 3545932.94084
+    },
+    {
+      "team": "Croatia",
+      "prob": 0.0105,
+      "volume": 15615894.76275682,
+      "liquidity": 2545473.89519
+    },
+    {
+      "team": "Argentina",
+      "prob": 0.08649999999999998,
+      "volume": 15386194.813996153,
+      "liquidity": 1719247.94783
+    },
+    {
+      "team": "Senegal",
+      "prob": 0.0075,
+      "volume": 14903031.04719546,
+      "liquidity": 2084197.8103
+    },
+    {
+      "team": "Uruguay",
+      "prob": 0.0105,
+      "volume": 14773029.249349972,
+      "liquidity": 3909670.37297
+    },
+    {
+      "team": "Belgium",
+      "prob": 0.0195,
+      "volume": 14661036.171254095,
+      "liquidity": 2521120.77876
+    },
+    {
+      "team": "England",
+      "prob": 0.1105,
+      "volume": 14575348.575823937,
+      "liquidity": 1609137.607
+    },
+    {
+      "team": "Norway",
+      "prob": 0.0235,
+      "volume": 14195483.899751354,
+      "liquidity": 1864398.02112
+    },
+    {
+      "team": "Congo DR",
+      "prob": 0.0025,
+      "volume": 14135333.293630036,
+      "liquidity": 4421626.58166
+    },
+    {
+      "team": "Germany",
+      "prob": 0.0515,
+      "volume": 14125688.442800736,
+      "liquidity": 1648436.54074
+    },
+    {
+      "team": "Switzerland",
+      "prob": 0.0095,
+      "volume": 14119310.338142343,
+      "liquidity": 2721078.53261
+    },
+    {
+      "team": "Colombia",
+      "prob": 0.0165,
+      "volume": 13506169.824479777,
+      "liquidity": 3139929.95976
+    },
+    {
+      "team": "Iraq",
+      "prob": 0.0025,
+      "volume": 10699964.480827969,
+      "liquidity": 6653765.55752
+    },
+    {
+      "team": "Panama",
+      "prob": 0.0025,
+      "volume": 10669054.775934024,
+      "liquidity": 6493813.09161
+    },
+    {
+      "team": "Bosnia-Herzegovina",
+      "prob": 0.0035000000000000005,
+      "volume": 8823686.322222026,
+      "liquidity": 6569401.9671
+    },
+    {
+      "team": "Italy",
+      "prob": 0.0,
+      "volume": 8666273.297316846,
+      "liquidity": 0.0
+    },
+    {
+      "team": "Turkiye",
+      "prob": 0.006500000000000001,
+      "volume": 7858486.509826017,
+      "liquidity": 2626645.32596
+    },
+    {
+      "team": "Czechia",
+      "prob": 0.0035000000000000005,
+      "volume": 7342194.356875979,
+      "liquidity": 5114762.28834
+    },
+    {
+      "team": "Sweden",
+      "prob": 0.006500000000000001,
+      "volume": 6888574.106942978,
+      "liquidity": 4420441.13333
+    },
+    {
+      "team": "Peru",
+      "prob": 0.0,
+      "volume": 264589.508269,
+      "liquidity": 0.0
+    },
+    {
+      "team": "Team AM",
+      "prob": 0.0,
+      "volume": 0.0,
+      "liquidity": 0.0
+    },
+    {
+      "team": "Team AI",
+      "prob": 0.0,
+      "volume": 0.0,
+      "liquidity": 0.0
+    },
+    {
+      "team": "Other",
+      "prob": 0.0,
+      "volume": 0.0,
+      "liquidity": 0.0
+    },
+    {
+      "team": "Team AG",
+      "prob": 0.0,
+      "volume": 0.0,
+      "liquidity": 0.0
+    },
+    {
+      "team": "Team AH",
+      "prob": 0.0,
+      "volume": 0.0,
+      "liquidity": 0.0
+    },
+    {
+      "team": "Team AL",
+      "prob": 0.0,
+      "volume": 0.0,
+      "liquidity": 0.0
+    },
+    {
+      "team": "Team AN",
+      "prob": 0.0,
+      "volume": 0.0,
+      "liquidity": 0.0
+    },
+    {
+      "team": "Team AJ",
+      "prob": 0.0,
+      "volume": 0.0,
+      "liquidity": 0.0
+    },
+    {
+      "team": "Team AK",
+      "prob": 0.0,
+      "volume": 0.0,
+      "liquidity": 0.0
+    },
+    {
+      "team": "Team AO",
+      "prob": 0.0,
+      "volume": 0.0,
+      "liquidity": 0.0
+    }
+  ]
+}

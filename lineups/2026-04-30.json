@@ -1,0 +1,397 @@
+{
+  "date": "2026-04-30",
+  "timestamp": "2026-04-30T20:00:00+08:00",
+  "status": "pre_tournament",
+  "days_until_world_cup": 42,
+  "tournament_dates": "2026年6月11日-7月19日",
+  "data_source": "BBC Sport World Cup主页 (https://www.bbc.com/sport/football/world-cup)",
+  "note": "世界杯尚未开始，今日为赛前准备阶段，无实际比赛。首发阵容确认将在世界杯开赛前一周（6月4日起）开始发布。",
+  "bbc_latest_news": [
+    {
+      "title": "Croatia confident of Modric recovery for World Cup",
+      "posted": "2 days ago",
+      "category": "World Cup"
+    },
+    {
+      "title": "World Cup group stage set for yellow card amnesty",
+      "posted": "2 days ago",
+      "category": "World Cup"
+    },
+    {
+      "title": "US rights groups urge caution for World Cup visitors",
+      "posted": "5 days ago",
+      "category": "World Cup"
+    },
+    {
+      "title": "No Fif a plan for Italy to replace Iran at World Cup",
+      "posted": "6 days ago",
+      "category": "World Cup"
+    },
+    {
+      "title": "50 days until World Cup - pick your favourite kits",
+      "posted": "7 days ago",
+      "category": "Football"
+    }
+  ],
+  "new_updates_today": [],
+  "confirmed_injuries": [
+    {
+      "player": "Hugo Ekitike",
+      "team": "France",
+      "injury": "跟腱断裂 (Achilles rupture)",
+      "status": "确定缺席世界杯，复出时间2027年",
+      "source": "BBC Sport, 2026-04-16"
+    },
+    {
+      "player": "Patrick Agyemang",
+      "team": "England",
+      "injury": "跟腱断裂 (Achilles)",
+      "status": "确定缺席2026世界杯",
+      "source": "BBC Sport, 2026-04-07"
+    },
+    {
+      "player": "Xavi Simons",
+      "team": "Netherlands",
+      "injury": "膝盖受伤 (Knee injury)",
+      "status": "确定缺席世界杯！英超赛季结束，世界杯梦碎",
+      "source": "BBC Sport, 2026-04-27"
+    },
+    {
+      "player": "Rodrygo",
+      "team": "Brazil",
+      "injury": "前交叉韧带撕裂 (ACL)",
+      "status": "确定缺席世界杯",
+      "source": "BBC Sport, 2026-04-23"
+    },
+    {
+      "player": "Wataru Endo",
+      "team": "Japan",
+      "injury": "膝盖和脚踝双重伤势，需要手术",
+      "status": "确定缺席世界杯",
+      "source": "BBC Sport, 2026-04-23"
+    },
+    {
+      "player": "Luka Modric",
+      "team": "Croatia",
+      "injury": "颧骨骨折 (broken cheekbone)",
+      "status": "手术后恢复中，主帅表示乐观",
+      "source": "BBC Sport, 2026-04-28"
+    }
+  ],
+  "uncertain_injuries": [
+    {
+      "player": "Lamine Yamal",
+      "team": "Spain",
+      "position": "Winger",
+      "injury": "腿筋受伤 (hamstring)",
+      "status": "预期可以参加世界杯（俱乐部预期）",
+      "source": "BBC Sport, 2026-04-23",
+      "detail": "在4月22日巴萨vs塞尔塔的比赛中受伤，但巴萨预期他能及时康复"
+    },
+    {
+      "player": "Marc-Andre ter Stegen",
+      "team": "Germany",
+      "position": "Goalkeeper",
+      "injury": "长期腿筋问题",
+      "status": "参加世界杯开幕式比赛的可能性正在减弱",
+      "source": "BBC Sport, 2026-04-23"
+    },
+    {
+      "player": "Cristian Romero",
+      "team": "Argentina",
+      "position": "Centre-back",
+      "injury": "膝盖受伤",
+      "status": "缺席本赛季剩余比赛，能否及时复出存疑",
+      "source": "BBC Sport, 2026-04-23"
+    },
+    {
+      "player": "Mohammed Kudus",
+      "team": "Ghana",
+      "position": "Attacking Midfielder",
+      "injury": "四头肌受伤，可能需要手术",
+      "status": "能否参加世界杯存疑，已缺席超过3个月",
+      "source": "BBC Sport, 2026-04-23"
+    },
+    {
+      "player": "Eder Militao",
+      "team": "Brazil",
+      "position": "Centre-back",
+      "injury": "腿筋撕裂",
+      "status": "瞄准世界杯复出，巴西医疗团队谨慎对待",
+      "source": "BBC Sport, 2026-04-23"
+    },
+    {
+      "player": "Reece James",
+      "team": "England",
+      "position": "Right-back",
+      "injury": "腿筋问题",
+      "status": "连续缺席两届大赛，能否参加世界杯取决于恢复情况",
+      "source": "BBC Sport, 2026-04-23"
+    },
+    {
+      "player": "Alphonso Davies",
+      "team": "Canada",
+      "position": "Left-back",
+      "injury": "反复出现的肌肉问题",
+      "status": "能否完全康复存疑",
+      "source": "BBC Sport, 2026-04-23"
+    },
+    {
+      "player": "Mikel Merino",
+      "team": "Spain",
+      "position": "Midfielder",
+      "injury": "脚部骨折",
+      "status": "自2月份一直缺席，西班牙医疗团队警惕过早复出",
+      "source": "BBC Sport, 2026-04-23"
+    },
+    {
+      "player": "Arda Guler",
+      "team": "Turkey",
+      "position": "Winger",
+      "injury": "腿筋受伤",
+      "status": "赛季结束，能否及时恢复存疑",
+      "source": "BBC Sport, 2026-04-23"
+    },
+    {
+      "player": "Estevao Willian",
+      "team": "Brazil",
+      "position": "Forward",
+      "injury": "腿筋撕裂",
+      "status": "本赛季不会再出场，能否入选存疑",
+      "source": "BBC Sport, 2026-04-23"
+    }
+  ],
+  "upcoming_matches": [
+    {
+      "date": "2026-06-11",
+      "home": "Mexico",
+      "away": "South Africa",
+      "time": "20:00 UTC",
+      "venue": "Mexico City"
+    },
+    {
+      "date": "2026-06-12",
+      "home": "South Korea",
+      "away": "Czech Republic",
+      "time": "03:00 UTC",
+      "venue": "Seoul"
+    },
+    {
+      "date": "2026-06-12",
+      "home": "Canada",
+      "away": "Bosnia-Herzegovina",
+      "time": "20:00 UTC",
+      "venue": "Toronto"
+    },
+    {
+      "date": "2026-06-13",
+      "home": "United States",
+      "away": "Paraguay",
+      "time": "02:00 UTC",
+      "venue": "New York"
+    },
+    {
+      "date": "2026-06-13",
+      "home": "Qatar",
+      "away": "Switzerland",
+      "time": "20:00 UTC",
+      "venue": "Doha"
+    },
+    {
+      "date": "2026-06-13",
+      "home": "Brazil",
+      "away": "Morocco",
+      "time": "23:00 UTC",
+      "venue": "Rio de Janeiro"
+    },
+    {
+      "date": "2026-06-14",
+      "home": "Haiti",
+      "away": "Scotland",
+      "time": "02:00 UTC",
+      "venue": "Port-au-Prince"
+    },
+    {
+      "date": "2026-06-14",
+      "home": "Australia",
+      "away": "Turkey",
+      "time": "05:00 UTC",
+      "venue": "Sydney"
+    },
+    {
+      "date": "2026-06-14",
+      "home": "Germany",
+      "away": "Curaçao",
+      "time": "18:00 UTC",
+      "venue": "Berlin"
+    },
+    {
+      "date": "2026-06-14",
+      "home": "Netherlands",
+      "away": "Japan",
+      "time": "21:00 UTC",
+      "venue": "Amsterdam"
+    }
+  ],
+  "squad_deadlines": {
+    "provisional_release": "2026年5月11日（35-55人候选名单）",
+    "final_squad_deadline": "2026年6月1日（最终23-26人名单）",
+    "tournament_start": "2026年6月11日",
+    "squad_size": "最多26人，包括最多3名守门员"
+  },
+  "polymarket_champion_odds_top5": [
+    {
+      "rank": 1,
+      "team": "Spain",
+      "prob": 17.45
+    },
+    {
+      "rank": 2,
+      "team": "France",
+      "prob": 16.05
+    },
+    {
+      "rank": 3,
+      "team": "England",
+      "prob": 11.15
+    },
+    {
+      "rank": 4,
+      "team": "Argentina",
+      "prob": 8.9
+    },
+    {
+      "rank": 5,
+      "team": "Brazil",
+      "prob": 8.65
+    }
+  ],
+  "impact_analysis": {
+    "confirmed_outs": [
+      {
+        "player": "Hugo Ekitike",
+        "team": "France",
+        "position": "ST",
+        "significance": "法国失去重要射手，17球6助攻",
+        "confirmed_date": "2026-04-16"
+      },
+      {
+        "player": "Rodrygo",
+        "team": "Brazil",
+        "position": "FWD",
+        "significance": "巴西失去进攻爆点",
+        "confirmed_date": "2026-04-23"
+      },
+      {
+        "player": "Patrick Agyemang",
+        "team": "England",
+        "position": "DEF",
+        "significance": "英格兰后防损失",
+        "confirmed_date": "2026-04-07"
+      },
+      {
+        "player": "Xavi Simons",
+        "team": "Netherlands",
+        "position": "Attacking Mid",
+        "significance": "荷兰失去核心创造力球员，全季表现亮眼",
+        "confirmed_date": "2026-04-27"
+      },
+      {
+        "player": "Wataru Endo",
+        "team": "Japan",
+        "position": "MID",
+        "significance": "日本队长+中场核心，双重伤病需手术",
+        "confirmed_date": "2026-04-23"
+      }
+    ],
+    "high_risk_injuries": [
+      {
+        "player": "Eder Militao",
+        "team": "Brazil",
+        "position": "CB",
+        "risk_level": "HIGH",
+        "significance": "巴西后防核心，历史肌肉伤病"
+      },
+      {
+        "player": "Alphonso Davies",
+        "team": "Canada",
+        "position": "LB/LWB",
+        "risk_level": "HIGH",
+        "significance": "加拿大核心威胁点，反复伤病"
+      },
+      {
+        "player": "Reece James",
+        "team": "England",
+        "position": "RB",
+        "risk_level": "HIGH",
+        "significance": "连续缺席两届大赛"
+      },
+      {
+        "player": "Cristian Romero",
+        "team": "Argentina",
+        "position": "CB",
+        "risk_level": "HIGH",
+        "significance": "阿根廷后防核心，膝盖问题"
+      },
+      {
+        "player": "Marc-Andre ter Stegen",
+        "team": "Germany",
+        "position": "GK",
+        "risk_level": "HIGH",
+        "significance": "德国一门，长期腿筋问题"
+      }
+    ],
+    "recovery_optimistic": [
+      {
+        "player": "Luka Modric",
+        "team": "Croatia",
+        "position": "MID",
+        "status": "手术后恢复乐观，主帅充满信心"
+      },
+      {
+        "player": "Lamine Yamal",
+        "team": "Spain",
+        "position": "Winger",
+        "status": "预期康复参赛"
+      }
+    ],
+    "uncertain": [
+      {
+        "player": "Mohammed Kudus",
+        "team": "Ghana",
+        "position": "Attacking Mid",
+        "concern": "可能需要手术"
+      },
+      {
+        "player": "Mikel Merino",
+        "team": "Spain",
+        "position": "MID",
+        "concern": "2月至今缺阵，复出过早风险"
+      },
+      {
+        "player": "Arda Guler",
+        "team": "Turkey",
+        "position": "Winger",
+        "concern": "赛季结束，状态存疑"
+      },
+      {
+        "player": "Estevao Willian",
+        "team": "Brazil",
+        "position": "FWD",
+        "concern": "缺乏近期比赛状态"
+      }
+    ]
+  },
+  "model_updates_needed": [
+    "Brazil: 调整Elo（-5到-8分）- Rodrygo确定缺席，Militao可能缺席",
+    "Argentina: 调整Elo（-3到-5分）- Romero高风险",
+    "France: 调整Elo（-3到-5分）- Ekitike确定缺席",
+    "Canada: 调整Elo（-5到-8分）- Davies高风险",
+    "Japan: 调整Elo（-8到-12分）- Endo确定缺席（队长+核心）",
+    "Netherlands: 调整Elo（-5到-8分）- Xavi Simons确定缺席",
+    "Germany: 调整Elo（-3到-5分）- 守门员位置存疑",
+    "Croatia: 观察Modric恢复情况 - 如康复则无需调整"
+  ],
+  "next_update": "首发阵容确认将在世界杯开赛前一周（6月4日起）开始发布",
+  "prediction_system_note": "由于世界杯尚未开始，当前预测基于各队阵容和伤病情况。首发阵容将在6月初各队公布大名单后开始确认。"
+}

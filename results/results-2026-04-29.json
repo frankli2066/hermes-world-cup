@@ -1,0 +1,46 @@
+{
+  "date": "2026-04-29",
+  "collected_at": "2026-04-29T23:00:00+08:00",
+  "update_note": "赛前准备期 — 距世界杯开幕43天，今日无实际比赛",
+  "total_predictions": 0,
+  "confirmed_results": 0,
+  "pending_results": 0,
+  "cumulative": {
+    "total_predictions": 40,
+    "total_correct": 19,
+    "overall_accuracy": 47.5,
+    "score_exact_matches": 3,
+    "score_accuracy": 7.5,
+    "high_confidence_correct": 8,
+    "high_confidence_total": 19,
+    "high_confidence_accuracy": 42.1,
+    "medium_confidence_correct": 11,
+    "medium_confidence_total": 21,
+    "medium_confidence_accuracy": 52.4
+  },
+  "polymarket_champion_odds": {
+    "Spain": 17.45,
+    "France": 16.05,
+    "England": 11.15,
+    "Argentina": 8.90,
+    "Brazil": 8.65
+  },
+  "injury_updates_applied": {
+    "confirmed_out": ["Rodrygo (Brazil)", "Hugo Ekitike (France)", "Xavi Simons (Netherlands)", "Wataru Endo (Japan)", "Patrick Agyemang (England)"],
+    "high_risk": ["Eder Militao (Brazil)", "Alphonso Davies (Canada)", "Reece James (England)", "Cristian Romero (Argentina)", "Marc-Andre ter Stegen (Germany)"],
+    "recovery_optimistic": ["Luka Modric (Croatia)", "Lamine Yamal (Spain)"]
+  },
+  "elo_adjustments_applied": [
+    {"team": "Brazil", "change": -6, "reason": "Rodrygo out + Militao high-risk"},
+    {"team": "Argentina", "change": -4, "reason": "Romero high-risk knee"},
+    {"team": "France", "change": -4, "reason": "Ekitike out"},
+    {"team": "Canada", "change": -6, "reason": "Davies high-risk"},
+    {"team": "Japan", "change": -10, "reason": "Endo out (captain+core)"},
+    {"team": "Netherlands", "change": -6, "reason": "Xavi Simons out"},
+    {"team": "Germany", "change": -4, "reason": "Ter Stegen uncertain"},
+    {"team": "Croatia", "change": -3, "reason": "Modric recovery precautionary"}
+  ],
+  "next_predictions": "2026-05-02 (下轮英超+西甲+意甲)",
+  "days_until_world_cup": 43,
+  "status": "PRE_TOURNAMENT"
+}

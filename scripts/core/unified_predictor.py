@@ -925,6 +925,24 @@ class UnifiedPredictor:
         else:
             adjusted_draw_prob = draw_prob
 
+        # 【优化】高Elo爆冷逻辑 - 适用于小组赛和淘汰赛
+        # 发现：高信心错误中，Elo差>180的比赛预测强队赢但经常出错
+        # 不仅淘汰赛（如Uruguay vs Costa Rica 1-3），小组赛也有（South Korea vs Germany 2-0）
+        # 原因：这些比赛弱队往往超水平发挥或防守顽强
+        # 解决：当Elo差大且概率差距大时，提高平局概率 AND 弱队直接赢概率
+        elo_diff_for_upset = abs(self.get_elo(home_team) - self.get_elo(away_team))
+        prob_diff_for_upset = abs(home_prob - away_prob)
+        
+        if elo_diff_for_upset > 180 and prob_diff_for_upset > 0.30:
+            # Elo差>180且概率差距>30%：平局概率提高（因为容易爆冷）
+            boost_factor = 1.20
+            adjusted_draw_prob = min(adjusted_draw_prob * boost_factor, 0.38)
+            # 弱队直接赢概率温和提升（乘法式，避免过度干扰强队碾压局）
+            if home_prob > away_prob:
+                away_prob *= 1.10  # +10% 温和乘法
+            else:
+                home_prob *= 1.10
+        
         # 【新增】淘汰赛平局抑制 - 基于实际数据的精细调整
         # 关键洞察：
         # - 2024欧洲杯8强50%平局率（2/4），绝不能过度抑制
@@ -933,26 +951,9 @@ class UnifiedPredictor:
         # - 半决赛通常<15%平局率
         # 原则：只在大热们比赛时抑制，势均力敌时保留较高平局概率
         if is_knockout:
-            # 获取Elo差距
-            home_elo = self.get_elo(home_team)
-            away_elo = self.get_elo(away_team)
-            elo_diff = abs(home_elo - away_elo)
-            prob_diff = abs(home_prob - away_prob)
-
-            # 【优化】反转逻辑：Elo差大的比赛反而容易爆冷/平局
-            # 发现：高信心错误中，Elo差>200的比赛预测强队赢但经常出错
-            # 原因：这些比赛弱队往往超水平发挥或防守顽强
-            # 解决：当Elo差大且概率差距大时，略微提高平局概率
-            if elo_diff > 180 and prob_diff > 0.30:
-                # Elo差>180且概率差距>30%：平局概率提高（因为容易爆冷）
-                boost_factor = 1.20
-                adjusted_draw_prob = min(adjusted_draw_prob * boost_factor, 0.38)
-            
-            # 中等差距（80 < ELO差距 <= 150）：正常预测
-            elif elo_diff > 80 and prob_diff > 0.20:
-                if adjusted_draw_prob > 0.30:
-                    # 保留平局概率
-                    pass  # 不调整
+            # 淘汰赛平局抑制已从上方通用逻辑中移除
+            # 淘汰赛和小组赛现在共享相同的爆冷检测
+            pass
 
         # 归一化概率（确保总和为1）
         total_prob = home_prob + away_prob + adjusted_draw_prob
@@ -1008,7 +1009,7 @@ class UnifiedPredictor:
             else:
                 recommendation = away_team
 
-        # 【新增】客队赢预测准确率偏低矫正
+        # 【保留】客队赢预测准确率偏低矫正
         # 发现：客队赢预测只有50%准确率，而主队赢预测有59%
         # 当prob_diff很小时（<0.08），away_prob略微领先时，倾向于主队
         prob_diff_final = abs(home_prob_normalized - away_prob_normalized)

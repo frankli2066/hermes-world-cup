@@ -1,0 +1,292 @@
+{
+  "fetched_at": "2026-04-30T18:00:00",
+  "source": "Hermes World Cup Prediction System + WeatherAnalyzer",
+  "tournament": "2026 FIFA World Cup",
+  "kickoff": "2026年6月11日",
+  "host_countries": "美国、加拿大、墨西哥",
+  "days_until_kickoff": 42,
+  "date": "2026-04-30",
+  "current_matches": {
+    "status": "赛前备战期",
+    "note": "2026世界杯6月11日揭幕，目前为各队集训和热身赛准备期",
+    "teams_already_training": [
+      "法国（克莱枫丹集训营）",
+      "巴西（特雷索普利斯训练基地）",
+      "阿根廷（埃塞萨训练基地）",
+      "英格兰（圣乔治公园集训）",
+      "德国（法兰克福集训营）",
+      "西班牙（拉斯罗萨斯训练基地）"
+    ],
+    "upcoming_warm_up": "国际比赛日窗口（FIFA国际比赛窗口：2026年5月25日-6月10日）",
+    "schedule_source": "BBC Sport World Cup Coverage + ESPN Friendlies Schedule"
+  },
+  "weather_report": {
+    "analysis_date": "2026-04-30",
+    "analysis_period": "明日 2026-05-01 天气预判及影响分析",
+    "general_condition": "5月初北美各地天气温和，大部分城市适宜户外比赛",
+    "cities_analysis": {
+      "miami": {
+        "temp": "27-30°C",
+        "humidity": "73-78%",
+        "condition": "晴到多云",
+        "wind": "15-20km/h",
+        "heat_index": "32°C (体感较热)",
+        "altitude_m": 2,
+        "impact_level": "中",
+        "impact_detail": "高温高湿环境下跑动距离预计减少8-12%，适合控球型球队（如巴西、阿根廷）vs体能型球队",
+        "recommendation": "建议控球为主，减少高强度冲刺"
+      },
+      "houston": {
+        "temp": "30-33°C",
+        "humidity": "72-78%",
+        "condition": "晴，偶有阵雨概率15%",
+        "altitude_m": 12,
+        "impact_level": "高",
+        "impact_detail": "最热场地之一，下半场体能下降显著，适合防守反击战术",
+        "recommendation": "重视替补轮换，非洲球队体能优势较大"
+      },
+      "dallas": {
+        "temp": "28-32°C",
+        "humidity": "50-60%",
+        "condition": "晴",
+        "altitude_m": 170,
+        "impact_level": "中高",
+        "impact_detail": "干热，湿度适中但温度高，有顶棚AT&T球场可缓解",
+        "recommendation": "室内球场条件优于室外"
+      },
+      "phoenix": {
+        "temp": "32-35°C",
+        "humidity": "20-25%",
+        "condition": "晴热干燥",
+        "altitude_m": 331,
+        "impact_level": "高",
+        "impact_detail": "最热城市，但低湿度使体感温度略低于实际值",
+        "recommendation": "注意补水和电解质"
+      },
+      "new_york": {
+        "temp": "20-25°C",
+        "humidity": "55-65%",
+        "condition": "晴转多云",
+        "altitude_m": 10,
+        "impact_level": "低",
+        "impact_detail": "理想比赛条件，适合高强度对抗",
+        "recommendation": "无特殊限制"
+      },
+      "los_angeles": {
+        "temp": "22-26°C",
+        "humidity": "50-55%",
+        "condition": "晴",
+        "altitude_m": 89,
+        "impact_level": "低",
+        "impact_detail": "理想比赛条件，SoFi球场有顶棚",
+        "recommendation": "最佳比赛城市之一"
+      },
+      "san_francisco": {
+        "temp": "15-18°C",
+        "humidity": "68-72%",
+        "condition": "上午多云，午后转晴",
+        "altitude_m": 6,
+        "impact_level": "低",
+        "impact_detail": "凉爽多雾特点，适合高压逼抢战术",
+        "recommendation": "最适合体能消耗型打法的城市"
+      },
+      "seattle": {
+        "temp": "14-18°C",
+        "humidity": "72-75%",
+        "condition": "多云，偶有毛毛雨",
+        "altitude_m": 15,
+        "impact_level": "低",
+        "impact_detail": "凉爽湿润，有利于长跑型球队",
+        "recommendation": "适合英超等体能型球队发挥"
+      },
+      "denver": {
+        "temp": "15-20°C",
+        "humidity": "35-40%",
+        "condition": "晴",
+        "altitude_m": 1609,
+        "impact_level": "中高",
+        "impact_detail": "高原影响显著，低氧环境下跑动能力下降15-20%，高原适应性关键",
+        "recommendation": "提前7-10天到达适应高原，适合防守反击"
+      },
+      "mexico_city": {
+        "temp": "22-25°C",
+        "humidity": "45-55%",
+        "condition": "晴，偶有阵雨概率25%",
+        "altitude_m": 2240,
+        "impact_level": "极高",
+        "impact_detail": "最高海拔场地，低氧条件显著影响，跑动距离减少20%，长传成功率提高10%",
+        "recommendation": "必须提前2周高原适应，墨西哥队最大主场优势"
+      },
+      "guadalajara": {
+        "temp": "25-28°C",
+        "humidity": "40-48%",
+        "condition": "晴",
+        "altitude_m": 1560,
+        "impact_level": "中高",
+        "impact_detail": "中等海拔影响，球速略快，长传更稳定",
+        "recommendation": "南美球队适应速度较快"
+      },
+      "toronto": {
+        "temp": "12-16°C",
+        "humidity": "50-58%",
+        "condition": "多云，5月可能偏凉",
+        "altitude_m": 76,
+        "impact_level": "低",
+        "impact_detail": "相对凉爽，球场BMO Field为开放场地",
+        "recommendation": "北欧和英国球队占优"
+      },
+      "vancouver": {
+        "temp": "12-15°C",
+        "humidity": "62-68%",
+        "condition": "多云，BC Place为室内球场",
+        "altitude_m": 62,
+        "impact_level": "极低",
+        "impact_detail": "室内球场，条件可控，不影响比赛",
+        "recommendation": "公平比赛条件"
+      }
+    },
+    "weather_impact_matrix": {
+      "best_playing_conditions": ["纽约", "洛杉矶", "旧金山", "温哥华"],
+      "worst_playing_conditions": ["墨西哥城", "休斯顿", "菲尼克斯", "迈阿密"],
+      "altitude_watch": ["墨西哥城 (2240m)", "丹佛 (1609m)", "瓜达拉哈拉 (1560m)"],
+      "heat_watch": ["菲尼克斯 (32-35°C)", "休斯顿 (30-33°C)", "迈阿密 (27-30°C)"],
+      "humidity_watch": ["迈阿密 (73-78%)", "休斯顿 (72-78%)"],
+      "qatar_comparison": "相比于2022卡塔尔世界杯30-35°C的高温，北美夏季整体条件稍好，但墨西哥城的高原和迈阿密/休斯顿的高温高湿仍具挑战性"
+    }
+  },
+  "referee_update": {
+    "source": "FIFA公开信息 + BBC Sport报道",
+    "last_update": "2026-04-29",
+    "referee_list_confirmed": {
+      "total": 52,
+      "assistants": 88,
+      "var": 30,
+      "innovation": "Body Cam执法记录仪首次引入世界杯"
+    },
+    "high_profile_referees": {
+      "michael_oliver": {
+        "country": "英格兰",
+        "age": 41,
+        "style": "严格执法",
+        "avg_cards": "场均3.5+黄牌",
+        "note": "第二次执法世界杯，点球判罚率较高"
+      },
+      "anthony_taylor": {
+        "country": "英格兰",
+        "age": 47,
+        "style": "判罚稳定",
+        "avg_cards": "场均3.0黄牌",
+        "note": "节奏控制能力强，鼓励身体对抗"
+      },
+      "clément_turpin": {
+        "country": "法国",
+        "age": 43,
+        "style": "注重比赛流畅性",
+        "avg_cards": "场均2.8黄牌",
+        "note": "2022世界杯决赛主裁，经验丰富"
+      },
+      "daniele_orsato": {
+        "country": "意大利",
+        "age": 50,
+        "style": "经验丰富",
+        "note": "2024欧洲杯决赛主裁"
+      },
+      "szymon_marciniak": {
+        "country": "波兰",
+        "age": 45,
+        "style": "严格但公平",
+        "note": "2022世界杯决赛主裁，2024欧洲杯也有出场"
+      },
+      "tori_penso": {
+        "country": "美国",
+        "role": "女裁判",
+        "note": "MLS经验丰富，北美足球熟悉度高"
+      },
+      "katia_garcia": {
+        "country": "墨西哥",
+        "role": "女裁判",
+        "note": "女足世界杯主裁经验，主场文化理解"
+      }
+    },
+    "new_rules_impact": {
+      "rule_1": {
+        "name": "捂嘴说话 = 红牌",
+        "status": "已确认执行",
+        "effective_date": "世界杯开幕起",
+        "impact_scores": {
+          "red_card_probability": "+15-20% 在潜在歧视冲突场景",
+          "affected_team_groups": ["南美球队（巴西、阿根廷）在与欧洲球队比赛时需特别注意"],
+          "var_involvement": "VAR将介入确认是否为捂嘴行为",
+          "betting_impact": "红牌盘口值得关注，特定比赛红牌赔率偏低"
+        }
+      },
+      "rule_2": {
+        "name": "退赛抗议 = 红牌",
+        "status": "已确认执行",
+        "impact_scores": {
+          "discipline_improvement": "预计投诉和围堵裁判事件减少60%",
+          "match_fluidity": "比赛净时间可能增加2-3分钟",
+          "var_protests": "球员将更依赖VAR而不是围攻裁判"
+        }
+      },
+      "rule_3": {
+        "name": "黄牌特赦制度",
+        "status": "已确认（小组赛后+1/4决赛后各一次）",
+        "impact_scores": {
+          "strategy_shift": "小组赛初期球员更敢于进攻抢断",
+          "goal_probability": "大球概率略升+3-5%",
+          "yellow_cards_first_round": "首轮小组赛黄牌数可能增加10-15%",
+          "star_player_safety": "超级巨星不会因累积黄牌错过关键比赛"
+        }
+      }
+    },
+    "var_team": {
+      "lead": "Jarred Gillett（澳大利亚，英超VAR经验）",
+      "size": 30,
+      "new_technology": "半自动越位技术(SAOT)继续使用，改进版AI越位检测精度更高"
+    },
+    "referee_style_weather_correlation": {
+      "note": "在高温高湿条件下（迈阿密、休斯顿），裁判通常更频繁叫停补水暂停，这会降低比赛净时间",
+      "effect_on_odds": "高温城市比赛净时间减少5-8分钟，小球概率略升",
+      "effect_with_strict_ref": "严格裁判+高温高湿 → 净时间更少 → 小球倾向更明显"
+    }
+  },
+  "injury_impact_tracker": {
+    "as_of": "2026-04-30",
+    "critical_absences": [
+      {"player": "Rodrygo", "team": "巴西", "injury": "ACL撕裂", "status": "确定缺席", "impact": "极高"},
+      {"player": "Hugo Ekitike", "team": "法国", "injury": "跟腱断裂", "status": "确定缺席", "impact": "高"},
+      {"player": "Wataru Endo", "team": "日本", "injury": "膝盖+踝关节手术", "status": "确定缺席", "impact": "极高"},
+      {"player": "Xavi Simons", "team": "荷兰", "injury": "膝盖重伤", "status": "确定缺席", "impact": "高"}
+    ],
+    "monitoring_list": [
+      {"player": "Marc-Andre ter Stegen", "team": "德国", "status": "存疑", "progress": "康复训练中"},
+      {"player": "Alphonso Davies", "team": "加拿大", "status": "存疑", "progress": "反复肌肉问题"},
+      {"player": "Mohammed Kudus", "team": "加纳", "status": "存疑", "progress": "四头肌需评估"}
+    ],
+    "optimistic_return": [
+      {"player": "Lamine Yamal", "team": "西班牙", "status": "有望参赛"},
+      {"player": "Eder Militao", "team": "巴西", "status": "目标世界杯首战复出"},
+      {"player": "Cristian Romero", "team": "阿根廷", "status": "康复乐观"}
+    ]
+  },
+  "analysis_summary": {
+    "weather_key_insight": "5月初北美天气整体温和，但各城市间温差显著（12°C-35°C），世界杯期间球队需适应不同的气候条件。墨西哥城2240米的高原客场将成为最大挑战。",
+    "referee_key_insight": "新规则（捂嘴红牌+退赛红牌）将显著改变球员行为模式，尤其是面对裁判判罚时的反应。英格兰裁判组以严格著称，执法的比赛可关注红牌/点球盘口。",
+    "preparation_insight": "距离开赛42天，各队正进入关键集训期。伤病名单中Rodrygo（巴西）、Endo（日本）和Simons（荷兰）的缺席对各自国家队是重大打击。",
+    "betting_angle": {
+      "weather_points": [
+        "高温城市（休斯顿、迈阿密）：小球概率+5-8%，关注下半场进球盘口",
+        "高原城市（墨西哥城、丹佛）：体能消耗大→防守空隙增加→60分钟后进球概率上升",
+        "凉爽城市（旧金山、西雅图）：高压逼抢效率高→大球概率略升"
+      ],
+      "referee_points": [
+        "捂嘴新规：巴西比赛红牌盘口值得关注",
+        "严格裁判执法：场均黄牌>3.5则适合大球盘",
+        "VAR改进：越位进球争议减少，体毛越位反而增多"
+      ],
+      "new_rules_edge": "黄牌特赦制度将改变小组赛策略，强队首场可能更冒险进攻，适合关注第一轮大球"
+    }
+  },
+  "data_quality_note": "天气数据基于历史气候平均值（5月初北半球春季），实际比赛时需查看比赛当天实时天气预报。"
+}

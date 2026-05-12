@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-04-29T20:06:06.752219",
+  "created_at": "2026-05-01T06:02:45.422367",
   "matches": [
     {
       "date": "2026-05-02",
@@ -109,17 +109,17 @@
       "top_scores": [
         {
           "score": "2-1",
-          "prob": 9.3,
+          "prob": 9.8,
           "label": "⭐ 首选"
         },
         {
           "score": "3-1",
-          "prob": 7.8,
+          "prob": 8.75,
           "label": "🔶 次选"
         },
         {
           "score": "2-0",
-          "prob": 7.199999999999999,
+          "prob": 7.95,
           "label": "#3"
         },
         {
@@ -129,7 +129,7 @@
         },
         {
           "score": "1-1",
-          "prob": 6.800000000000001,
+          "prob": 6.4,
           "label": "#5"
         }
       ],
@@ -143,23 +143,23 @@
       "half_time_probs": [
         {
           "score": "1-0",
-          "prob": 23.150000000000002
+          "prob": 23.7
         },
         {
           "score": "0-0",
-          "prob": 20.7
+          "prob": 20.4
         },
         {
           "score": "2-0",
-          "prob": 11.700000000000001
+          "prob": 12.15
         }
       ],
       "second_half_predictions": [],
-      "total_xg": 3.7,
-      "over_25_prob": 74.0,
+      "total_xg": 3.6,
+      "over_25_prob": 73.0,
       "over_recommendation": "大2.5球 🟡",
       "ht_total_xg": 1.6,
-      "ht_over_15_prob": 46.0,
+      "ht_over_15_prob": 45.0,
       "ht_over_recommendation": "上半场小1.5球 🔴",
       "handicap": 0,
       "home_form": {
@@ -200,18 +200,18 @@
       },
       "home_stats": {
         "home_points_per_game": 1.5,
-        "away_points_per_game": 0.8461538461538461,
+        "away_points_per_game": 0.9166666666666666,
         "home_goal_diff": 4,
-        "away_goal_diff": -6,
+        "away_goal_diff": -3,
         "home_games": 12,
-        "away_games": 13
+        "away_games": 12
       },
       "away_stats": {
-        "home_points_per_game": 0.3076923076923077,
+        "home_points_per_game": 0.3333333333333333,
         "away_points_per_game": 0.5,
-        "home_goal_diff": -14,
+        "home_goal_diff": -12,
         "away_goal_diff": -15,
-        "home_games": 13,
+        "home_games": 12,
         "away_games": 12
       }
     },
@@ -224,28 +224,28 @@
       "elo_diff": -60,
       "top_scores": [
         {
-          "score": "1-1",
-          "prob": 8.05,
+          "score": "1-2",
+          "prob": 8.95,
           "label": "⭐ 首选"
         },
         {
-          "score": "1-2",
-          "prob": 7.6,
+          "score": "1-1",
+          "prob": 7.249999999999999,
           "label": "🔶 次选"
         },
         {
           "score": "2-2",
-          "prob": 7.3,
+          "prob": 6.800000000000001,
           "label": "#3"
         },
         {
           "score": "2-1",
-          "prob": 7.199999999999999,
+          "prob": 6.65,
           "label": "#4"
         },
         {
           "score": "1-3",
-          "prob": 5.45,
+          "prob": 6.5,
           "label": "#5"
         }
       ],
@@ -253,29 +253,29 @@
       "away_xg": 1.99,
       "half_time_predictions": [
         "0-0",
-        "1-0",
-        "0-1"
+        "0-1",
+        "1-0"
       ],
       "half_time_probs": [
         {
           "score": "0-0",
-          "prob": 21.3
-        },
-        {
-          "score": "1-0",
-          "prob": 16.25
+          "prob": 21.8
         },
         {
           "score": "0-1",
-          "prob": 16.2
+          "prob": 18.25
+        },
+        {
+          "score": "1-0",
+          "prob": 15.049999999999999
         }
       ],
       "second_half_predictions": [],
       "total_xg": 3.7,
-      "over_25_prob": 73.0,
+      "over_25_prob": 74.0,
       "over_recommendation": "大2.5球 🟡",
-      "ht_total_xg": 1.6,
-      "ht_over_15_prob": 46.0,
+      "ht_total_xg": 1.5,
+      "ht_over_15_prob": 45.0,
       "ht_over_recommendation": "上半场小1.5球 🔴",
       "handicap": 0,
       "home_form": {
@@ -316,11 +316,11 @@
       },
       "home_stats": {
         "home_points_per_game": 1.5,
-        "away_points_per_game": 1.3076923076923077,
+        "away_points_per_game": 1.4166666666666667,
         "home_goal_diff": 6,
-        "away_goal_diff": -3,
+        "away_goal_diff": -1,
         "home_games": 12,
-        "away_games": 13
+        "away_games": 12
       },
       "away_stats": {
         "home_points_per_game": 1.4615384615384615,
@@ -341,57 +341,57 @@
       "top_scores": [
         {
           "score": "1-3",
-          "prob": 8.95,
+          "prob": 8.75,
           "label": "⭐ 首选"
         },
         {
-          "score": "1-1",
-          "prob": 8.4,
+          "score": "1-2",
+          "prob": 8.15,
           "label": "🔶 次选"
         },
         {
-          "score": "1-2",
-          "prob": 7.3999999999999995,
+          "score": "2-2",
+          "prob": 7.6,
           "label": "#3"
         },
         {
           "score": "0-2",
-          "prob": 5.800000000000001,
+          "prob": 6.5,
           "label": "#4"
         },
         {
-          "score": "2-2",
-          "prob": 5.65,
+          "score": "1-1",
+          "prob": 6.1,
           "label": "#5"
         }
       ],
       "home_xg": 1.49,
       "away_xg": 2.35,
       "half_time_predictions": [
-        "0-1",
         "0-0",
-        "1-0"
+        "0-1",
+        "1-1"
       ],
       "half_time_probs": [
         {
-          "score": "0-1",
-          "prob": 20.65
-        },
-        {
           "score": "0-0",
-          "prob": 20.200000000000003
+          "prob": 21.5
         },
         {
-          "score": "1-0",
-          "prob": 12.0
+          "score": "0-1",
+          "prob": 20.4
+        },
+        {
+          "score": "1-1",
+          "prob": 13.15
         }
       ],
       "second_half_predictions": [],
-      "total_xg": 3.8,
+      "total_xg": 3.7,
       "over_25_prob": 74.0,
       "over_recommendation": "大2.5球 🟡",
       "ht_total_xg": 1.6,
-      "ht_over_15_prob": 47.0,
+      "ht_over_15_prob": 46.0,
       "ht_over_recommendation": "上半场小1.5球 🔴",
       "handicap": 0,
       "home_form": {
@@ -439,11 +439,11 @@
         "away_games": 13
       },
       "away_stats": {
-        "home_points_per_game": 1.6923076923076923,
+        "home_points_per_game": 1.5833333333333333,
         "away_points_per_game": 1.3333333333333333,
-        "home_goal_diff": 8,
+        "home_goal_diff": 5,
         "away_goal_diff": 2,
-        "home_games": 13,
+        "home_games": 12,
         "away_games": 12
       }
     },
@@ -457,27 +457,27 @@
       "top_scores": [
         {
           "score": "1-1",
-          "prob": 10.9,
+          "prob": 9.85,
           "label": "⭐ 首选"
         },
         {
           "score": "0-1",
-          "prob": 10.2,
+          "prob": 9.75,
           "label": "🔶 次选"
         },
         {
           "score": "1-2",
-          "prob": 10.05,
+          "prob": 9.5,
           "label": "#3"
         },
         {
           "score": "0-2",
-          "prob": 9.049999999999999,
+          "prob": 8.55,
           "label": "#4"
         },
         {
-          "score": "1-3",
-          "prob": 7.6,
+          "score": "2-1",
+          "prob": 6.65,
           "label": "#5"
         }
       ],
@@ -491,23 +491,23 @@
       "half_time_probs": [
         {
           "score": "0-0",
-          "prob": 29.849999999999998
+          "prob": 28.050000000000004
         },
         {
           "score": "0-1",
-          "prob": 22.1
+          "prob": 22.400000000000002
         },
         {
           "score": "1-0",
-          "prob": 14.7
+          "prob": 14.95
         }
       ],
       "second_half_predictions": [],
-      "total_xg": 2.9,
+      "total_xg": 3.0,
       "over_25_prob": 57.0,
       "over_recommendation": "小2.5球 🔴",
       "ht_total_xg": 1.2,
-      "ht_over_15_prob": 33.0,
+      "ht_over_15_prob": 35.0,
       "ht_over_recommendation": "上半场小1.5球 🔴",
       "handicap": 0,
       "home_form": {
@@ -548,11 +548,11 @@
       },
       "home_stats": {
         "home_points_per_game": 0.9166666666666666,
-        "away_points_per_game": 0.3076923076923077,
+        "away_points_per_game": 0.3333333333333333,
         "home_goal_diff": -7,
-        "away_goal_diff": -19,
+        "away_goal_diff": -16,
         "home_games": 12,
-        "away_games": 13
+        "away_games": 12
       },
       "away_stats": {
         "home_points_per_game": 1.4615384615384615,
@@ -573,27 +573,27 @@
       "top_scores": [
         {
           "score": "1-1",
-          "prob": 12.7,
+          "prob": 13.100000000000001,
           "label": "⭐ 首选"
         },
         {
-          "score": "1-0",
-          "prob": 11.600000000000001,
+          "score": "0-1",
+          "prob": 11.75,
           "label": "🔶 次选"
         },
         {
-          "score": "0-1",
-          "prob": 10.25,
+          "score": "1-0",
+          "prob": 11.3,
           "label": "#3"
         },
         {
-          "score": "2-1",
-          "prob": 9.700000000000001,
+          "score": "0-0",
+          "prob": 9.8,
           "label": "#4"
         },
         {
-          "score": "0-0",
-          "prob": 8.25,
+          "score": "2-1",
+          "prob": 8.200000000000001,
           "label": "#5"
         }
       ],
@@ -607,20 +607,20 @@
       "half_time_probs": [
         {
           "score": "0-0",
-          "prob": 36.8
+          "prob": 37.35
         },
         {
           "score": "1-0",
-          "prob": 21.45
+          "prob": 20.599999999999998
         },
         {
           "score": "0-1",
-          "prob": 15.8
+          "prob": 15.9
         }
       ],
       "second_half_predictions": [],
-      "total_xg": 2.4,
-      "over_25_prob": 44.0,
+      "total_xg": 2.3,
+      "over_25_prob": 41.0,
       "over_recommendation": "小2.5球 🔴",
       "ht_total_xg": 1.0,
       "ht_over_15_prob": 26.0,
@@ -678,28 +678,28 @@
       "elo_diff": 140,
       "top_scores": [
         {
-          "score": "1-1",
-          "prob": 13.4,
+          "score": "1-0",
+          "prob": 13.200000000000001,
           "label": "⭐ 首选"
         },
         {
-          "score": "1-0",
-          "prob": 13.200000000000001,
+          "score": "1-1",
+          "prob": 13.05,
           "label": "🔶 次选"
         },
         {
-          "score": "0-1",
-          "prob": 9.8,
+          "score": "0-0",
+          "prob": 10.0,
           "label": "#3"
         },
         {
-          "score": "0-0",
-          "prob": 9.049999999999999,
+          "score": "0-1",
+          "prob": 9.35,
           "label": "#4"
         },
         {
           "score": "2-1",
-          "prob": 8.15,
+          "prob": 8.7,
           "label": "#5"
         }
       ],
@@ -713,23 +713,23 @@
       "half_time_probs": [
         {
           "score": "0-0",
-          "prob": 36.8
+          "prob": 40.25
         },
         {
           "score": "1-0",
-          "prob": 22.5
+          "prob": 19.45
         },
         {
           "score": "0-1",
-          "prob": 15.0
+          "prob": 16.25
         }
       ],
       "second_half_predictions": [],
       "total_xg": 2.3,
       "over_25_prob": 41.0,
       "over_recommendation": "小2.5球 🔴",
-      "ht_total_xg": 1.0,
-      "ht_over_15_prob": 26.0,
+      "ht_total_xg": 0.9,
+      "ht_over_15_prob": 24.0,
       "ht_over_recommendation": "上半场小1.5球 🔴",
       "handicap": 0,
       "home_form": {
@@ -784,28 +784,28 @@
       "elo_diff": 70,
       "top_scores": [
         {
-          "score": "1-1",
-          "prob": 13.100000000000001,
+          "score": "1-0",
+          "prob": 13.55,
           "label": "⭐ 首选"
         },
         {
-          "score": "1-0",
-          "prob": 12.5,
+          "score": "1-1",
+          "prob": 13.200000000000001,
           "label": "🔶 次选"
         },
         {
           "score": "0-1",
-          "prob": 10.2,
+          "prob": 10.7,
           "label": "#3"
         },
         {
           "score": "0-0",
-          "prob": 8.649999999999999,
+          "prob": 9.1,
           "label": "#4"
         },
         {
           "score": "2-1",
-          "prob": 8.6,
+          "prob": 8.200000000000001,
           "label": "#5"
         }
       ],
@@ -819,23 +819,23 @@
       "half_time_probs": [
         {
           "score": "0-0",
-          "prob": 37.25
+          "prob": 37.9
         },
         {
           "score": "1-0",
-          "prob": 20.8
+          "prob": 21.8
         },
         {
           "score": "0-1",
-          "prob": 16.650000000000002
+          "prob": 15.8
         }
       ],
       "second_half_predictions": [],
       "total_xg": 2.3,
-      "over_25_prob": 42.0,
+      "over_25_prob": 41.0,
       "over_recommendation": "小2.5球 🔴",
       "ht_total_xg": 1.0,
-      "ht_over_15_prob": 25.0,
+      "ht_over_15_prob": 24.0,
       "ht_over_recommendation": "上半场小1.5球 🔴",
       "handicap": 0,
       "home_form": {
@@ -890,28 +890,28 @@
       "elo_diff": 70,
       "top_scores": [
         {
-          "score": "1-0",
-          "prob": 12.45,
+          "score": "1-1",
+          "prob": 13.4,
           "label": "⭐ 首选"
         },
         {
-          "score": "1-1",
-          "prob": 12.1,
+          "score": "1-0",
+          "prob": 12.8,
           "label": "🔶 次选"
         },
         {
           "score": "0-1",
-          "prob": 11.0,
+          "prob": 9.9,
           "label": "#3"
         },
         {
-          "score": "0-0",
-          "prob": 10.05,
+          "score": "2-1",
+          "prob": 8.55,
           "label": "#4"
         },
         {
-          "score": "2-1",
-          "prob": 8.75,
+          "score": "0-0",
+          "prob": 8.55,
           "label": "#5"
         }
       ],
@@ -925,23 +925,23 @@
       "half_time_probs": [
         {
           "score": "0-0",
-          "prob": 41.25
+          "prob": 38.35
         },
         {
           "score": "1-0",
-          "prob": 20.1
+          "prob": 19.0
         },
         {
           "score": "0-1",
-          "prob": 15.950000000000001
+          "prob": 16.0
         }
       ],
       "second_half_predictions": [],
       "total_xg": 2.3,
-      "over_25_prob": 40.0,
+      "over_25_prob": 42.0,
       "over_recommendation": "小2.5球 🔴",
-      "ht_total_xg": 0.9,
-      "ht_over_15_prob": 23.0,
+      "ht_total_xg": 1.0,
+      "ht_over_15_prob": 27.0,
       "ht_over_recommendation": "上半场小1.5球 🔴",
       "handicap": 0,
       "home_form": {

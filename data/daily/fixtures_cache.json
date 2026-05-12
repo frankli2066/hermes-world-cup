@@ -1,21 +1,12 @@
 {
-  "updated_at": "2026-04-29T06:02:11.609147",
+  "updated_at": "2026-05-01T06:01:06.059888",
   "matches": [
-    {
-      "date": "2026-04-28",
-      "home": "Manchester Utd",
-      "away": "Brentford",
-      "time": "03:00",
-      "days_diff": -1,
-      "timestamp": 1777316400,
-      "league": "EPL"
-    },
     {
       "date": "2026-05-02",
       "home": "Leeds",
       "away": "Burnley",
       "time": "03:00",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777662000,
       "league": "EPL"
     },
@@ -24,7 +15,7 @@
       "home": "Brentford",
       "away": "West Ham",
       "time": "22:00",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777730400,
       "league": "EPL"
     },
@@ -33,7 +24,7 @@
       "home": "Newcastle",
       "away": "Brighton",
       "time": "22:00",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777730400,
       "league": "EPL"
     },
@@ -42,7 +33,7 @@
       "home": "Wolves",
       "away": "Sunderland",
       "time": "22:00",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777730400,
       "league": "EPL"
     },
@@ -51,7 +42,7 @@
       "home": "Arsenal",
       "away": "Fulham",
       "time": "00:30",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777739400,
       "league": "EPL"
     },
@@ -60,7 +51,7 @@
       "home": "Bournemouth",
       "away": "Crystal Palace",
       "time": "21:00",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777813200,
       "league": "EPL"
     },
@@ -69,7 +60,7 @@
       "home": "Manchester Utd",
       "away": "Liverpool",
       "time": "22:30",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777818600,
       "league": "EPL"
     },
@@ -78,7 +69,7 @@
       "home": "Aston Villa",
       "away": "Tottenham",
       "time": "02:00",
-      "days_diff": 5,
+      "days_diff": 3,
       "timestamp": 1777831200,
       "league": "EPL"
     },
@@ -87,7 +78,7 @@
       "home": "Chelsea",
       "away": "Nottingham",
       "time": "22:00",
-      "days_diff": 5,
+      "days_diff": 3,
       "timestamp": 1777903200,
       "league": "EPL"
     },
@@ -96,25 +87,16 @@
       "home": "Everton",
       "away": "Manchester City",
       "time": "03:00",
-      "days_diff": 6,
+      "days_diff": 4,
       "timestamp": 1777921200,
       "league": "EPL"
-    },
-    {
-      "date": "2026-04-28",
-      "home": "Espanyol",
-      "away": "Levante",
-      "time": "03:00",
-      "days_diff": -1,
-      "timestamp": 1777316400,
-      "league": "La Liga"
     },
     {
       "date": "2026-05-02",
       "home": "Girona",
       "away": "Mallorca",
       "time": "03:00",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777662000,
       "league": "La Liga"
     },
@@ -123,7 +105,7 @@
       "home": "Villarreal",
       "away": "Levante",
       "time": "20:00",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777723200,
       "league": "La Liga"
     },
@@ -132,7 +114,7 @@
       "home": "Valencia",
       "away": "Atl. Madrid",
       "time": "22:15",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777731300,
       "league": "La Liga"
     },
@@ -141,7 +123,7 @@
       "home": "Alaves",
       "away": "Ath Bilbao",
       "time": "00:30",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777739400,
       "league": "La Liga"
     },
@@ -150,7 +132,7 @@
       "home": "Osasuna",
       "away": "Barcelona",
       "time": "03:00",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777748400,
       "league": "La Liga"
     },
@@ -159,7 +141,7 @@
       "home": "Celta Vigo",
       "away": "Elche",
       "time": "20:00",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777809600,
       "league": "La Liga"
     },
@@ -168,7 +150,7 @@
       "home": "Getafe",
       "away": "Rayo Vallecano",
       "time": "22:15",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777817700,
       "league": "La Liga"
     },
@@ -177,7 +159,7 @@
       "home": "Betis",
       "away": "Oviedo",
       "time": "00:30",
-      "days_diff": 5,
+      "days_diff": 3,
       "timestamp": 1777825800,
       "league": "La Liga"
     },
@@ -186,7 +168,7 @@
       "home": "Espanyol",
       "away": "Real Madrid",
       "time": "03:00",
-      "days_diff": 5,
+      "days_diff": 3,
       "timestamp": 1777834800,
       "league": "La Liga"
     },
@@ -195,34 +177,16 @@
       "home": "Sevilla",
       "away": "Real Sociedad",
       "time": "03:00",
-      "days_diff": 6,
+      "days_diff": 4,
       "timestamp": 1777921200,
       "league": "La Liga"
-    },
-    {
-      "date": "2026-04-28",
-      "home": "Cagliari",
-      "away": "Atalanta",
-      "time": "00:30",
-      "days_diff": -1,
-      "timestamp": 1777307400,
-      "league": "Serie A"
-    },
-    {
-      "date": "2026-04-28",
-      "home": "Lazio",
-      "away": "Udinese",
-      "time": "02:45",
-      "days_diff": -1,
-      "timestamp": 1777315500,
-      "league": "Serie A"
     },
     {
       "date": "2026-05-02",
       "home": "Pisa",
       "away": "Lecce",
       "time": "02:45",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777661100,
       "league": "Serie A"
     },
@@ -231,7 +195,7 @@
       "home": "Udinese",
       "away": "Torino",
       "time": "21:00",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777726800,
       "league": "Serie A"
     },
@@ -240,7 +204,7 @@
       "home": "Como",
       "away": "Napoli",
       "time": "00:00",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777737600,
       "league": "Serie A"
     },
@@ -249,7 +213,7 @@
       "home": "Atalanta",
       "away": "Genoa",
       "time": "02:45",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777747500,
       "league": "Serie A"
     },
@@ -258,7 +222,7 @@
       "home": "Bologna",
       "away": "Cagliari",
       "time": "18:30",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777804200,
       "league": "Serie A"
     },
@@ -267,7 +231,7 @@
       "home": "Sassuolo",
       "away": "AC Milan",
       "time": "21:00",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777813200,
       "league": "Serie A"
     },
@@ -276,7 +240,7 @@
       "home": "Juventus",
       "away": "Verona",
       "time": "00:00",
-      "days_diff": 5,
+      "days_diff": 3,
       "timestamp": 1777824000,
       "league": "Serie A"
     },
@@ -285,7 +249,7 @@
       "home": "Inter",
       "away": "Parma",
       "time": "02:45",
-      "days_diff": 5,
+      "days_diff": 3,
       "timestamp": 1777833900,
       "league": "Serie A"
     },
@@ -294,7 +258,7 @@
       "home": "Cremonese",
       "away": "Lazio",
       "time": "00:30",
-      "days_diff": 6,
+      "days_diff": 4,
       "timestamp": 1777912200,
       "league": "Serie A"
     },
@@ -303,7 +267,7 @@
       "home": "AS Roma",
       "away": "Fiorentina",
       "time": "02:45",
-      "days_diff": 6,
+      "days_diff": 4,
       "timestamp": 1777920300,
       "league": "Serie A"
     },
@@ -312,7 +276,7 @@
       "home": "Bayern Munich",
       "away": "Heidenheim",
       "time": "21:30",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777728600,
       "league": "Bundesliga"
     },
@@ -321,7 +285,7 @@
       "home": "Eintracht Frankfurt",
       "away": "Hamburger SV",
       "time": "21:30",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777728600,
       "league": "Bundesliga"
     },
@@ -330,7 +294,7 @@
       "home": "Hoffenheim",
       "away": "Stuttgart",
       "time": "21:30",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777728600,
       "league": "Bundesliga"
     },
@@ -339,7 +303,7 @@
       "home": "Union Berlin",
       "away": "FC Koln",
       "time": "21:30",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777728600,
       "league": "Bundesliga"
     },
@@ -348,7 +312,7 @@
       "home": "Werder Bremen",
       "away": "Augsburg",
       "time": "21:30",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777728600,
       "league": "Bundesliga"
     },
@@ -357,7 +321,7 @@
       "home": "Bayer Leverkusen",
       "away": "RB Leipzig",
       "time": "00:30",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777739400,
       "league": "Bundesliga"
     },
@@ -366,7 +330,7 @@
       "home": "St. Pauli",
       "away": "Mainz",
       "time": "21:30",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777815000,
       "league": "Bundesliga"
     },
@@ -375,7 +339,7 @@
       "home": "B. Monchengladbach",
       "away": "Dortmund",
       "time": "23:30",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777822200,
       "league": "Bundesliga"
     },
@@ -384,7 +348,7 @@
       "home": "Freiburg",
       "away": "Wolfsburg",
       "time": "01:30",
-      "days_diff": 5,
+      "days_diff": 3,
       "timestamp": 1777829400,
       "league": "Bundesliga"
     },
@@ -393,7 +357,7 @@
       "home": "Nantes",
       "away": "Marseille",
       "time": "21:00",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777726800,
       "league": "Ligue 1"
     },
@@ -402,7 +366,7 @@
       "home": "PSG",
       "away": "Lorient",
       "time": "23:00",
-      "days_diff": 3,
+      "days_diff": 1,
       "timestamp": 1777734000,
       "league": "Ligue 1"
     },
@@ -411,7 +375,7 @@
       "home": "Metz",
       "away": "Monaco",
       "time": "01:00",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777741200,
       "league": "Ligue 1"
     },
@@ -420,7 +384,7 @@
       "home": "Nice",
       "away": "Lens",
       "time": "03:05",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777748700,
       "league": "Ligue 1"
     },
@@ -429,7 +393,7 @@
       "home": "Lille",
       "away": "Le Havre",
       "time": "21:00",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777813200,
       "league": "Ligue 1"
     },
@@ -438,7 +402,7 @@
       "home": "Auxerre",
       "away": "Angers",
       "time": "23:15",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777821300,
       "league": "Ligue 1"
     },
@@ -447,7 +411,7 @@
       "home": "Paris FC",
       "away": "Brest",
       "time": "23:15",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777821300,
       "league": "Ligue 1"
     },
@@ -456,7 +420,7 @@
       "home": "Strasbourg",
       "away": "Toulouse",
       "time": "23:15",
-      "days_diff": 4,
+      "days_diff": 2,
       "timestamp": 1777821300,
       "league": "Ligue 1"
     },
@@ -465,7 +429,7 @@
       "home": "Lyon",
       "away": "Rennes",
       "time": "02:45",
-      "days_diff": 5,
+      "days_diff": 3,
       "timestamp": 1777833900,
       "league": "Ligue 1"
     }

@@ -218,10 +218,20 @@ class EloDynamicUpdater:
         return updates
     
     def show_recent_updates(self, limit: int = 10):
-        """显示最近的Elo变化"""
+        """显示最近的Elo变化（中文球队名）"""
         if not self.updates_history:
             print("📭 暂无Elo更新记录")
             return
+        
+        # 中文名映射
+        try:
+            sys.path.insert(0, os.path.join(BASE_DIR, "scripts"))
+            from team_names import TEAM_NAMES as _TN
+        except:
+            _TN = {}
+        
+        def cn(name):
+            return _TN.get(name, name)
         
         print(f"\n📈 最近 {limit} 次Elo变化:")
         print("-" * 70)
@@ -238,9 +248,9 @@ class EloDynamicUpdater:
             home_arrow = "📈" if home_change > 0 else "📉" if home_change < 0 else "➡️"
             away_arrow = "📈" if away_change > 0 else "📉" if away_change < 0 else "➡️"
             
-            print(f"{match}")
-            print(f"  {home_team}: {home_arrow} {home_change:+.0f}")
-            print(f"  {away_team}: {away_arrow} {away_change:+.0f}")
+            print(f"{cn(home_team)} vs {cn(away_team)}")
+            print(f"  {cn(home_team)}: {home_arrow} {home_change:+.0f}")
+            print(f"  {cn(away_team)}: {away_arrow} {away_change:+.0f}")
             print()
 
 

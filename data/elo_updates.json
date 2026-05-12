@@ -88,7 +88,823 @@
           "reason": "Modric recovery uncertain (precautionary)"
         }
       }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.033232",
+      "match": "Levante 3-2 Osasuna",
+      "stage": "la_liga",
+      "elo_changes": {
+        "Levante": {
+          "before": 1500,
+          "after": 1513.0410806213015,
+          "change": 13.0
+        },
+        "Osasuna": {
+          "before": 1500,
+          "after": 1481.0410806213015,
+          "change": -19.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.034241",
+      "match": "Torino 2-1 Sassuolo",
+      "stage": "serie_a",
+      "elo_changes": {
+        "Torino": {
+          "before": 1500,
+          "after": 1513.0410806213015,
+          "change": 13.0
+        },
+        "Sassuolo": {
+          "before": 1500,
+          "after": 1481.0410806213015,
+          "change": -19.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.034742",
+      "match": "Dortmund 3-2 Ein Frankfurt",
+      "stage": "bundesliga",
+      "elo_changes": {
+        "Dortmund": {
+          "before": 1500,
+          "after": 1513.0410806213015,
+          "change": 13.0
+        },
+        "Ein Frankfurt": {
+          "before": 1500,
+          "after": 1481.0410806213015,
+          "change": -19.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.035239",
+      "match": "Lens 1-0 Nantes",
+      "stage": "ligue_1",
+      "elo_changes": {
+        "Lens": {
+          "before": 1500,
+          "after": 1513.0410806213015,
+          "change": 13.0
+        },
+        "Nantes": {
+          "before": 1500,
+          "after": 1481.0410806213015,
+          "change": -19.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.035935",
+      "match": "Liverpool 1-1 Chelsea",
+      "stage": "premier_league",
+      "elo_changes": {
+        "Liverpool": {
+          "before": 1820,
+          "after": 1819.884878692655,
+          "change": -0.1
+        },
+        "Chelsea": {
+          "before": 1750,
+          "after": 1750.115121307345,
+          "change": 0.1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.036519",
+      "match": "Brighton 3-0 Wolves",
+      "stage": "premier_league",
+      "elo_changes": {
+        "Brighton": {
+          "before": 1700,
+          "after": 1706.5629562366123,
+          "change": 6.6
+        },
+        "Wolves": {
+          "before": 1580,
+          "after": 1560.9629562366124,
+          "change": -19.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.037124",
+      "match": "Fulham 0-1 Bournemouth",
+      "stage": "premier_league",
+      "elo_changes": {
+        "Fulham": {
+          "before": 1620,
+          "after": 1609.9219074877872,
+          "change": -10.1
+        },
+        "Bournemouth": {
+          "before": 1550,
+          "after": 1571.9219074877872,
+          "change": 21.9
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.037909",
+      "match": "Sunderland 0-0 Man United",
+      "stage": "premier_league",
+      "elo_changes": {
+        "Sunderland": {
+          "before": 1500,
+          "after": 1501.4794596893494,
+          "change": 1.5
+        },
+        "Man United": {
+          "before": 1500,
+          "after": 1498.5205403106506,
+          "change": -1.5
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.038981",
+      "match": "Man City 3-0 Brentford",
+      "stage": "premier_league",
+      "elo_changes": {
+        "Man City": {
+          "before": 1500,
+          "after": 1515.8704987915398,
+          "change": 15.9
+        },
+        "Brentford": {
+          "before": 1650,
+          "after": 1640.2704987915397,
+          "change": -9.7
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.039778",
+      "match": "Elche 1-1 Alaves",
+      "stage": "la_liga",
+      "elo_changes": {
+        "Elche": {
+          "before": 1500,
+          "after": 1501.4794596893494,
+          "change": 1.5
+        },
+        "Alaves": {
+          "before": 1500,
+          "after": 1498.5205403106506,
+          "change": -1.5
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.040390",
+      "match": "Sevilla 2-1 Espanol",
+      "stage": "la_liga",
+      "elo_changes": {
+        "Sevilla": {
+          "before": 1720,
+          "after": 1725.1963053321153,
+          "change": 5.2
+        },
+        "Espanol": {
+          "before": 1500,
+          "after": 1473.1963053321153,
+          "change": -26.8
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.040971",
+      "match": "Ath Madrid 0-1 Celta",
+      "stage": "la_liga",
+      "elo_changes": {
+        "Ath Madrid": {
+          "before": 1500,
+          "after": 1486.9589193786985,
+          "change": -13.0
+        },
+        "Celta": {
+          "before": 1500,
+          "after": 1518.9589193786985,
+          "change": 19.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.041603",
+      "match": "Sociedad 2-2 Betis",
+      "stage": "la_liga",
+      "elo_changes": {
+        "Sociedad": {
+          "before": 1500,
+          "after": 1501.4794596893494,
+          "change": 1.5
+        },
+        "Betis": {
+          "before": 1500,
+          "after": 1498.5205403106506,
+          "change": -1.5
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.042275",
+      "match": "Cagliari 0-2 Udinese",
+      "stage": "serie_a",
+      "elo_changes": {
+        "Cagliari": {
+          "before": 1500,
+          "after": 1488.2630274408289,
+          "change": -11.7
+        },
+        "Udinese": {
+          "before": 1500,
+          "after": 1517.0630274408288,
+          "change": 17.1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.043031",
+      "match": "Lazio 0-3 Inter",
+      "stage": "serie_a",
+      "elo_changes": {
+        "Lazio": {
+          "before": 1710,
+          "after": 1705.6386002798424,
+          "change": -4.4
+        },
+        "Inter": {
+          "before": 1500,
+          "after": 1521.2386002798423,
+          "change": 21.2
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.044123",
+      "match": "Lecce 0-1 Juventus",
+      "stage": "serie_a",
+      "elo_changes": {
+        "Lecce": {
+          "before": 1500,
+          "after": 1475.5212395663139,
+          "change": -24.5
+        },
+        "Juventus": {
+          "before": 1770,
+          "after": 1777.5212395663139,
+          "change": 7.5
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.045099",
+      "match": "Augsburg 3-1 M'gladbach",
+      "stage": "bundesliga",
+      "elo_changes": {
+        "Augsburg": {
+          "before": 1500,
+          "after": 1511.7369725591711,
+          "change": 11.7
+        },
+        "M'gladbach": {
+          "before": 1500,
+          "after": 1482.9369725591712,
+          "change": -17.1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.046183",
+      "match": "Hoffenheim 1-0 Werder Bremen",
+      "stage": "bundesliga",
+      "elo_changes": {
+        "Hoffenheim": {
+          "before": 1500,
+          "after": 1513.0410806213015,
+          "change": 13.0
+        },
+        "Werder Bremen": {
+          "before": 1500,
+          "after": 1481.0410806213015,
+          "change": -19.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.047220",
+      "match": "RB Leipzig 2-1 St Pauli",
+      "stage": "bundesliga",
+      "elo_changes": {
+        "RB Leipzig": {
+          "before": 1790,
+          "after": 1793.6706023662696,
+          "change": 3.7
+        },
+        "St Pauli": {
+          "before": 1500,
+          "after": 1471.6706023662696,
+          "change": -28.3
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.048128",
+      "match": "Stuttgart 3-1 Leverkusen",
+      "stage": "bundesliga",
+      "elo_changes": {
+        "Stuttgart": {
+          "before": 1500,
+          "after": 1511.7369725591711,
+          "change": 11.7
+        },
+        "Leverkusen": {
+          "before": 1500,
+          "after": 1482.9369725591712,
+          "change": -17.1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.048964",
+      "match": "Wolfsburg 0-1 Bayern Munich",
+      "stage": "bundesliga",
+      "elo_changes": {
+        "Wolfsburg": {
+          "before": 1500,
+          "after": 1472.4877273773377,
+          "change": -27.5
+        },
+        "Bayern Munich": {
+          "before": 1880,
+          "after": 1884.4877273773377,
+          "change": 4.5
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.050145",
+      "match": "Burnley 2-2 Aston Villa",
+      "stage": "premier_league",
+      "elo_changes": {
+        "Burnley": {
+          "before": 1500,
+          "after": 1505.4018473339424,
+          "change": 5.4
+        },
+        "Aston Villa": {
+          "before": 1720,
+          "after": 1714.5981526660576,
+          "change": -5.4
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.051277",
+      "match": "Crystal Palace 2-2 Everton",
+      "stage": "premier_league",
+      "elo_changes": {
+        "Crystal Palace": {
+          "before": 1630,
+          "after": 1630.115121307345,
+          "change": 0.1
+        },
+        "Everton": {
+          "before": 1570,
+          "after": 1569.884878692655,
+          "change": -0.1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.052469",
+      "match": "Nott'm Forest 1-1 Newcastle",
+      "stage": "premier_league",
+      "elo_changes": {
+        "Nott'm Forest": {
+          "before": 1500,
+          "after": 1505.9691821160043,
+          "change": 6.0
+        },
+        "Newcastle": {
+          "before": 1770,
+          "after": 1764.0308178839957,
+          "change": -6.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.053733",
+      "match": "West Ham 0-1 Arsenal",
+      "stage": "premier_league",
+      "elo_changes": {
+        "West Ham": {
+          "before": 1650,
+          "after": 1628.2778585665678,
+          "change": -21.7
+        },
+        "Arsenal": {
+          "before": 1845,
+          "after": 1855.2778585665678,
+          "change": 10.3
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.055161",
+      "match": "Mallorca 1-1 Villarreal",
+      "stage": "la_liga",
+      "elo_changes": {
+        "Mallorca": {
+          "before": 1500,
+          "after": 1504.861096310795,
+          "change": 4.9
+        },
+        "Villarreal": {
+          "before": 1680,
+          "after": 1675.138903689205,
+          "change": -4.9
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.056792",
+      "match": "Ath Bilbao 0-1 Valencia",
+      "stage": "la_liga",
+      "elo_changes": {
+        "Ath Bilbao": {
+          "before": 1500,
+          "after": 1486.9589193786985,
+          "change": -13.0
+        },
+        "Valencia": {
+          "before": 1500,
+          "after": 1518.9589193786985,
+          "change": 19.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.058373",
+      "match": "Oviedo 0-0 Getafe",
+      "stage": "la_liga",
+      "elo_changes": {
+        "Oviedo": {
+          "before": 1500,
+          "after": 1501.4794596893494,
+          "change": 1.5
+        },
+        "Getafe": {
+          "before": 1500,
+          "after": 1498.5205403106506,
+          "change": -1.5
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.059771",
+      "match": "Barcelona 2-0 Real Madrid",
+      "stage": "la_liga",
+      "elo_changes": {
+        "Barcelona": {
+          "before": 1860,
+          "after": 1872.545265881076,
+          "change": 12.5
+        },
+        "Real Madrid": {
+          "before": 1880,
+          "after": 1863.745265881076,
+          "change": -16.3
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.061125",
+      "match": "Verona 0-1 Como",
+      "stage": "serie_a",
+      "elo_changes": {
+        "Verona": {
+          "before": 1500,
+          "after": 1486.9589193786985,
+          "change": -13.0
+        },
+        "Como": {
+          "before": 1500,
+          "after": 1518.9589193786985,
+          "change": 19.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.062540",
+      "match": "Cremonese 3-0 Pisa",
+      "stage": "serie_a",
+      "elo_changes": {
+        "Cremonese": {
+          "before": 1500,
+          "after": 1510.432864497041,
+          "change": 10.4
+        },
+        "Pisa": {
+          "before": 1500,
+          "after": 1484.832864497041,
+          "change": -15.2
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.063939",
+      "match": "Fiorentina 0-0 Genoa",
+      "stage": "serie_a",
+      "elo_changes": {
+        "Fiorentina": {
+          "before": 1500,
+          "after": 1501.4794596893494,
+          "change": 1.5
+        },
+        "Genoa": {
+          "before": 1500,
+          "after": 1498.5205403106506,
+          "change": -1.5
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.065216",
+      "match": "Parma 2-3 Roma",
+      "stage": "serie_a",
+      "elo_changes": {
+        "Parma": {
+          "before": 1500,
+          "after": 1486.9589193786985,
+          "change": -13.0
+        },
+        "Roma": {
+          "before": 1500,
+          "after": 1518.9589193786985,
+          "change": 19.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.066497",
+      "match": "Milan 2-3 Atalanta",
+      "stage": "serie_a",
+      "elo_changes": {
+        "Milan": {
+          "before": 1500,
+          "after": 1486.9589193786985,
+          "change": -13.0
+        },
+        "Atalanta": {
+          "before": 1500,
+          "after": 1518.9589193786985,
+          "change": 19.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.067809",
+      "match": "Hamburg 3-2 Freiburg",
+      "stage": "bundesliga",
+      "elo_changes": {
+        "Hamburg": {
+          "before": 1500,
+          "after": 1513.0410806213015,
+          "change": 13.0
+        },
+        "Freiburg": {
+          "before": 1500,
+          "after": 1481.0410806213015,
+          "change": -19.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.069232",
+      "match": "FC Koln 1-3 Heidenheim",
+      "stage": "bundesliga",
+      "elo_changes": {
+        "FC Koln": {
+          "before": 1500,
+          "after": 1488.2630274408289,
+          "change": -11.7
+        },
+        "Heidenheim": {
+          "before": 1500,
+          "after": 1517.0630274408288,
+          "change": 17.1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.070595",
+      "match": "Mainz 1-3 Union Berlin",
+      "stage": "bundesliga",
+      "elo_changes": {
+        "Mainz": {
+          "before": 1500,
+          "after": 1488.2630274408289,
+          "change": -11.7
+        },
+        "Union Berlin": {
+          "before": 1500,
+          "after": 1517.0630274408288,
+          "change": 17.1
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.071974",
+      "match": "Angers 1-1 Strasbourg",
+      "stage": "ligue_1",
+      "elo_changes": {
+        "Angers": {
+          "before": 1500,
+          "after": 1501.4794596893494,
+          "change": 1.5
+        },
+        "Strasbourg": {
+          "before": 1500,
+          "after": 1498.5205403106506,
+          "change": -1.5
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.073229",
+      "match": "Auxerre 2-1 Nice",
+      "stage": "ligue_1",
+      "elo_changes": {
+        "Auxerre": {
+          "before": 1500,
+          "after": 1513.0410806213015,
+          "change": 13.0
+        },
+        "Nice": {
+          "before": 1500,
+          "after": 1481.0410806213015,
+          "change": -19.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.074488",
+      "match": "Le Havre 0-1 Marseille",
+      "stage": "ligue_1",
+      "elo_changes": {
+        "Le Havre": {
+          "before": 1500,
+          "after": 1476.5597667278187,
+          "change": -23.4
+        },
+        "Marseille": {
+          "before": 1740,
+          "after": 1748.5597667278187,
+          "change": 8.6
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.075700",
+      "match": "Metz 0-4 Lorient",
+      "stage": "ligue_1",
+      "elo_changes": {
+        "Metz": {
+          "before": 1500,
+          "after": 1489.567135502959,
+          "change": -10.4
+        },
+        "Lorient": {
+          "before": 1500,
+          "after": 1515.167135502959,
+          "change": 15.2
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.076937",
+      "match": "Monaco 0-1 Lille",
+      "stage": "ligue_1",
+      "elo_changes": {
+        "Monaco": {
+          "before": 1770,
+          "after": 1759.9219074877872,
+          "change": -10.1
+        },
+        "Lille": {
+          "before": 1700,
+          "after": 1721.9219074877872,
+          "change": 21.9
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.078189",
+      "match": "Paris SG 1-0 Brest",
+      "stage": "ligue_1",
+      "elo_changes": {
+        "Paris SG": {
+          "before": 1500,
+          "after": 1513.0410806213015,
+          "change": 13.0
+        },
+        "Brest": {
+          "before": 1500,
+          "after": 1481.0410806213015,
+          "change": -19.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.079486",
+      "match": "Rennes 2-1 Paris FC",
+      "stage": "ligue_1",
+      "elo_changes": {
+        "Rennes": {
+          "before": 1500,
+          "after": 1513.0410806213015,
+          "change": 13.0
+        },
+        "Paris FC": {
+          "before": 1500,
+          "after": 1481.0410806213015,
+          "change": -19.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.080711",
+      "match": "Toulouse 2-1 Lyon",
+      "stage": "ligue_1",
+      "elo_changes": {
+        "Toulouse": {
+          "before": 1500,
+          "after": 1522.6993481791603,
+          "change": 22.7
+        },
+        "Lyon": {
+          "before": 1720,
+          "after": 1710.6993481791603,
+          "change": -9.3
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.082062",
+      "match": "Tottenham 1-1 Leeds",
+      "stage": "premier_league",
+      "elo_changes": {
+        "Tottenham": {
+          "before": 1780,
+          "after": 1777.444672093684,
+          "change": -2.6
+        },
+        "Leeds": {
+          "before": 1600,
+          "after": 1602.555327906316,
+          "change": 2.6
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.083239",
+      "match": "Vallecano 1-1 Girona",
+      "stage": "la_liga",
+      "elo_changes": {
+        "Vallecano": {
+          "before": 1500,
+          "after": 1501.4794596893494,
+          "change": 1.5
+        },
+        "Girona": {
+          "before": 1500,
+          "after": 1498.5205403106506,
+          "change": -1.5
+        }
+      }
+    },
+    {
+      "timestamp": "2026-05-12T17:46:19.084501",
+      "match": "Napoli 2-3 Bologna",
+      "stage": "serie_a",
+      "elo_changes": {
+        "Napoli": {
+          "before": 1750,
+          "after": 1745.5122726226623,
+          "change": -4.5
+        },
+        "Bologna": {
+          "before": 1500,
+          "after": 1527.5122726226623,
+          "change": 27.5
+        }
+      }
     }
   ],
-  "last_update": "2026-04-29T23:00:00"
+  "last_update": "2026-05-12T17:46:19.084554"
 }

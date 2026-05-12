@@ -1,0 +1,222 @@
+{
+  "date": "2026-05-10",
+  "matches": [
+    {
+      "date": "2026-05-10",
+      "home": "Burnley",
+      "away": "Aston Villa",
+      "home_score": 2,
+      "away_score": 2,
+      "stage": "premier_league",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Crystal Palace",
+      "away": "Everton",
+      "home_score": 2,
+      "away_score": 2,
+      "stage": "premier_league",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Nott'm Forest",
+      "away": "Newcastle",
+      "home_score": 1,
+      "away_score": 1,
+      "stage": "premier_league",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "West Ham",
+      "away": "Arsenal",
+      "home_score": 0,
+      "away_score": 1,
+      "stage": "premier_league",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Mallorca",
+      "away": "Villarreal",
+      "home_score": 1,
+      "away_score": 1,
+      "stage": "la_liga",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Ath Bilbao",
+      "away": "Valencia",
+      "home_score": 0,
+      "away_score": 1,
+      "stage": "la_liga",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Oviedo",
+      "away": "Getafe",
+      "home_score": 0,
+      "away_score": 0,
+      "stage": "la_liga",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "home_score": 2,
+      "away_score": 0,
+      "stage": "la_liga",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Verona",
+      "away": "Como",
+      "home_score": 0,
+      "away_score": 1,
+      "stage": "serie_a",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Cremonese",
+      "away": "Pisa",
+      "home_score": 3,
+      "away_score": 0,
+      "stage": "serie_a",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Fiorentina",
+      "away": "Genoa",
+      "home_score": 0,
+      "away_score": 0,
+      "stage": "serie_a",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Parma",
+      "away": "Roma",
+      "home_score": 2,
+      "away_score": 3,
+      "stage": "serie_a",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Milan",
+      "away": "Atalanta",
+      "home_score": 2,
+      "away_score": 3,
+      "stage": "serie_a",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Hamburg",
+      "away": "Freiburg",
+      "home_score": 3,
+      "away_score": 2,
+      "stage": "bundesliga",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "FC Koln",
+      "away": "Heidenheim",
+      "home_score": 1,
+      "away_score": 3,
+      "stage": "bundesliga",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Mainz",
+      "away": "Union Berlin",
+      "home_score": 1,
+      "away_score": 3,
+      "stage": "bundesliga",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Angers",
+      "away": "Strasbourg",
+      "home_score": 1,
+      "away_score": 1,
+      "stage": "ligue_1",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Auxerre",
+      "away": "Nice",
+      "home_score": 2,
+      "away_score": 1,
+      "stage": "ligue_1",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Le Havre",
+      "away": "Marseille",
+      "home_score": 0,
+      "away_score": 1,
+      "stage": "ligue_1",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Metz",
+      "away": "Lorient",
+      "home_score": 0,
+      "away_score": 4,
+      "stage": "ligue_1",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Monaco",
+      "away": "Lille",
+      "home_score": 0,
+      "away_score": 1,
+      "stage": "ligue_1",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Paris SG",
+      "away": "Brest",
+      "home_score": 1,
+      "away_score": 0,
+      "stage": "ligue_1",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Rennes",
+      "away": "Paris FC",
+      "home_score": 2,
+      "away_score": 1,
+      "stage": "ligue_1",
+      "neutral": false
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Toulouse",
+      "away": "Lyon",
+      "home_score": 2,
+      "away_score": 1,
+      "stage": "ligue_1",
+      "neutral": false
+    }
+  ],
+  "source": "football-data.co.uk"
+}

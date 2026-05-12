@@ -1,0 +1,209 @@
+{
+  "timestamp": "2026-05-12T17:32:59.772782",
+  "market": {
+    "title": "2026 FIFA World Cup Winner",
+    "total_volume": 945448046.5491889
+  },
+  "teams": [
+    {
+      "team": "France",
+      "yes_price": 0.1785,
+      "prob": 17.85,
+      "volume": 25057093.93338402,
+      "liquidity": 415330.02674,
+      "one_day_change": 0.001,
+      "one_week_change": 0.012,
+      "one_month_change": 0.025
+    },
+    {
+      "team": "Spain",
+      "yes_price": 0.1635,
+      "prob": 16.35,
+      "volume": 19649502.70884372,
+      "liquidity": 524439.03148,
+      "one_day_change": 0.002,
+      "one_week_change": 0.01,
+      "one_month_change": 0.005
+    },
+    {
+      "team": "England",
+      "yes_price": 0.1125,
+      "prob": 11.25,
+      "volume": 16128515.082385892,
+      "liquidity": 1105711.7355,
+      "one_day_change": -0.001,
+      "one_week_change": 0.002,
+      "one_month_change": -0.0005
+    },
+    {
+      "team": "Brazil",
+      "yes_price": 0.0885,
+      "prob": 8.85,
+      "volume": 17422502.240677882,
+      "liquidity": 1333992.22898,
+      "one_day_change": 0.001,
+      "one_week_change": 0.003,
+      "one_month_change": 0.003
+    },
+    {
+      "team": "Argentina",
+      "yes_price": 0.0865,
+      "prob": 8.65,
+      "volume": 16598977.48173911,
+      "liquidity": 1447965.73092,
+      "one_day_change": null,
+      "one_week_change": null,
+      "one_month_change": -0.0045
+    },
+    {
+      "team": "Portugal",
+      "yes_price": 0.0775,
+      "prob": 7.75,
+      "volume": 18554650.15228497,
+      "liquidity": 368407.83931,
+      "one_day_change": 0.002,
+      "one_week_change": 0.003,
+      "one_month_change": 0.008
+    },
+    {
+      "team": "Germany",
+      "yes_price": 0.0515,
+      "prob": 5.15,
+      "volume": 15568589.145620747,
+      "liquidity": 1055925.31934,
+      "one_day_change": null,
+      "one_week_change": null,
+      "one_month_change": -0.003
+    },
+    {
+      "team": "Netherlands",
+      "yes_price": 0.0345,
+      "prob": 3.45,
+      "volume": 17780902.64523987,
+      "liquidity": 1434501.79903,
+      "one_day_change": null,
+      "one_week_change": 0.001,
+      "one_month_change": 0.001
+    },
+    {
+      "team": "Norway",
+      "yes_price": 0.0225,
+      "prob": 2.25,
+      "volume": 15922350.955616098,
+      "liquidity": 2389388.12771,
+      "one_day_change": null,
+      "one_week_change": null,
+      "one_month_change": null
+    },
+    {
+      "team": "Japan",
+      "yes_price": 0.0205,
+      "prob": 2.05,
+      "volume": 20773124.35104528,
+      "liquidity": 817119.34424,
+      "one_day_change": null,
+      "one_week_change": -0.001,
+      "one_month_change": -0.0045
+    },
+    {
+      "team": "Belgium",
+      "yes_price": 0.0195,
+      "prob": 1.95,
+      "volume": 15773384.011514187,
+      "liquidity": 2781919.69131,
+      "one_day_change": null,
+      "one_week_change": null,
+      "one_month_change": 0.001
+    },
+    {
+      "team": "Colombia",
+      "yes_price": 0.0165,
+      "prob": 1.65,
+      "volume": 14854995.405469514,
+      "liquidity": 3666809.55993,
+      "one_day_change": null,
+      "one_week_change": null,
+      "one_month_change": -0.001
+    },
+    {
+      "team": "USA",
+      "yes_price": 0.0155,
+      "prob": 1.55,
+      "volume": 31476379.82774243,
+      "liquidity": 3507076.34389,
+      "one_day_change": null,
+      "one_week_change": null,
+      "one_month_change": 0.001
+    },
+    {
+      "team": "Morocco",
+      "yes_price": 0.0155,
+      "prob": 1.55,
+      "volume": 19750094.87918784,
+      "liquidity": 1892567.92505,
+      "one_day_change": -0.001,
+      "one_week_change": -0.001,
+      "one_month_change": null
+    },
+    {
+      "team": "Switzerland",
+      "yes_price": 0.0115,
+      "prob": 1.15,
+      "volume": 17169233.106303032,
+      "liquidity": 1388422.56953,
+      "one_day_change": -0.001,
+      "one_week_change": 0.002,
+      "one_month_change": 0.001
+    },
+    {
+      "team": "Uruguay",
+      "yes_price": 0.0105,
+      "prob": 1.05,
+      "volume": 16752641.465224853,
+      "liquidity": 4192578.30788,
+      "one_day_change": null,
+      "one_week_change": null,
+      "one_month_change": null
+    },
+    {
+      "team": "Mexico",
+      "yes_price": 0.0105,
+      "prob": 1.05,
+      "volume": 18669557.695305575,
+      "liquidity": 2470427.94894,
+      "one_day_change": null,
+      "one_week_change": null,
+      "one_month_change": -0.001
+    },
+    {
+      "team": "Croatia",
+      "yes_price": 0.0105,
+      "prob": 1.05,
+      "volume": 19700973.071368027,
+      "liquidity": 1436246.48383,
+      "one_day_change": null,
+      "one_week_change": 0.001,
+      "one_month_change": null
+    },
+    {
+      "team": "Ecuador",
+      "yes_price": 0.0075,
+      "prob": 0.75,
+      "volume": 20307898.577598725,
+      "liquidity": 3005049.88752,
+      "one_day_change": null,
+      "one_week_change": null,
+      "one_month_change": null
+    },
+    {
+      "team": "Senegal",
+      "yes_price": 0.0075,
+      "prob": 0.75,
+      "volume": 16717618.273582395,
+      "liquidity": 2904519.61705,
+      "one_day_change": null,
+      "one_week_change": null,
+      "one_month_change": 0.001
+    }
+  ]
+}

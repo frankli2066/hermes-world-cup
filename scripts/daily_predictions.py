@@ -1161,9 +1161,9 @@ def make_prediction(home_team: str, away_team: str, league: str = "EPL", neutral
         recommendation = get_team_cn(away_team)
         prob_diff = away_prob - home_prob
 
-    if prob_diff > 0.18:
+    if prob_diff > 0.25:
         confidence = "🟢 高信心"
-    elif prob_diff > 0.10:
+    elif prob_diff > 0.08:
         confidence = "🟡 中信心"
     else:
         confidence = "🟡 低信心"

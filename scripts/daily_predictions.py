@@ -215,9 +215,22 @@ def normalize_team_name(name: str) -> str:
 
 
 def get_club_elo(team: str) -> int:
-    """获取球队Elo分数"""
+    """获取球队Elo分数（优先从实时Elo文件读取，fallback到硬编码）"""
+    # 从实时Elo文件读取
+    elo_file = os.path.join(BASE_DIR, "data", "elo_ratings.json")
+    if os.path.exists(elo_file):
+        try:
+            with open(elo_file) as f:
+                elo_data = json.load(f)
+            ratings = elo_data.get("ratings", elo_data)
+            if isinstance(ratings, dict) and team in ratings and isinstance(ratings[team], (int, float)):
+                return int(ratings[team])
+        except:
+            pass
+    
+    # Fallback到硬编码
     normalized = normalize_team_name(team)
-    return CLUB_ELO.get(normalized, 1650)  # 默认1650
+    return CLUB_ELO.get(normalized, 1650)
 
 
 def fetch_football_results(league: str, days_back: int = 2) -> list:
